@@ -1,0 +1,371 @@
+0	2015.05.10 12:17:25		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 12:17:26	123.56.101.64:443	Connect
+0	2015.05.10 12:17:26	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 12:17:38	123.56.101.64:443	'1': new user record '3'('java3')
+0	2015.05.10 12:17:39	123.56.101.64:443	'1': request 3 total users
+1	2015.05.10 12:17:39	123.56.101.64:443	'1': request 0 total users by logins (OK/None)
+0	2015.05.10 12:17:39	123.56.101.64:443	'1': account '22432', group changed to 'manager'
+0	2015.05.10 12:17:39	123.56.101.64:443	'1': account '22433', group changed to 'manager'
+0	2015.05.10 12:17:39	123.56.101.64:443	'1': account '22434', group changed to 'manager'
+3	2015.05.10 12:17:39	123.56.101.64:443	'1': trade transaction 83 (Invalid parameters)
+3	2015.05.10 12:17:40	123.56.101.64:443	'1': trade transaction 83 (Invalid parameters)
+7	2015.05.10 12:17:40	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 12:17:40	123.56.101.64:443	'1': request trades (Not enough rights)
+3	2015.05.10 12:17:41	123.56.101.64:443	'1': check user '22434' password (Invalid parameters)
+255	2015.05.10 12:21:32	123.56.101.64:443	'1': new user record (Network problem)
+6	2015.05.10 12:21:32	123.56.101.64:443	'1': request users (No connection)
+6	2015.05.10 12:21:32	123.56.101.64:443	'1': request users by logins (No connection)
+6	2015.05.10 12:21:32	123.56.101.64:443	'1': users group operation (No connection)
+6	2015.05.10 12:21:32	123.56.101.64:443	'1': trade transaction 83 (No connection)
+6	2015.05.10 12:21:32	123.56.101.64:443	'1': trade transaction 83 (No connection)
+6	2015.05.10 12:21:32	123.56.101.64:443	'1': request user trade history (No connection)
+6	2015.05.10 12:21:32	123.56.101.64:443	'1': request trades (No connection)
+6	2015.05.10 12:21:32	123.56.101.64:443	'1': check user '22434' password (No connection)
+0	2015.05.10 12:22:11		Unload: manager A298B8 not released
+0	2015.05.10 12:22:11		Remove: manager A298B8
+0	2015.05.10 12:22:11		Unload: manager 9F8770 not released
+0	2015.05.10 12:22:11		Remove: manager 9F8770
+0	2015.05.10 12:27:40		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 12:27:41	123.56.101.64:443	Connect
+0	2015.05.10 12:27:41	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 12:28:02	123.56.101.64:443	'1': new user record '4'('java3')
+0	2015.05.10 12:28:02	123.56.101.64:443	'1': request 4 total users
+1	2015.05.10 12:28:03	123.56.101.64:443	'1': request 0 total users by logins (OK/None)
+0	2015.05.10 12:28:03	123.56.101.64:443	'1': account '22432', group changed to 'manager'
+0	2015.05.10 12:28:03	123.56.101.64:443	'1': account '22433', group changed to 'manager'
+0	2015.05.10 12:28:03	123.56.101.64:443	'1': account '22434', group changed to 'manager'
+3	2015.05.10 12:28:03	123.56.101.64:443	'1': trade transaction 83 (Invalid parameters)
+3	2015.05.10 12:28:03	123.56.101.64:443	'1': trade transaction 83 (Invalid parameters)
+7	2015.05.10 12:28:03	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 12:28:04	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 12:28:04	123.56.101.64:443	'1': request trades (Not enough rights)
+3	2015.05.10 12:28:04	123.56.101.64:443	'1': check user '22434' password (Invalid parameters)
+0	2015.05.10 12:28:37		Unload: manager 3098B8 not released
+0	2015.05.10 12:28:37		Remove: manager 3098B8
+0	2015.05.10 12:28:37		Unload: manager 2D8770 not released
+0	2015.05.10 12:28:37	123.56.101.64:443	'1': disconnect
+0	2015.05.10 12:28:37		Remove: manager 2D8770
+0	2015.05.10 12:28:51		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 12:28:51	123.56.101.64:443	Connect
+0	2015.05.10 12:28:51	123.56.101.64:443	'1': login (5.09)
+255	2015.05.10 12:34:33	123.56.101.64:443	'1': new user record (Network problem)
+6	2015.05.10 12:34:33	123.56.101.64:443	'1': request users (No connection)
+6	2015.05.10 12:34:33	123.56.101.64:443	'1': request users by logins (No connection)
+6	2015.05.10 12:34:33	123.56.101.64:443	'1': users group operation (No connection)
+6	2015.05.10 12:34:33	123.56.101.64:443	'1': trade transaction 83 (No connection)
+6	2015.05.10 12:34:33	123.56.101.64:443	'1': trade transaction 83 (No connection)
+6	2015.05.10 12:34:33	123.56.101.64:443	'1': request user trade history (No connection)
+6	2015.05.10 12:34:33	123.56.101.64:443	'1': request trades (No connection)
+6	2015.05.10 12:34:33	123.56.101.64:443	'1': request trades (No connection)
+6	2015.05.10 12:34:33	123.56.101.64:443	'1': check user '22434' password (No connection)
+0	2015.05.10 12:34:38		Unload: manager 3298B8 not released
+0	2015.05.10 12:34:38		Remove: manager 3298B8
+0	2015.05.10 12:34:38		Unload: manager 2F8770 not released
+0	2015.05.10 12:34:38		Remove: manager 2F8770
+0	2015.05.10 12:34:42		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 12:34:42	123.56.101.64:443	Connect
+0	2015.05.10 12:34:42	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 12:34:47	123.56.101.64:443	'1': new user record '5'('java3')
+0	2015.05.10 12:34:47	123.56.101.64:443	'1': request 5 total users
+1	2015.05.10 12:34:47	123.56.101.64:443	'1': request 0 total users by logins (OK/None)
+0	2015.05.10 12:34:47	123.56.101.64:443	'1': account '22432', group changed to 'manager'
+0	2015.05.10 12:34:47	123.56.101.64:443	'1': account '22433', group changed to 'manager'
+0	2015.05.10 12:34:47	123.56.101.64:443	'1': account '22434', group changed to 'manager'
+3	2015.05.10 12:34:48	123.56.101.64:443	'1': trade transaction 83 (Invalid parameters)
+3	2015.05.10 12:34:48	123.56.101.64:443	'1': trade transaction 83 (Invalid parameters)
+7	2015.05.10 12:34:48	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 12:34:48	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 12:34:48	123.56.101.64:443	'1': request trades (Not enough rights)
+3	2015.05.10 12:34:48	123.56.101.64:443	'1': check user '22434' password (Invalid parameters)
+0	2015.05.10 12:36:58		Unload: manager 7398B8 not released
+0	2015.05.10 12:36:58		Remove: manager 7398B8
+0	2015.05.10 12:36:58		Unload: manager 708770 not released
+0	2015.05.10 12:36:58	123.56.101.64:443	'1': disconnect
+0	2015.05.10 12:36:58		Remove: manager 708770
+0	2015.05.10 12:37:10		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 12:37:10	123.56.101.64:443	Connect
+0	2015.05.10 12:37:10	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 12:37:17	123.56.101.64:443	'1': new user record '6'('java3')
+0	2015.05.10 12:37:17	123.56.101.64:443	'1': request 6 total users
+1	2015.05.10 12:37:18	123.56.101.64:443	'1': request 0 total users by logins (OK/None)
+0	2015.05.10 12:37:18	123.56.101.64:443	'1': account '22432', group changed to 'manager'
+0	2015.05.10 12:37:18	123.56.101.64:443	'1': account '22433', group changed to 'manager'
+0	2015.05.10 12:37:18	123.56.101.64:443	'1': account '22434', group changed to 'manager'
+3	2015.05.10 12:37:18	123.56.101.64:443	'1': trade transaction 83 (Invalid parameters)
+3	2015.05.10 12:37:18	123.56.101.64:443	'1': trade transaction 83 (Invalid parameters)
+7	2015.05.10 12:37:18	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 12:37:18	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 12:37:18	123.56.101.64:443	'1': request trades (Not enough rights)
+3	2015.05.10 12:37:18	123.56.101.64:443	'1': check user '22434' password (Invalid parameters)
+0	2015.05.10 12:39:06		Unload: manager 2E98B8 not released
+0	2015.05.10 12:39:06		Remove: manager 2E98B8
+0	2015.05.10 12:39:06		Unload: manager 2B8770 not released
+0	2015.05.10 12:39:06	123.56.101.64:443	'1': disconnect
+0	2015.05.10 12:39:06		Remove: manager 2B8770
+0	2015.05.10 12:39:16		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 12:39:16	123.56.101.64:443	Connect
+0	2015.05.10 12:39:16	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 12:39:23	123.56.101.64:443	'1': new user record '7'('java3')
+0	2015.05.10 12:39:23	123.56.101.64:443	'1': request 7 total users
+1	2015.05.10 12:39:23	123.56.101.64:443	'1': request 0 total users by logins (OK/None)
+0	2015.05.10 12:39:23	123.56.101.64:443	'1': account '22432', group changed to 'manager'
+0	2015.05.10 12:39:23	123.56.101.64:443	'1': account '22433', group changed to 'manager'
+0	2015.05.10 12:39:23	123.56.101.64:443	'1': account '22434', group changed to 'manager'
+3	2015.05.10 12:39:23	123.56.101.64:443	'1': trade transaction 83 (Invalid parameters)
+3	2015.05.10 12:39:23	123.56.101.64:443	'1': trade transaction 83 (Invalid parameters)
+7	2015.05.10 12:39:23	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 12:39:23	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 12:39:23	123.56.101.64:443	'1': request trades (Not enough rights)
+3	2015.05.10 12:39:23	123.56.101.64:443	'1': check user '22434' password (Invalid parameters)
+255	2015.05.10 12:43:52	123.56.101.64:443	'1': new user record (Network problem)
+6	2015.05.10 12:43:52	123.56.101.64:443	'1': request users (No connection)
+6	2015.05.10 12:43:52	123.56.101.64:443	'1': request users by logins (No connection)
+6	2015.05.10 12:43:52	123.56.101.64:443	'1': users group operation (No connection)
+6	2015.05.10 12:43:52	123.56.101.64:443	'1': trade transaction 83 (No connection)
+6	2015.05.10 12:43:52	123.56.101.64:443	'1': trade transaction 83 (No connection)
+6	2015.05.10 12:43:52	123.56.101.64:443	'1': request user trade history (No connection)
+6	2015.05.10 12:43:52	123.56.101.64:443	'1': request trades (No connection)
+6	2015.05.10 12:43:52	123.56.101.64:443	'1': request trades (No connection)
+6	2015.05.10 12:43:52	123.56.101.64:443	'1': check user '22434' password (No connection)
+0	2015.05.10 13:05:08		Unload: manager 6A98B8 not released
+0	2015.05.10 13:05:08		Remove: manager 6A98B8
+0	2015.05.10 13:05:08		Unload: manager 678770 not released
+0	2015.05.10 13:05:08		Remove: manager 678770
+0	2015.05.10 13:07:02		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 13:07:02	123.56.101.64:443	Connect
+0	2015.05.10 13:07:03	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 13:07:07	123.56.101.64:443	'1': new user record '8889'('java3')
+0	2015.05.10 13:07:07	123.56.101.64:443	'1': request 9 total users
+0	2015.05.10 13:07:08	123.56.101.64:443	'1': request 1 total users by logins
+0	2015.05.10 13:07:08	123.56.101.64:443	'1': account '22432', group changed to 'manager'
+0	2015.05.10 13:07:08	123.56.101.64:443	'1': account '22433', group changed to 'manager'
+0	2015.05.10 13:07:08	123.56.101.64:443	'1': account '22434', group changed to 'manager'
+7	2015.05.10 13:07:08	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 13:07:08	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 13:07:08	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 13:07:08	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 13:07:08	123.56.101.64:443	'1': request trades (Not enough rights)
+3	2015.05.10 13:07:08	123.56.101.64:443	'1': check user '22434' password (Invalid parameters)
+0	2015.05.10 13:08:16	123.56.101.64:443	'1': new user record '8890'('java3')
+0	2015.05.10 13:08:16	123.56.101.64:443	'1': request 10 total users
+0	2015.05.10 13:08:16	123.56.101.64:443	'1': request 1 total users by logins
+0	2015.05.10 13:08:17	123.56.101.64:443	'1': account '5', group changed to 'demoforex'
+0	2015.05.10 13:08:17	123.56.101.64:443	'1': account '6', group changed to 'demoforex'
+0	2015.05.10 13:08:17	123.56.101.64:443	'1': account '7', group changed to 'demoforex'
+7	2015.05.10 13:08:17	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 13:08:17	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 13:08:17	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 13:08:17	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 13:08:17	123.56.101.64:443	'1': request trades (Not enough rights)
+3	2015.05.10 13:08:17	123.56.101.64:443	'1': check user '22434' password (Invalid parameters)
+0	2015.05.10 13:10:23	123.56.101.64:443	'1': new user record '8891'('java3')
+0	2015.05.10 13:10:23	123.56.101.64:443	'1': request 11 total users
+0	2015.05.10 13:10:23	123.56.101.64:443	'1': request 1 total users by logins
+0	2015.05.10 13:10:23	123.56.101.64:443	'1': account '5', group changed to 'demoforex'
+0	2015.05.10 13:10:23	123.56.101.64:443	'1': account '6', group changed to 'demoforex'
+0	2015.05.10 13:10:23	123.56.101.64:443	'1': account '7', group changed to 'demoforex'
+7	2015.05.10 13:10:23	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 13:10:23	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 13:10:23	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 13:10:23	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 13:10:23	123.56.101.64:443	'1': request trades (Not enough rights)
+3	2015.05.10 13:10:23	123.56.101.64:443	'1': check user '22434' password (Invalid parameters)
+0	2015.05.10 13:13:57		Unload: manager 2C98B8 not released
+0	2015.05.10 13:13:57		Remove: manager 2C98B8
+0	2015.05.10 13:13:57		Unload: manager 298770 not released
+0	2015.05.10 13:13:57	123.56.101.64:443	'1': disconnect
+0	2015.05.10 13:13:57		Remove: manager 298770
+0	2015.05.10 13:31:02		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 13:31:02	123.56.101.64:443	Connect
+0	2015.05.10 13:31:02	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 13:33:50	123.56.101.64:443	'1': new user record '8892'('java3')
+0	2015.05.10 13:33:50	123.56.101.64:443	'1': request 12 total users
+0	2015.05.10 13:33:50	123.56.101.64:443	'1': request 1 total users by logins
+0	2015.05.10 13:33:50	123.56.101.64:443	'1': account '5', group changed to 'demoforex'
+0	2015.05.10 13:33:50	123.56.101.64:443	'1': account '6', group changed to 'demoforex'
+0	2015.05.10 13:33:50	123.56.101.64:443	'1': account '7', group changed to 'demoforex'
+7	2015.05.10 13:33:50	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 13:33:51	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 13:33:51	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 13:33:51	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 13:33:51	123.56.101.64:443	'1': request trades (Not enough rights)
+3	2015.05.10 13:33:51	123.56.101.64:443	'1': check user '22434' password (Invalid parameters)
+255	2015.05.10 13:38:27	123.56.101.64:443	'1': new user record (Network problem)
+6	2015.05.10 13:38:27	123.56.101.64:443	'1': request users (No connection)
+6	2015.05.10 13:38:27	123.56.101.64:443	'1': request users by logins (No connection)
+6	2015.05.10 13:38:27	123.56.101.64:443	'1': users group operation (No connection)
+6	2015.05.10 13:38:27	123.56.101.64:443	'1': trade transaction 83 (No connection)
+6	2015.05.10 13:38:27	123.56.101.64:443	'1': trade transaction 83 (No connection)
+6	2015.05.10 13:38:27	123.56.101.64:443	'1': request user trade history (No connection)
+6	2015.05.10 13:38:27	123.56.101.64:443	'1': request trades (No connection)
+6	2015.05.10 13:38:27	123.56.101.64:443	'1': request trades (No connection)
+6	2015.05.10 13:38:27	123.56.101.64:443	'1': check user '22434' password (No connection)
+0	2015.05.10 13:40:02		Unload: manager 9E98B8 not released
+0	2015.05.10 13:40:02		Remove: manager 9E98B8
+0	2015.05.10 13:40:02		Unload: manager 9B8770 not released
+0	2015.05.10 13:40:02		Remove: manager 9B8770
+0	2015.05.10 13:41:30		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 13:41:30	123.56.101.64:443	Connect
+0	2015.05.10 13:41:30	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 13:41:37		Unload: manager 6B98B8 not released
+0	2015.05.10 13:41:37		Remove: manager 6B98B8
+0	2015.05.10 13:41:37		Unload: manager 688770 not released
+0	2015.05.10 13:41:37	123.56.101.64:443	'1': disconnect
+0	2015.05.10 13:41:37		Remove: manager 688770
+0	2015.05.10 13:59:28		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 13:59:28	123.56.101.64:443	Connect
+0	2015.05.10 13:59:29	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 13:59:48		Unload: manager 7198B8 not released
+0	2015.05.10 13:59:48		Remove: manager 7198B8
+0	2015.05.10 13:59:48		Unload: manager 6E8770 not released
+0	2015.05.10 13:59:48	123.56.101.64:443	'1': disconnect
+0	2015.05.10 13:59:48		Remove: manager 6E8770
+0	2015.05.10 14:04:29		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 14:04:29	123.56.101.64:443	Connect
+0	2015.05.10 14:04:29	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 14:04:50	123.56.101.64:443	'1': new user record '8893'('java3')
+0	2015.05.10 14:04:50	123.56.101.64:443	'1': request 13 total users
+0	2015.05.10 14:04:51	123.56.101.64:443	'1': request 1 total users by logins
+0	2015.05.10 14:04:52	123.56.101.64:443	'1': account '5', group changed to 'demoforex'
+0	2015.05.10 14:04:52	123.56.101.64:443	'1': account '6', group changed to 'demoforex'
+0	2015.05.10 14:04:52	123.56.101.64:443	'1': account '7', group changed to 'demoforex'
+7	2015.05.10 14:04:52	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 14:04:53	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 14:04:53	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 14:04:53	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 14:04:53	123.56.101.64:443	'1': request trades (Not enough rights)
+3	2015.05.10 14:04:53	123.56.101.64:443	'1': check user '22434' password (Invalid parameters)
+0	2015.05.10 14:08:24		Unload: manager 6A98B8 not released
+0	2015.05.10 14:08:24		Remove: manager 6A98B8
+0	2015.05.10 14:08:24		Unload: manager 678770 not released
+0	2015.05.10 14:08:24	123.56.101.64:443	'1': disconnect
+0	2015.05.10 14:08:24		Remove: manager 678770
+0	2015.05.10 14:08:46		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 14:08:46	123.56.101.64:443	Connect
+0	2015.05.10 14:08:47	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 14:50:55	123.56.101.64:443	'1': new user record '8894'('java3')
+0	2015.05.10 14:50:55	123.56.101.64:443	'1': request 14 total users
+0	2015.05.10 14:50:55	123.56.101.64:443	'1': request 1 total users by logins
+0	2015.05.10 14:50:55	123.56.101.64:443	'1': account '5', group changed to 'demoforex'
+0	2015.05.10 14:50:55	123.56.101.64:443	'1': account '6', group changed to 'demoforex'
+0	2015.05.10 14:50:55	123.56.101.64:443	'1': account '7', group changed to 'demoforex'
+7	2015.05.10 14:50:55	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 14:50:56	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 14:50:56	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 14:50:56	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 14:50:56	123.56.101.64:443	'1': request trades (Not enough rights)
+3	2015.05.10 14:50:56	123.56.101.64:443	'1': check user '22434' password (Invalid parameters)
+0	2015.05.10 14:56:38		Unload: manager 7398B8 not released
+0	2015.05.10 14:56:38		Remove: manager 7398B8
+0	2015.05.10 14:56:38		Unload: manager 708770 not released
+0	2015.05.10 14:56:38	123.56.101.64:443	'1': disconnect
+0	2015.05.10 14:56:38		Remove: manager 708770
+0	2015.05.10 14:57:21		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 14:57:21	123.56.101.64:443	Connect
+0	2015.05.10 14:57:21	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 15:02:28		Unload: manager 6798B8 not released
+0	2015.05.10 15:02:28		Remove: manager 6798B8
+0	2015.05.10 15:02:28		Unload: manager 648770 not released
+0	2015.05.10 15:02:28	123.56.101.64:443	'1': disconnect
+0	2015.05.10 15:02:28		Remove: manager 648770
+0	2015.05.10 15:03:00		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 15:03:00	123.56.101.64:443	Connect
+0	2015.05.10 15:03:00	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 15:07:12	123.56.101.64:443	'1': new user record '8895'('java3')
+0	2015.05.10 15:07:12	123.56.101.64:443	'1': request 15 total users
+0	2015.05.10 15:07:12	123.56.101.64:443	'1': request 1 total users by logins
+0	2015.05.10 15:07:12	123.56.101.64:443	'1': account '5', group changed to 'demoforex'
+0	2015.05.10 15:07:12	123.56.101.64:443	'1': account '6', group changed to 'demoforex'
+0	2015.05.10 15:07:12	123.56.101.64:443	'1': account '7', group changed to 'demoforex'
+7	2015.05.10 15:07:12	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 15:07:12	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 15:07:12	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 15:07:12	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 15:07:12	123.56.101.64:443	'1': request trades (Not enough rights)
+3	2015.05.10 15:07:12	123.56.101.64:443	'1': check user '22434' password (Invalid parameters)
+0	2015.05.10 15:07:20		Unload: manager 7498B8 not released
+0	2015.05.10 15:07:20		Remove: manager 7498B8
+0	2015.05.10 15:07:20		Unload: manager 718770 not released
+0	2015.05.10 15:07:20	123.56.101.64:443	'1': disconnect
+0	2015.05.10 15:07:20		Remove: manager 718770
+0	2015.05.10 15:07:33		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 15:07:33	123.56.101.64:443	Connect
+0	2015.05.10 15:07:34	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 15:10:21	123.56.101.64:443	'1': new user record '8896'('java3')
+0	2015.05.10 15:10:22	123.56.101.64:443	'1': request 16 total users
+0	2015.05.10 15:10:22	123.56.101.64:443	'1': request 1 total users by logins
+0	2015.05.10 15:10:22	123.56.101.64:443	'1': account '5', group changed to 'demoforex'
+0	2015.05.10 15:10:22	123.56.101.64:443	'1': account '6', group changed to 'demoforex'
+0	2015.05.10 15:10:22	123.56.101.64:443	'1': account '7', group changed to 'demoforex'
+7	2015.05.10 15:10:22	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 15:10:22	123.56.101.64:443	'1': trade transaction 83 (Not enough rights)
+7	2015.05.10 15:10:23	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 15:10:23	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 15:10:23	123.56.101.64:443	'1': request trades (Not enough rights)
+3	2015.05.10 15:10:23	123.56.101.64:443	'1': check user '22434' password (Invalid parameters)
+0	2015.05.10 15:15:49		Unload: manager 6398B8 not released
+0	2015.05.10 15:15:49		Remove: manager 6398B8
+0	2015.05.10 15:15:49		Unload: manager 608770 not released
+0	2015.05.10 15:15:49	123.56.101.64:443	'1': disconnect
+0	2015.05.10 15:15:49		Remove: manager 608770
+0	2015.05.10 15:21:33		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 15:21:33	123.56.101.64:443	Connect
+0	2015.05.10 15:21:33	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 15:25:53	123.56.101.64:443	'1': request 16 total users
+0	2015.05.10 15:25:53	123.56.101.64:443	'1': request 1 total users by logins
+7	2015.05.10 15:25:53	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 15:25:53	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 15:25:53	123.56.101.64:443	'1': request trades (Not enough rights)
+0	2015.05.10 15:36:59		Unload: manager A098B8 not released
+0	2015.05.10 15:36:59		Remove: manager A098B8
+0	2015.05.10 15:36:59		Unload: manager 9D8770 not released
+0	2015.05.10 15:36:59	123.56.101.64:443	'1': disconnect
+0	2015.05.10 15:36:59		Remove: manager 9D8770
+0	2015.05.10 15:37:13		MetaTrader 4 Manager API build 509 initialized
+6	2015.05.10 15:37:34	s	Connect (No connection)
+0	2015.05.10 15:38:04		Unload: manager 9E98B8 not released
+0	2015.05.10 15:38:04		Remove: manager 9E98B8
+0	2015.05.10 15:38:04		Unload: manager 9B8770 not released
+0	2015.05.10 15:38:04		Remove: manager 9B8770
+0	2015.05.10 15:48:45		MetaTrader 4 Manager API build 509 initialized
+6	2015.05.10 15:48:57	1	Connect (No connection)
+0	2015.05.10 15:49:24		Unload: manager 7298B8 not released
+0	2015.05.10 15:49:24		Remove: manager 7298B8
+0	2015.05.10 15:49:24		Unload: manager 6F8770 not released
+0	2015.05.10 15:49:24		Remove: manager 6F8770
+0	2015.05.10 15:49:54		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 15:50:15	123.56.101.64:443	Connect
+0	2015.05.10 15:50:15	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 16:49:12	123.56.101.64:443	'1': request 16 total users
+0	2015.05.10 16:49:12	123.56.101.64:443	'1': request 1 total users by logins
+7	2015.05.10 16:49:13	123.56.101.64:443	'1': request user trade history (Not enough rights)
+7	2015.05.10 16:49:13	123.56.101.64:443	'1': request trades (Not enough rights)
+7	2015.05.10 16:49:13	123.56.101.64:443	'1': request trades (Not enough rights)
+0	2015.05.10 16:54:15		Unload: manager 3698B8 not released
+0	2015.05.10 16:54:15		Remove: manager 3698B8
+0	2015.05.10 16:54:15		Unload: manager 338770 not released
+0	2015.05.10 16:54:16	123.56.101.64:443	'1': disconnect
+0	2015.05.10 16:54:16		Remove: manager 338770
+0	2015.05.10 16:54:44		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 16:55:07	123.56.101.64:443	Connect
+0	2015.05.10 16:55:07	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 17:12:02		Unload: manager 3098B8 not released
+0	2015.05.10 17:12:02		Remove: manager 3098B8
+0	2015.05.10 17:12:02		Unload: manager 2D8770 not released
+0	2015.05.10 17:12:02		Remove: manager 2D8770
+0	2015.05.10 17:12:28		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 17:57:43	123.56.101.64:443	Connect
+0	2015.05.10 17:57:43	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 18:04:04		Unload: manager 3298B8 not released
+0	2015.05.10 18:04:04		Remove: manager 3298B8
+0	2015.05.10 18:04:04		Unload: manager 2F8770 not released
+0	2015.05.10 18:04:04	123.56.101.64:443	'1': disconnect
+0	2015.05.10 18:04:04		Remove: manager 2F8770
+0	2015.05.10 18:04:37		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.10 18:06:58	123.56.101.64:443	Connect
+0	2015.05.10 18:06:58	123.56.101.64:443	'1': login (5.09)
+0	2015.05.10 20:49:48		Unload: manager 6598B8 not released
+0	2015.05.10 20:49:48		Remove: manager 6598B8
+0	2015.05.10 20:49:48		Unload: manager 628770 not released
+0	2015.05.10 20:49:49	123.56.101.64:443	'1': disconnect
+0	2015.05.10 20:49:49		Remove: manager 628770

@@ -1,0 +1,69 @@
+﻿生成启动时间为 2015/8/12 22:24:23。
+     1>项目“C:\Users\chenlei\Desktop\软件详细\管理端\admin管理员\API\Examples\MT4_MANAGER_API_TEST\TradeLogin.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\MT4_WebServer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\thrift\thrift-0.9.2\thrift-0.9.2\lib\cpp\src" /I"D:\thrift\thrift-0.9.2\thrift-0.9.2\lib\cpp\src\thrift" /ID:\thrift\boost_1_58_0 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _USE_32BIT_TIME_T /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MT4WebService.cpp MT4WebService_constants.cpp MT4WebService_server.cpp MT4WebService_types.cpp MyAPI.cpp
+         MyAPI.cpp
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4managerapi.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4managerapi.h(1027): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\myapi.cpp(103): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DEAL_TYPE”
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\myapi.cpp(128): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DEAL_TYPE”
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\myapi.cpp(201): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PASSWORD_TYPE”
+         MT4WebService_types.cpp
+         MT4WebService_server.cpp
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4managerapi.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4managerapi.h(1027): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(78): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(120): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(125): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(127): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(128): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(140): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(155): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(160): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(162): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(163): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(214): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(259): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DEAL_TYPE”
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(263): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DEAL_TYPE”
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(281): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DEAL_TYPE”
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(285): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“DEAL_TYPE”
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(289): warning C4244: “参数”: 从“const int64_t”转换到“long”，可能丢失数据
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(304): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PASSWORD_TYPE”
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(308): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PASSWORD_TYPE”
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(326): warning C4244: “参数”: 从“const int64_t”转换到“long”，可能丢失数据
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(326): warning C4244: “参数”: 从“const int64_t”转换到“long”，可能丢失数据
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(328): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(354): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(380): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(540): warning C4244: “=”: 从“const int64_t”转换到“__time32_t”，可能丢失数据
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(541): warning C4244: “=”: 从“const int64_t”转换到“__time32_t”，可能丢失数据
+     1>c:\users\chenlei\desktop\软件详细\管理端\admin管理员\api\examples\mt4_manager_api_test\mt4webservice_server.cpp(545): warning C4018: “<”: 有符号/无符号不匹配
+         MT4WebService_constants.cpp
+         MT4WebService.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\MT4_WebServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\thrift\thrift-0.9.2\thrift-0.9.2\lib\cpp\Debug" /LIBPATH:D:\thrift\boost_1_58_0\stage\lib odbc32.lib odbccp32.lib Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:LIBCMTD.lib /NODEFAULTLIB:libcpmtd.lib /MANIFEST /ManifestFile:".\Debug\MT4_WebServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/TradeLogin.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\MT4_WebServer.lib" /MACHINE:X86 .\Debug\MT4_WebServer.exe.embed.manifest.res
+         .\Debug/MT4WebService.obj
+         .\Debug/MT4WebService_constants.obj
+         .\Debug/MT4WebService_server.obj
+         .\Debug/MT4WebService_types.obj
+         .\Debug/MyAPI.obj
+     1>LINK : warning LNK4098: 默认库“MSVCRTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\MT4_WebServer.exe.embed.manifest" /manifest .\Debug\MT4_WebServer.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         TradeLogin.vcxproj -> C:\Users\chenlei\Desktop\软件详细\管理端\admin管理员\API\Examples\MT4_MANAGER_API_TEST\.\Debug\MT4_WebServer.exe
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\MT4_WebServer.unsuccessfulbuild”。
+         正在对“.\Debug\MT4_WebServer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\chenlei\Desktop\软件详细\管理端\admin管理员\API\Examples\MT4_MANAGER_API_TEST\TradeLogin.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:33.19

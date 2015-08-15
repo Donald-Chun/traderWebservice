@@ -1,0 +1,228 @@
+0	2015.05.07 09:38:18		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 09:38:30		Unload: manager 6E6FE8 not released
+0	2015.05.07 09:38:30		Remove: manager 6E6FE8
+0	2015.05.07 09:38:30		Unload: manager 6B56A8 not released
+0	2015.05.07 09:38:30		Remove: manager 6B56A8
+0	2015.05.07 09:40:59		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 09:40:59	123.56.101.64:443	Connect
+0	2015.05.07 09:40:59	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 09:41:07		Unload: manager 986FE8 not released
+0	2015.05.07 09:41:07		Remove: manager 986FE8
+0	2015.05.07 09:41:07		Unload: manager 9556A8 not released
+0	2015.05.07 09:41:07	123.56.101.64:443	'3': disconnect
+0	2015.05.07 09:41:07		Remove: manager 9556A8
+0	2015.05.07 21:12:33		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 21:12:33	123.56.101.64:443	Connect
+0	2015.05.07 21:12:34	123.56.101.64:443	'3': login (5.09)
+2	2015.05.07 21:13:47	123.56.101.64:443	'3': new user record (Common error)
+2	2015.05.07 21:13:56	123.56.101.64:443	'3': new user record (Common error)
+2	2015.05.07 21:15:52	123.56.101.64:443	'3': new user record (Common error)
+0	2015.05.07 21:20:28		Unload: manager 9A6FE8 not released
+0	2015.05.07 21:20:28		Remove: manager 9A6FE8
+0	2015.05.07 21:20:28		Unload: manager 9756A8 not released
+0	2015.05.07 21:20:28	123.56.101.64:443	'3': disconnect
+0	2015.05.07 21:20:28		Remove: manager 9756A8
+0	2015.05.07 21:20:37		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 21:20:37	123.56.101.64:443	Connect
+0	2015.05.07 21:20:38	123.56.101.64:443	'3': login (5.09)
+2	2015.05.07 21:20:46	123.56.101.64:443	'3': new user record (Common error)
+0	2015.05.07 21:26:18		Unload: manager 9A6FE8 not released
+0	2015.05.07 21:26:18		Remove: manager 9A6FE8
+0	2015.05.07 21:26:18		Unload: manager 9756A8 not released
+0	2015.05.07 21:26:18	123.56.101.64:443	'3': disconnect
+0	2015.05.07 21:26:18		Remove: manager 9756A8
+0	2015.05.07 21:26:32		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 21:26:35	123.56.101.64:443	Connect
+0	2015.05.07 21:26:35	123.56.101.64:443	'3': login (5.09)
+2	2015.05.07 21:26:40	123.56.101.64:443	'3': new user record (Common error)
+2	2015.05.07 21:27:20	123.56.101.64:443	'3': new user record (Common error)
+0	2015.05.07 21:28:27		Unload: manager 6B6FE8 not released
+0	2015.05.07 21:28:27		Remove: manager 6B6FE8
+0	2015.05.07 21:28:27		Unload: manager 6856A8 not released
+0	2015.05.07 21:28:27	123.56.101.64:443	'3': disconnect
+0	2015.05.07 21:28:27		Remove: manager 6856A8
+0	2015.05.07 21:28:43		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 21:28:43	123.56.101.64:443	Connect
+0	2015.05.07 21:28:43	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 21:28:47	123.56.101.64:443	'3': new user record '22444'('java3')
+0	2015.05.07 21:30:00	123.56.101.64:443	'3': new user record '22445'('java3')
+255	2015.05.07 21:38:37	123.56.101.64:443	'3': request users (Network problem)
+0	2015.05.07 21:39:59		Unload: manager 5E6FE8 not released
+0	2015.05.07 21:39:59		Remove: manager 5E6FE8
+0	2015.05.07 21:39:59		Unload: manager 5B56A8 not released
+0	2015.05.07 21:39:59		Remove: manager 5B56A8
+0	2015.05.07 21:40:21		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 21:40:21	123.56.101.64:443	Connect
+0	2015.05.07 21:40:21	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 21:40:25	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 21:40:56		Unload: manager 696FE8 not released
+0	2015.05.07 21:40:56		Remove: manager 696FE8
+0	2015.05.07 21:40:56		Unload: manager 6656A8 not released
+0	2015.05.07 21:40:57	123.56.101.64:443	'3': disconnect
+0	2015.05.07 21:40:57		Remove: manager 6656A8
+0	2015.05.07 21:44:49		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 21:44:49	123.56.101.64:443	Connect
+0	2015.05.07 21:44:49	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 21:44:52	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 21:46:14		Unload: manager 736FE8 not released
+0	2015.05.07 21:46:14		Remove: manager 736FE8
+0	2015.05.07 21:46:14		Unload: manager 7056A8 not released
+0	2015.05.07 21:46:14	123.56.101.64:443	'3': disconnect
+0	2015.05.07 21:46:14		Remove: manager 7056A8
+0	2015.05.07 21:46:24		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 21:46:24	123.56.101.64:443	Connect
+0	2015.05.07 21:46:24	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 21:46:28	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 21:48:12		Unload: manager 726FE8 not released
+0	2015.05.07 21:48:12		Remove: manager 726FE8
+0	2015.05.07 21:48:12		Unload: manager 6F56A8 not released
+0	2015.05.07 21:48:12	123.56.101.64:443	'3': disconnect
+0	2015.05.07 21:48:12		Remove: manager 6F56A8
+0	2015.05.07 21:48:48		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 21:48:48	123.56.101.64:443	Connect
+0	2015.05.07 21:48:48	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 21:48:57	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 22:04:23		Unload: manager 696FE8 not released
+0	2015.05.07 22:04:23		Remove: manager 696FE8
+0	2015.05.07 22:04:23		Unload: manager 6656A8 not released
+0	2015.05.07 22:04:23	123.56.101.64:443	'3': disconnect
+0	2015.05.07 22:04:23		Remove: manager 6656A8
+0	2015.05.07 22:04:45		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 22:04:45	123.56.101.64:443	Connect
+0	2015.05.07 22:04:45	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 22:05:44	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 22:11:28		Unload: manager 5E6FE8 not released
+0	2015.05.07 22:11:28		Remove: manager 5E6FE8
+0	2015.05.07 22:11:28		Unload: manager 5B56A8 not released
+0	2015.05.07 22:11:28	123.56.101.64:443	'3': disconnect
+0	2015.05.07 22:11:28		Remove: manager 5B56A8
+0	2015.05.07 22:12:04		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 22:12:04	123.56.101.64:443	Connect
+0	2015.05.07 22:12:04	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 22:12:10	123.56.101.64:443	'3': request 33 total users
+255	2015.05.07 22:22:08	123.56.101.64:443	'3': request users (Network problem)
+0	2015.05.07 22:22:23		Unload: manager 9C6FE8 not released
+0	2015.05.07 22:22:23		Remove: manager 9C6FE8
+0	2015.05.07 22:22:23		Unload: manager 9956A8 not released
+0	2015.05.07 22:22:23		Remove: manager 9956A8
+0	2015.05.07 22:22:30		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 22:22:30	123.56.101.64:443	Connect
+0	2015.05.07 22:22:31	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 22:22:34	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 22:23:06		Unload: manager 2D6FE8 not released
+0	2015.05.07 22:23:06		Remove: manager 2D6FE8
+0	2015.05.07 22:23:06		Unload: manager 2A56A8 not released
+0	2015.05.07 22:23:06	123.56.101.64:443	'3': disconnect
+0	2015.05.07 22:23:06		Remove: manager 2A56A8
+0	2015.05.07 22:23:16		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 22:23:16	123.56.101.64:443	Connect
+0	2015.05.07 22:23:16	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 22:23:20	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 22:30:16		Unload: manager 986FE8 not released
+0	2015.05.07 22:30:16		Remove: manager 986FE8
+0	2015.05.07 22:30:16		Unload: manager 9556A8 not released
+0	2015.05.07 22:30:16	123.56.101.64:443	'3': disconnect
+0	2015.05.07 22:30:16		Remove: manager 9556A8
+0	2015.05.07 22:30:26		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 22:30:26	123.56.101.64:443	Connect
+0	2015.05.07 22:30:26	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 22:30:30	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 22:31:16		Unload: manager 6C6FE8 not released
+0	2015.05.07 22:31:16		Remove: manager 6C6FE8
+0	2015.05.07 22:31:16		Unload: manager 6956A8 not released
+0	2015.05.07 22:31:16	123.56.101.64:443	'3': disconnect
+0	2015.05.07 22:31:16		Remove: manager 6956A8
+0	2015.05.07 22:31:25		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 22:31:25	123.56.101.64:443	Connect
+0	2015.05.07 22:31:25	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 22:31:29	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 22:32:02	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 22:33:56	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 22:34:23	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 22:36:55		Unload: manager 376FE8 not released
+0	2015.05.07 22:36:55		Remove: manager 376FE8
+0	2015.05.07 22:36:55		Unload: manager 3456A8 not released
+0	2015.05.07 22:36:55	123.56.101.64:443	'3': disconnect
+0	2015.05.07 22:36:55		Remove: manager 3456A8
+0	2015.05.07 22:37:10		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 22:37:10	123.56.101.64:443	Connect
+0	2015.05.07 22:37:10	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 22:37:14	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 22:41:21		Unload: manager 696FE8 not released
+0	2015.05.07 22:41:21		Remove: manager 696FE8
+0	2015.05.07 22:41:21		Unload: manager 6656A8 not released
+0	2015.05.07 22:41:21	123.56.101.64:443	'3': disconnect
+0	2015.05.07 22:41:21		Remove: manager 6656A8
+0	2015.05.07 22:51:11		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 22:51:11	123.56.101.64:443	Connect
+0	2015.05.07 22:51:11	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 22:51:35	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 22:51:40	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 22:51:44	123.56.101.64:443	'3': request 33 total users
+255	2015.05.07 23:01:34	123.56.101.64:443	'3': request users by logins (Network problem)
+0	2015.05.07 23:14:12		Unload: manager 6F6FE8 not released
+0	2015.05.07 23:14:12		Remove: manager 6F6FE8
+0	2015.05.07 23:14:12		Unload: manager 6C56A8 not released
+0	2015.05.07 23:14:12		Remove: manager 6C56A8
+0	2015.05.07 23:15:02		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 23:15:03	123.56.101.64:443	Connect
+0	2015.05.07 23:15:03	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 23:15:11	123.56.101.64:443	'3': request 1 total users by logins
+0	2015.05.07 23:15:19	123.56.101.64:443	'3': request 1 total users by logins
+0	2015.05.07 23:15:30	123.56.101.64:443	'3': request 1 total users by logins
+0	2015.05.07 23:16:04	123.56.101.64:443	'3': request 1 total users by logins
+0	2015.05.07 23:22:39		Unload: manager 706FE8 not released
+0	2015.05.07 23:22:39		Remove: manager 706FE8
+0	2015.05.07 23:22:39		Unload: manager 6D56A8 not released
+0	2015.05.07 23:22:39	123.56.101.64:443	'3': disconnect
+0	2015.05.07 23:22:39		Remove: manager 6D56A8
+0	2015.05.07 23:23:02		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 23:23:02	123.56.101.64:443	Connect
+0	2015.05.07 23:23:02	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 23:23:08	123.56.101.64:443	'3': request 1 total users by logins
+0	2015.05.07 23:23:15	123.56.101.64:443	'3': request 1 total users by logins
+0	2015.05.07 23:40:03		Unload: manager 356FE8 not released
+0	2015.05.07 23:40:03		Remove: manager 356FE8
+0	2015.05.07 23:40:03		Unload: manager 3256A8 not released
+0	2015.05.07 23:40:03	123.56.101.64:443	'3': disconnect
+0	2015.05.07 23:40:03		Remove: manager 3256A8
+0	2015.05.07 23:40:32		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 23:40:32	123.56.101.64:443	Connect
+0	2015.05.07 23:40:32	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 23:40:39	123.56.101.64:443	'3': request 1 total users by logins
+0	2015.05.07 23:46:16		Unload: manager 606FE8 not released
+0	2015.05.07 23:46:16		Remove: manager 606FE8
+0	2015.05.07 23:46:16		Unload: manager 5D56A8 not released
+0	2015.05.07 23:46:16	123.56.101.64:443	'3': disconnect
+0	2015.05.07 23:46:16		Remove: manager 5D56A8
+0	2015.05.07 23:46:28		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 23:46:28	123.56.101.64:443	Connect
+0	2015.05.07 23:46:29	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 23:46:35	123.56.101.64:443	'3': request 1 total users by logins
+0	2015.05.07 23:46:39	123.56.101.64:443	'3': request 1 total users by logins
+0	2015.05.07 23:48:25		Unload: manager 5F6FE8 not released
+0	2015.05.07 23:48:25		Remove: manager 5F6FE8
+0	2015.05.07 23:48:25		Unload: manager 5C56A8 not released
+0	2015.05.07 23:48:25	123.56.101.64:443	'3': disconnect
+0	2015.05.07 23:48:25		Remove: manager 5C56A8
+0	2015.05.07 23:48:49		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 23:48:49	123.56.101.64:443	Connect
+0	2015.05.07 23:48:49	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 23:48:53	123.56.101.64:443	'3': request 1 total users by logins
+0	2015.05.07 23:51:05	123.56.101.64:443	'3': request 1 total users by logins
+255	2015.05.07 23:54:11	123.56.101.64:443	'3': request users (Network problem)
+0	2015.05.07 23:56:08		Unload: manager 5F6FE8 not released
+0	2015.05.07 23:56:08		Remove: manager 5F6FE8
+0	2015.05.07 23:56:08		Unload: manager 5C56A8 not released
+0	2015.05.07 23:56:08		Remove: manager 5C56A8
+0	2015.05.07 23:56:30		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.07 23:56:30	123.56.101.64:443	Connect
+0	2015.05.07 23:56:31	123.56.101.64:443	'3': login (5.09)
+0	2015.05.07 23:56:45	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 23:58:54	123.56.101.64:443	'3': request 33 total users
+0	2015.05.07 23:59:33	123.56.101.64:443	'3': request 1 total users by logins
+0	2015.05.08 00:00:30		Unload: manager 986FE8 not released
+0	2015.05.08 00:00:30		Remove: manager 986FE8
+0	2015.05.08 00:00:30		Unload: manager 9556A8 not released
+0	2015.05.08 00:00:30	123.56.101.64:443	'3': disconnect
+0	2015.05.08 00:00:30		Remove: manager 9556A8

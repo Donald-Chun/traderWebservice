@@ -1,0 +1,8 @@
+0	2015.08.14 22:44:48		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.14 22:45:38	103.40.162.86:640	Connect
+0	2015.08.14 22:45:39	103.40.162.86:640	'2': login (5.09)
+0	2015.08.15 00:26:45		Unload: manager 719D38 not released
+0	2015.08.15 00:26:45		Remove: manager 719D38
+0	2015.08.15 00:26:45		Unload: manager 6E8BF8 not released
+0	2015.08.15 00:26:45	103.40.162.86:640	'2': disconnect
+0	2015.08.15 00:26:45		Remove: manager 6E8BF8

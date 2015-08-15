@@ -1,0 +1,196 @@
+0	2015.05.05 09:26:23		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 09:26:23	123.56.101.64:443	Connect
+0	2015.05.05 09:26:23	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 09:26:24	123.56.101.64:443	'3': new user record '22425'('qfy')
+0	2015.05.05 09:26:24	123.56.101.64:443	'3': disconnect
+0	2015.05.05 09:26:24		Remove: manager 585870
+0	2015.05.05 09:27:32		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 09:27:32	123.56.101.64:443	Connect
+0	2015.05.05 09:27:32	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 09:27:32	123.56.101.64:443	'3': new user record '22426'('qfy')
+0	2015.05.05 09:27:32	123.56.101.64:443	'3': disconnect
+0	2015.05.05 09:27:32		Remove: manager 5867E8
+0	2015.05.05 09:27:49		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 09:27:49	123.56.101.64:443	Connect
+0	2015.05.05 09:27:50	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 09:27:50	123.56.101.64:443	'3': new user record '22427'('qfy')
+0	2015.05.05 09:27:50	123.56.101.64:443	'3': disconnect
+0	2015.05.05 09:27:50		Remove: manager 5BD6A8
+0	2015.05.05 09:32:06		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 09:32:06	123.56.101.64:443	Connect
+0	2015.05.05 09:32:06	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 09:32:07	123.56.101.64:443	'3': new user record '22428'('qfy')
+0	2015.05.05 09:32:07	123.56.101.64:443	'3': disconnect
+0	2015.05.05 09:32:07		Remove: manager 5BD6A8
+0	2015.05.05 09:33:45		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 09:33:45	123.56.101.64:443	Connect
+0	2015.05.05 09:33:46	123.56.101.64:443	'3': login (5.09)
+1	2015.05.05 09:33:46	123.56.101.64:443	'3': new user record (OK/None)
+0	2015.05.05 09:33:46	123.56.101.64:443	'3': disconnect
+0	2015.05.05 09:33:46		Remove: manager 635870
+0	2015.05.05 09:35:59		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 09:35:59	123.56.101.64:443	Connect
+0	2015.05.05 09:36:00	123.56.101.64:443	'3': login (5.09)
+1	2015.05.05 09:36:00	123.56.101.64:443	'3': new user record (OK/None)
+0	2015.05.05 09:36:00	123.56.101.64:443	'3': disconnect
+0	2015.05.05 09:36:00		Remove: manager 6367E8
+0	2015.05.05 09:36:42		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 09:36:42	123.56.101.64:443	Connect
+0	2015.05.05 09:36:42	123.56.101.64:443	'3': login (5.09)
+1	2015.05.05 09:36:42	123.56.101.64:443	'3': new user record (OK/None)
+0	2015.05.05 09:36:42	123.56.101.64:443	'3': disconnect
+0	2015.05.05 09:36:42		Remove: manager 66D6A8
+0	2015.05.05 09:37:15		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 09:37:15	123.56.101.64:443	Connect
+0	2015.05.05 09:37:16	123.56.101.64:443	'3': login (5.09)
+1	2015.05.05 09:37:16	123.56.101.64:443	'3': new user record (OK/None)
+0	2015.05.05 09:37:16	123.56.101.64:443	'3': disconnect
+0	2015.05.05 09:37:16		Remove: manager 66D6A8
+0	2015.05.05 09:38:33		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 09:38:33	123.56.101.64:443	Connect
+0	2015.05.05 09:38:34	123.56.101.64:443	'3': login (5.09)
+1	2015.05.05 09:38:34	123.56.101.64:443	'3': new user record (OK/None)
+0	2015.05.05 09:38:34	123.56.101.64:443	'3': disconnect
+0	2015.05.05 09:38:34		Remove: manager 565870
+0	2015.05.05 09:39:57		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 09:39:57	123.56.101.64:443	Connect
+0	2015.05.05 09:39:57	123.56.101.64:443	'3': login (5.09)
+1	2015.05.05 09:39:57	123.56.101.64:443	'3': new user record (OK/None)
+0	2015.05.05 09:39:57	123.56.101.64:443	'3': disconnect
+0	2015.05.05 09:39:57		Remove: manager 2C5870
+0	2015.05.05 09:41:33		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 09:41:33	123.56.101.64:443	Connect
+0	2015.05.05 09:41:33	123.56.101.64:443	'3': login (5.09)
+1	2015.05.05 09:41:33	123.56.101.64:443	'3': new user record (OK/None)
+0	2015.05.05 09:41:34	123.56.101.64:443	'3': disconnect
+0	2015.05.05 09:41:34		Remove: manager 2C67E8
+0	2015.05.05 09:44:18		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 09:44:18	123.56.101.64:443	Connect
+0	2015.05.05 09:44:18	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 09:44:18	123.56.101.64:443	'3': new user record '22429'('java3')
+0	2015.05.05 09:44:18	123.56.101.64:443	'3': disconnect
+0	2015.05.05 09:44:18		Remove: manager 2FD6A8
+0	2015.05.05 09:44:31		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 09:44:31	123.56.101.64:443	Connect
+0	2015.05.05 09:44:31	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 09:44:31	123.56.101.64:443	'3': new user record '22430'('java3')
+0	2015.05.05 09:44:31	123.56.101.64:443	'3': disconnect
+0	2015.05.05 09:44:31		Remove: manager 2FD6A8
+0	2015.05.05 11:12:47		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 11:12:47	123.56.101.64:443	Connect
+0	2015.05.05 11:12:47	123.56.101.64:443	'3': login (5.09)
+65	2015.05.05 11:12:47	123.56.101.64:443	'3': check user '22428' password (Invalid account)
+0	2015.05.05 11:12:48	123.56.101.64:443	'3': disconnect
+0	2015.05.05 11:12:48		Remove: manager 345880
+0	2015.05.05 11:13:56		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 11:13:56	123.56.101.64:443	Connect
+0	2015.05.05 11:13:57	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 11:13:57	123.56.101.64:443	'3': new user record '22432'('tt')
+0	2015.05.05 11:13:57	123.56.101.64:443	'3': check user '22432' password (success)
+0	2015.05.05 11:13:57	123.56.101.64:443	'3': disconnect
+0	2015.05.05 11:13:57		Remove: manager 345880
+0	2015.05.05 11:16:28		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 11:16:28	123.56.101.64:443	Connect
+0	2015.05.05 11:16:28	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 11:16:28	123.56.101.64:443	'3': check user '22432' password (success)
+0	2015.05.05 11:16:29	123.56.101.64:443	'3': set user '22432' investor password (success)
+0	2015.05.05 11:16:29	123.56.101.64:443	'3': disconnect
+0	2015.05.05 11:16:29		Remove: manager 8C5880
+0	2015.05.05 11:17:56		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 11:17:56	123.56.101.64:443	Connect
+0	2015.05.05 11:17:57	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 11:17:57	123.56.101.64:443	'3': check user '22432' password (success)
+0	2015.05.05 11:17:57	123.56.101.64:443	'3': set user '22432' investor password (success)
+0	2015.05.05 11:17:57	123.56.101.64:443	'3': disconnect
+0	2015.05.05 11:17:57		Remove: manager 8E5880
+0	2015.05.05 21:29:47		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 21:29:47	123.56.101.64:443	Connect
+0	2015.05.05 21:29:47	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 21:29:48	123.56.101.64:443	'3': check user '22432' password (success)
+0	2015.05.05 21:29:48	123.56.101.64:443	'3': set user '22432' investor password (success)
+0	2015.05.05 21:29:48	123.56.101.64:443	'3': request 1 total trades
+0	2015.05.05 21:29:48	123.56.101.64:443	'3': disconnect
+0	2015.05.05 21:29:48		Remove: manager 6356A8
+0	2015.05.05 21:31:05		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 21:31:05	123.56.101.64:443	Connect
+0	2015.05.05 21:31:05	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 21:31:05	123.56.101.64:443	'3': check user '22432' password (success)
+0	2015.05.05 21:31:05	123.56.101.64:443	'3': set user '22432' investor password (success)
+0	2015.05.05 21:31:05	123.56.101.64:443	'3': request 1 total trades
+0	2015.05.05 21:31:06	123.56.101.64:443	'3': disconnect
+0	2015.05.05 21:31:06		Remove: manager 5256A8
+0	2015.05.05 23:03:32		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 23:03:32	123.56.101.64:443	Connect
+0	2015.05.05 23:03:32	123.56.101.64:443	'3': login (5.09)
+65	2015.05.05 23:03:33	123.56.101.64:443	'3': check user '22434' password (Invalid account)
+0	2015.05.05 23:03:33	123.56.101.64:443	'3': request 3 total trades
+0	2015.05.05 23:03:33	123.56.101.64:443	'3': disconnect
+0	2015.05.05 23:03:33		Remove: manager 5B56A8
+0	2015.05.05 23:03:52		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 23:03:52	123.56.101.64:443	Connect
+0	2015.05.05 23:03:52	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 23:03:53	123.56.101.64:443	'3': check user '22434' password (success)
+0	2015.05.05 23:03:53	123.56.101.64:443	'3': set user '22434' investor password (success)
+0	2015.05.05 23:03:53	123.56.101.64:443	'3': request 3 total trades
+0	2015.05.05 23:03:53	123.56.101.64:443	'3': disconnect
+0	2015.05.05 23:03:53		Remove: manager 6356A8
+0	2015.05.05 23:05:29		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 23:05:29	123.56.101.64:443	Connect
+0	2015.05.05 23:05:29	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 23:05:29	123.56.101.64:443	'3': check user '22434' password (success)
+0	2015.05.05 23:05:29	123.56.101.64:443	'3': set user '22434' investor password (success)
+0	2015.05.05 23:05:29	123.56.101.64:443	'3': request 3 total trades
+0	2015.05.05 23:05:29	123.56.101.64:443	'3': disconnect
+0	2015.05.05 23:05:29		Remove: manager 5356A8
+0	2015.05.05 23:09:39		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 23:09:39	123.56.101.64:443	Connect
+0	2015.05.05 23:09:39	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 23:09:39	123.56.101.64:443	'3': check user '22434' password (success)
+0	2015.05.05 23:09:39	123.56.101.64:443	'3': set user '22434' investor password (success)
+0	2015.05.05 23:09:39	123.56.101.64:443	'3': request 7 total trades
+0	2015.05.05 23:09:39	123.56.101.64:443	'3': disconnect
+0	2015.05.05 23:09:39		Remove: manager 5856A8
+0	2015.05.05 23:24:13		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 23:24:13	123.56.101.64:443	Connect
+0	2015.05.05 23:24:13	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 23:24:14	123.56.101.64:443	'3': check user '22434' password (success)
+0	2015.05.05 23:24:14	123.56.101.64:443	'3': set user '22434' main password (success)
+0	2015.05.05 23:24:14	123.56.101.64:443	'3': request 7 total trades
+0	2015.05.05 23:24:14	123.56.101.64:443	'3': disconnect
+0	2015.05.05 23:24:14		Remove: manager 2E56A8
+0	2015.05.05 23:26:33		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 23:26:33	123.56.101.64:443	Connect
+0	2015.05.05 23:26:33	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 23:26:33	123.56.101.64:443	'3': check user '22434' password (success)
+0	2015.05.05 23:26:33	123.56.101.64:443	'3': set user '22434' main password (success)
+0	2015.05.05 23:26:33	123.56.101.64:443	'3': request 7 total trades
+0	2015.05.05 23:26:33	123.56.101.64:443	'3': disconnect
+0	2015.05.05 23:26:33		Remove: manager 5656A8
+0	2015.05.05 23:34:02		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 23:34:02	123.56.101.64:443	Connect
+0	2015.05.05 23:34:02	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 23:34:03	123.56.101.64:443	'3': disconnect
+0	2015.05.05 23:34:03		Remove: manager 5156A8
+0	2015.05.05 23:36:03		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 23:36:03	123.56.101.64:443	Connect
+0	2015.05.05 23:36:03	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 23:36:03	123.56.101.64:443	'3': disconnect
+0	2015.05.05 23:36:03		Remove: manager 3456A8
+0	2015.05.05 23:37:13		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 23:37:13	123.56.101.64:443	Connect
+0	2015.05.05 23:37:13	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 23:37:13	123.56.101.64:443	'3': disconnect
+0	2015.05.05 23:37:13		Remove: manager 5856A8
+0	2015.05.05 23:41:59		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 23:41:59	123.56.101.64:443	Connect
+0	2015.05.05 23:41:59	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 23:41:59	123.56.101.64:443	'3': request user trade history (4 trades)
+0	2015.05.05 23:41:59	123.56.101.64:443	'3': disconnect
+0	2015.05.05 23:41:59		Remove: manager 2C56A8
+0	2015.05.05 23:42:24		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.05 23:42:26	123.56.101.64:443	Connect
+0	2015.05.05 23:42:27	123.56.101.64:443	'3': login (5.09)
+0	2015.05.05 23:42:27	123.56.101.64:443	'3': request user trade history (4 trades)
+0	2015.05.05 23:42:27	123.56.101.64:443	'3': request 7 total trades
+0	2015.05.05 23:42:27	123.56.101.64:443	'3': disconnect
+0	2015.05.05 23:42:27		Remove: manager 6156A8

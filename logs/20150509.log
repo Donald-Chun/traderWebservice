@@ -1,0 +1,38 @@
+0	2015.05.09 00:29:14		MetaTrader 4 Manager API build 509 initialized
+6	2015.05.09 00:29:19	123.56.101.64:443	Connect (No connection)
+6	2015.05.09 00:29:26	123.56.101.64:443	'0': request users (No connection)
+6	2015.05.09 00:29:26	123.56.101.64:443	'0': request users by logins (No connection)
+0	2015.05.09 00:29:36		Unload: manager 3770A0 not released
+0	2015.05.09 00:29:36		Remove: manager 3770A0
+0	2015.05.09 00:29:36		Unload: manager 345868 not released
+0	2015.05.09 00:29:36		Remove: manager 345868
+0	2015.05.09 00:38:23		MetaTrader 4 Manager API build 509 initialized
+6	2015.05.09 00:38:28	123.56.101.64:443	Connect (No connection)
+6	2015.05.09 00:38:33	123.56.101.64:443	'0': request users by logins (No connection)
+6	2015.05.09 00:40:04	123.56.101.64:443	'0': users group operation (No connection)
+6	2015.05.09 00:40:05	123.56.101.64:443	'0': trade transaction 83 (No connection)
+6	2015.05.09 00:40:05	123.56.101.64:443	'0': trade transaction 83 (No connection)
+6	2015.05.09 00:40:17	123.56.101.64:443	'0': request users (No connection)
+6	2015.05.09 00:40:36	123.56.101.64:443	'0': request users (No connection)
+0	2015.05.09 00:41:08		Unload: manager 7870A0 not released
+0	2015.05.09 00:41:08		Remove: manager 7870A0
+0	2015.05.09 00:41:08		Unload: manager 755868 not released
+0	2015.05.09 00:41:08		Remove: manager 755868
+0	2015.05.09 00:41:19		MetaTrader 4 Manager API build 509 initialized
+6	2015.05.09 00:41:24	123.56.101.64:443	Connect (No connection)
+6	2015.05.09 00:41:32	123.56.101.64:443	'0': new user record (No connection)
+6	2015.05.09 00:41:32	123.56.101.64:443	'0': request users (No connection)
+6	2015.05.09 00:41:32	123.56.101.64:443	'0': request users by logins (No connection)
+6	2015.05.09 00:41:32	123.56.101.64:443	'0': users group operation (No connection)
+6	2015.05.09 00:41:32	123.56.101.64:443	'0': trade transaction 83 (No connection)
+6	2015.05.09 00:41:32	123.56.101.64:443	'0': trade transaction 83 (No connection)
+0	2015.05.09 00:49:42		Unload: manager 6770A0 not released
+0	2015.05.09 00:49:42		Remove: manager 6770A0
+0	2015.05.09 00:49:42		Unload: manager 645868 not released
+0	2015.05.09 00:49:42		Remove: manager 645868
+0	2015.05.09 16:46:34		MetaTrader 4 Manager API build 509 initialized
+6	2015.05.09 16:46:39	123.56.101.64:443	Connect (No connection)
+0	2015.05.09 16:46:45		Unload: manager 7598B8 not released
+0	2015.05.09 16:46:45		Remove: manager 7598B8
+0	2015.05.09 16:46:45		Unload: manager 728770 not released
+0	2015.05.09 16:46:45		Remove: manager 728770

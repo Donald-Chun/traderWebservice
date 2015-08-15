@@ -1,0 +1,21 @@
+0	2015.08.12 17:55:20		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.12 17:56:46	103.40.162.86:640	Connect
+0	2015.08.12 17:56:46	103.40.162.86:640	'2': login (5.09)
+0	2015.08.12 18:32:01		Unload: manager 6C9D38 not released
+0	2015.08.12 18:32:01		Remove: manager 6C9D38
+0	2015.08.12 18:32:01		Unload: manager 698BF8 not released
+0	2015.08.12 18:32:01	103.40.162.86:640	'2': disconnect
+0	2015.08.12 18:32:01		Remove: manager 698BF8
+0	2015.08.12 18:32:36		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.12 18:39:08	103.40.162.86:640	Connect
+0	2015.08.12 18:39:08	103.40.162.86:640	'2': login (5.09)
+0	2015.08.12 19:31:44		Unload: manager 639D38 not released
+0	2015.08.12 19:31:44		Remove: manager 639D38
+0	2015.08.12 19:31:44		Unload: manager 608BF8 not released
+0	2015.08.12 19:31:44	103.40.162.86:640	'2': disconnect
+0	2015.08.12 19:31:44		Remove: manager 608BF8
+0	2015.08.12 22:25:02		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.13 10:41:35		Unload: manager 369D38 not released
+0	2015.08.13 10:41:35		Remove: manager 369D38
+0	2015.08.13 10:41:35		Unload: manager 338BF8 not released
+0	2015.08.13 10:41:35		Remove: manager 338BF8

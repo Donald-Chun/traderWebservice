@@ -1,0 +1,143 @@
+0	2015.05.06 01:50:05		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 01:50:06	123.56.101.64:443	Connect
+0	2015.05.06 01:50:06	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 01:50:06	123.56.101.64:443	Connect
+0	2015.05.06 01:50:07	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 01:50:07	123.56.101.64:443	'3': pumping switch
+0	2015.05.06 01:50:07	123.56.101.64:443	'3': request user trade history (4 trades)
+0	2015.05.06 01:50:07	123.56.101.64:443	'3': request 7 total trades
+255	2015.05.06 01:50:07	123.56.101.64:443	'3': refresh symbols groups (Network problem)
+255	2015.05.06 01:50:07	123.56.101.64:443	'3': pumping refresh symbols (Network problem)
+255	2015.05.06 01:50:07	123.56.101.64:443	'3': pumping mode stopped (Network problem)
+0	2015.05.06 01:50:07	123.56.101.64:443	'3': disconnect pumping
+0	2015.05.06 01:50:07	123.56.101.64:443	'3': disconnect
+0	2015.05.06 01:50:07		Remove: manager 5B8588
+0	2015.05.06 01:50:07		Remove: manager 586FE8
+0	2015.05.06 01:50:07	123.56.101.64:443	'3': disconnect
+0	2015.05.06 01:50:07		Remove: manager 5556A8
+0	2015.05.06 01:55:42		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 01:55:42	123.56.101.64:443	Connect
+0	2015.05.06 01:55:42	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 01:55:42	123.56.101.64:443	'3': pumping switch
+255	2015.05.06 01:55:43	123.56.101.64:443	'3': refresh symbols groups (Network problem)
+255	2015.05.06 01:55:43	123.56.101.64:443	'3': pumping refresh symbols (Network problem)
+255	2015.05.06 01:55:43	123.56.101.64:443	'3': pumping mode stopped (Network problem)
+0	2015.05.06 01:55:43	123.56.101.64:443	'3': disconnect pumping
+0	2015.05.06 01:55:43	123.56.101.64:443	'3': disconnect
+0	2015.05.06 01:55:43		Remove: manager 5B56A8
+0	2015.05.06 01:57:12		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 01:57:13	123.56.101.64:443	Connect
+0	2015.05.06 01:57:13	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 01:57:13	123.56.101.64:443	'3': pumping switch
+0	2015.05.06 01:57:13	123.56.101.64:443	'3': refresh symbols
+0	2015.05.06 01:57:13	123.56.101.64:443	'3': pumping mode started
+0	2015.05.06 01:58:54		Unload: manager 5256A8 not released
+0	2015.05.06 01:58:54	123.56.101.64:443	'3': disconnect pumping
+0	2015.05.06 01:58:54	123.56.101.64:443	'3': disconnect
+0	2015.05.06 01:58:54		Remove: manager 5256A8
+0	2015.05.06 02:06:24		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 02:06:24	123.56.101.64:443	Connect
+0	2015.05.06 02:06:24	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 02:06:24	123.56.101.64:443	'3': pumping switch
+0	2015.05.06 02:06:25	123.56.101.64:443	'3': refresh symbols
+0	2015.05.06 02:06:25	123.56.101.64:443	'3': pumping mode started
+0	2015.05.06 02:06:31		Unload: manager 5256A8 not released
+0	2015.05.06 02:06:31	123.56.101.64:443	'3': disconnect pumping
+0	2015.05.06 02:06:31	123.56.101.64:443	'3': disconnect
+0	2015.05.06 02:06:31		Remove: manager 5256A8
+0	2015.05.06 02:07:37		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 02:07:37	123.56.101.64:443	Connect
+0	2015.05.06 02:07:37	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 02:07:37	123.56.101.64:443	'3': pumping switch
+0	2015.05.06 02:07:37	123.56.101.64:443	'3': refresh symbols
+0	2015.05.06 02:07:38	123.56.101.64:443	'3': pumping mode started
+0	2015.05.06 02:08:53		Unload: manager 3256A8 not released
+0	2015.05.06 02:08:53	123.56.101.64:443	'3': disconnect pumping
+0	2015.05.06 02:08:53	123.56.101.64:443	'3': disconnect
+0	2015.05.06 02:08:53		Remove: manager 3256A8
+0	2015.05.06 02:08:56		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 02:08:56	123.56.101.64:443	Connect
+0	2015.05.06 02:08:56	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 02:08:56	123.56.101.64:443	'3': pumping switch
+0	2015.05.06 02:08:57	123.56.101.64:443	'3': refresh symbols
+0	2015.05.06 02:08:57	123.56.101.64:443	'3': pumping mode started
+0	2015.05.06 02:09:09		Unload: manager 8856A8 not released
+0	2015.05.06 02:09:09	123.56.101.64:443	'3': disconnect pumping
+0	2015.05.06 02:09:09	123.56.101.64:443	'3': disconnect
+0	2015.05.06 02:09:09		Remove: manager 8856A8
+0	2015.05.06 02:40:17		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 02:40:17	123.56.101.64:443	Connect
+0	2015.05.06 02:40:18	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 02:40:18	123.56.101.64:443	Connect
+0	2015.05.06 02:40:18	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 02:40:18	123.56.101.64:443	'3': pumping switch
+0	2015.05.06 02:40:18	123.56.101.64:443	'3': request 7 total trades
+255	2015.05.06 02:40:18	123.56.101.64:443	'3': refresh symbols (Network problem)
+255	2015.05.06 02:40:18	123.56.101.64:443	'3': pumping refresh symbols (Network problem)
+255	2015.05.06 02:40:18	123.56.101.64:443	'3': pumping mode stopped (Network problem)
+0	2015.05.06 02:40:18	123.56.101.64:443	'3': disconnect pumping
+0	2015.05.06 02:40:18	123.56.101.64:443	'3': disconnect
+0	2015.05.06 02:40:18		Remove: manager 628588
+0	2015.05.06 02:40:18		Remove: manager 5F6FE8
+0	2015.05.06 02:40:19	123.56.101.64:443	'3': disconnect
+0	2015.05.06 02:40:19		Remove: manager 5C56A8
+0	2015.05.06 02:44:18		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 02:44:18	123.56.101.64:443	Connect
+0	2015.05.06 02:44:18	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 02:44:18	123.56.101.64:443	Connect
+0	2015.05.06 02:44:19	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 02:44:19	123.56.101.64:443	'3': pumping switch
+0	2015.05.06 02:44:19	123.56.101.64:443	'3': refresh symbols
+0	2015.05.06 02:44:19	123.56.101.64:443	'3': pumping mode started
+0	2015.05.06 02:44:28	123.56.101.64:443	'3': request 7 total trades
+0	2015.05.06 02:44:28	123.56.101.64:443	'3': pumping mode stopped
+0	2015.05.06 02:44:28	123.56.101.64:443	'3': disconnect pumping
+0	2015.05.06 02:44:28	123.56.101.64:443	'3': disconnect
+0	2015.05.06 02:44:28		Remove: manager 638588
+0	2015.05.06 02:44:28		Remove: manager 606FE8
+0	2015.05.06 02:44:28	123.56.101.64:443	'3': disconnect
+0	2015.05.06 02:44:28		Remove: manager 5D56A8
+0	2015.05.06 20:45:50		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 20:45:50	123.56.101.64:443	Connect
+0	2015.05.06 20:45:50	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 20:45:50		Remove: manager 586FE8
+0	2015.05.06 20:45:51	123.56.101.64:443	'3': disconnect
+0	2015.05.06 20:45:51		Remove: manager 5556A8
+0	2015.05.06 22:01:06		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 22:01:06	123.56.101.64:443	Connect
+0	2015.05.06 22:01:06	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 22:01:06	123.56.101.64:443	'3': request 7 total trades
+0	2015.05.06 22:01:06		Remove: manager 656FE8
+0	2015.05.06 22:01:06	123.56.101.64:443	'3': disconnect
+0	2015.05.06 22:01:06		Remove: manager 6256A8
+0	2015.05.06 22:25:25		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 22:25:25	123.56.101.64:443	Connect
+0	2015.05.06 22:25:25	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 22:25:25	123.56.101.64:443	'3': request 22 total users
+0	2015.05.06 22:25:25		Remove: manager 626FE8
+0	2015.05.06 22:25:25	123.56.101.64:443	'3': disconnect
+0	2015.05.06 22:25:25		Remove: manager 5F56A8
+0	2015.05.06 22:27:35		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 22:27:35	123.56.101.64:443	Connect
+0	2015.05.06 22:27:35	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 22:27:36	123.56.101.64:443	'3': request 22 total users
+0	2015.05.06 22:27:36	123.56.101.64:443	'3': request 1 total users by logins
+0	2015.05.06 22:27:36		Remove: manager 666FE8
+0	2015.05.06 22:27:36	123.56.101.64:443	'3': disconnect
+0	2015.05.06 22:27:36		Remove: manager 6356A8
+0	2015.05.06 22:41:48		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 22:41:48	123.56.101.64:443	Connect
+0	2015.05.06 22:41:49	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 22:41:49	123.56.101.64:443	'3': request 22 total users
+0	2015.05.06 22:41:49	123.56.101.64:443	'3': request 1 total users by logins
+0	2015.05.06 22:41:49		Remove: manager 586FE8
+0	2015.05.06 22:41:49	123.56.101.64:443	'3': disconnect
+0	2015.05.06 22:41:49		Remove: manager 5556A8
+0	2015.05.06 22:42:09		MetaTrader 4 Manager API build 509 initialized
+0	2015.05.06 22:42:09	123.56.101.64:443	Connect
+0	2015.05.06 22:42:09	123.56.101.64:443	'3': login (5.09)
+0	2015.05.06 22:42:09	123.56.101.64:443	'3': request 22 total users
+1	2015.05.06 22:42:09	123.56.101.64:443	'3': request 0 total users by logins (OK/None)
+0	2015.05.06 22:42:09		Remove: manager 916FE8
+0	2015.05.06 22:42:09	123.56.101.64:443	'3': disconnect
+0	2015.05.06 22:42:09		Remove: manager 8E56A8
