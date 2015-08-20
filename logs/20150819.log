@@ -1,0 +1,457 @@
+0	2015.08.19 18:17:25		MetaTrader 4 Manager API build 509 initialized
+6	2015.08.19 18:17:30	123.56.101.64:443	Connect (No connection)
+6	2015.08.19 18:17:30	123.56.101.64:443	'0': request users (No connection)
+6	2015.08.19 18:17:30	123.56.101.64:443	'0': request users by logins (No connection)
+6	2015.08.19 18:17:30	123.56.101.64:443	'0': request users by logins (No connection)
+0	2015.08.19 18:17:30		Remove: manager 519798
+0	2015.08.19 18:17:30		Remove: manager 4E8658
+0	2015.08.19 18:18:24		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 18:18:24	103.40.162.86:640	Connect
+0	2015.08.19 18:18:25	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:18:25	103.40.162.86:640	'2': pumping switch
+221	2015.08.19 18:18:25	103.40.162.86:640	'2': refresh symbols groups (Unknown error)
+221	2015.08.19 18:18:25	103.40.162.86:640	'2': pumping refresh symbols (Unknown error)
+221	2015.08.19 18:18:25	103.40.162.86:640	'2': pumping mode stopped (Unknown error)
+2	2015.08.19 18:18:25	103.40.162.86:640	'2': request Symbols configutation (Common error)
+6	2015.08.19 18:18:25	103.40.162.86:640	'2': request users (No connection)
+6	2015.08.19 18:18:25	103.40.162.86:640	'2': request users by logins (No connection)
+6	2015.08.19 18:18:25	103.40.162.86:640	'2': request users by logins (No connection)
+0	2015.08.19 18:18:25		Remove: manager 529798
+0	2015.08.19 18:18:25	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 18:18:25	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:18:25		Remove: manager 4F8658
+0	2015.08.19 18:18:48		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 18:18:48	103.40.162.86:640	Connect
+0	2015.08.19 18:18:48	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:18:48	103.40.162.86:640	'2': pumping switch
+2	2015.08.19 18:18:48	103.40.162.86:640	'2': request Symbols configutation (Common error)
+255	2015.08.19 18:18:48	103.40.162.86:640	'2': refresh symbols groups (Network problem)
+255	2015.08.19 18:18:48	103.40.162.86:640	'2': pumping refresh symbols (Network problem)
+255	2015.08.19 18:18:48	103.40.162.86:640	'2': pumping mode stopped (Network problem)
+6	2015.08.19 18:18:48	103.40.162.86:640	'2': request users (No connection)
+6	2015.08.19 18:18:48	103.40.162.86:640	'2': request users by logins (No connection)
+6	2015.08.19 18:18:48	103.40.162.86:640	'2': request users by logins (No connection)
+0	2015.08.19 18:18:48		Remove: manager 8D9798
+0	2015.08.19 18:18:48	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 18:18:48	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:18:48		Remove: manager 8A8658
+0	2015.08.19 18:19:37		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 18:19:37	103.40.162.86:640	Connect
+0	2015.08.19 18:19:37	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:19:38	103.40.162.86:640	'2': pumping switch
+221	2015.08.19 18:19:38	103.40.162.86:640	'2': refresh symbols groups (Unknown error)
+221	2015.08.19 18:19:38	103.40.162.86:640	'2': pumping refresh symbols (Unknown error)
+221	2015.08.19 18:19:38	103.40.162.86:640	'2': pumping mode stopped (Unknown error)
+36	2015.08.19 18:19:38	103.40.162.86:640	'2': request Symbols configutation (Unknown error)
+242	2015.08.19 18:19:39	103.40.162.86:640	'2': request users (Unknown error)
+2	2015.08.19 18:19:39	103.40.162.86:640	'2': request users by logins (Common error)
+6	2015.08.19 18:19:39	103.40.162.86:640	'2': request users by logins (No connection)
+0	2015.08.19 18:19:39		Remove: manager 5D9798
+0	2015.08.19 18:19:39	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 18:19:39	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:19:39		Remove: manager 5A8658
+0	2015.08.19 18:21:40		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 18:21:40	103.40.162.86:640	Connect
+0	2015.08.19 18:21:43	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:21:43	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 18:21:44	103.40.162.86:640	'2': request 33 total users
+1	2015.08.19 18:21:44	103.40.162.86:640	'2': request 0 total users by logins (OK/None)
+0	2015.08.19 18:21:44	103.40.162.86:640	'2': request 1 total users by logins
+0	2015.08.19 18:21:44		Remove: manager 599798
+0	2015.08.19 18:21:44	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:21:44		Remove: manager 568658
+0	2015.08.19 18:25:52		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 18:25:52	103.40.162.86:640	Connect
+0	2015.08.19 18:25:53	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:25:53	103.40.162.86:640	Connect
+0	2015.08.19 18:25:53	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:25:53	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 18:25:54	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 18:25:54	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 18:25:54	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 18:25:55	103.40.162.86:640	'2': request 33 total users
+1	2015.08.19 18:25:55	103.40.162.86:640	'2': request 0 total users by logins (OK/None)
+0	2015.08.19 18:25:55	103.40.162.86:640	'2': request 1 total users by logins
+0	2015.08.19 18:25:55	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 18:25:55	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 18:25:55	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:25:55		Remove: manager 639798
+0	2015.08.19 18:25:55	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:25:55		Remove: manager 608658
+0	2015.08.19 18:47:32		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 18:47:32	103.40.162.86:640	Connect
+0	2015.08.19 18:47:35	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:47:35	103.40.162.86:640	Connect
+0	2015.08.19 18:47:36	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:47:36	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 18:47:36	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 18:47:36	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 18:47:36	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 18:47:37	103.40.162.86:640	'2': request 33 total users
+1	2015.08.19 18:47:37	103.40.162.86:640	'2': request 0 total users by logins (OK/None)
+0	2015.08.19 18:47:37	103.40.162.86:640	'2': request 1 total users by logins
+0	2015.08.19 18:47:37	103.40.162.86:640	'2': request chart 'EURUSD' (290 bars)
+0	2015.08.19 18:47:37	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 18:47:37	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 18:47:37	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:47:37		Remove: manager 5F9798
+0	2015.08.19 18:47:37	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:47:37		Remove: manager 5C8658
+0	2015.08.19 18:49:59		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 18:49:59	103.40.162.86:640	Connect
+0	2015.08.19 18:50:00	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:50:00	103.40.162.86:640	Connect
+0	2015.08.19 18:50:00	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:50:00	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 18:50:00	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 18:50:01	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 18:50:01	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 18:50:02	103.40.162.86:640	'2': request 33 total users
+1	2015.08.19 18:50:02	103.40.162.86:640	'2': request 0 total users by logins (OK/None)
+0	2015.08.19 18:50:02	103.40.162.86:640	'2': request 1 total users by logins
+0	2015.08.19 18:50:02	103.40.162.86:640	'2': request chart 'EURUSD' (290 bars)
+0	2015.08.19 18:50:02	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 18:50:02	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 18:50:02	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:50:02		Remove: manager 8D9798
+0	2015.08.19 18:50:02	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:50:02		Remove: manager 8A8658
+0	2015.08.19 18:50:27		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 18:50:28	103.40.162.86:640	Connect
+0	2015.08.19 18:50:28	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:50:29	103.40.162.86:640	Connect
+0	2015.08.19 18:50:29	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:50:29	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 18:50:29	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 18:50:29	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 18:50:30	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 18:50:30	103.40.162.86:640	'2': request 33 total users
+1	2015.08.19 18:50:30	103.40.162.86:640	'2': request 0 total users by logins (OK/None)
+0	2015.08.19 18:50:30	103.40.162.86:640	'2': request 1 total users by logins
+0	2015.08.19 18:50:30	103.40.162.86:640	'2': request chart 'EURUSD' (290 bars)
+0	2015.08.19 18:50:31	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 18:50:31	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 18:50:31	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:50:31		Remove: manager 509798
+0	2015.08.19 18:50:31	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:50:31		Remove: manager 4D8658
+0	2015.08.19 18:51:40		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 18:51:40	103.40.162.86:640	Connect
+0	2015.08.19 18:51:41	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:51:41	103.40.162.86:640	Connect
+0	2015.08.19 18:51:42	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:51:42	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 18:51:42	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 18:51:42	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 18:51:42	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 18:51:43	103.40.162.86:640	'2': request 33 total users
+1	2015.08.19 18:51:44	103.40.162.86:640	'2': request 0 total users by logins (OK/None)
+0	2015.08.19 18:51:44	103.40.162.86:640	'2': request 1 total users by logins
+0	2015.08.19 18:51:44	103.40.162.86:640	'2': request chart 'EURUSD' (290 bars)
+0	2015.08.19 18:51:44	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 18:51:44	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 18:51:44	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:51:44		Remove: manager 609798
+0	2015.08.19 18:51:44	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:51:44		Remove: manager 5D8658
+0	2015.08.19 18:58:51		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 18:58:51	103.40.162.86:640	Connect
+0	2015.08.19 18:58:51	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:58:51	103.40.162.86:640	Connect
+0	2015.08.19 18:58:52	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:58:52	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 18:58:52	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 18:58:52	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 18:58:53	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 18:58:53	103.40.162.86:640	'2': request 33 total users
+1	2015.08.19 18:58:53	103.40.162.86:640	'2': request 0 total users by logins (OK/None)
+0	2015.08.19 18:58:53	103.40.162.86:640	'2': request 1 total users by logins
+0	2015.08.19 18:58:53	103.40.162.86:640	'2': request chart 'EURUSD' (204 bars)
+0	2015.08.19 18:58:54	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 18:58:54	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 18:58:54	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:58:54		Remove: manager 2C9798
+0	2015.08.19 18:58:54	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:58:54		Remove: manager 298658
+0	2015.08.19 18:59:17		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 18:59:17	103.40.162.86:640	Connect
+0	2015.08.19 18:59:18	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:59:18	103.40.162.86:640	Connect
+0	2015.08.19 18:59:18	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:59:18	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 18:59:18	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 18:59:18	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 18:59:19	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 18:59:19	103.40.162.86:640	'2': request 33 total users
+1	2015.08.19 18:59:19	103.40.162.86:640	'2': request 0 total users by logins (OK/None)
+0	2015.08.19 18:59:19	103.40.162.86:640	'2': request 1 total users by logins
+0	2015.08.19 18:59:19	103.40.162.86:640	'2': request chart 'EURUSD' (104 bars)
+0	2015.08.19 18:59:20	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 18:59:20	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 18:59:20	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:59:20		Remove: manager 549798
+0	2015.08.19 18:59:20	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:59:20		Remove: manager 518658
+0	2015.08.19 18:59:43		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 18:59:43	103.40.162.86:640	Connect
+0	2015.08.19 18:59:43	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:59:43	103.40.162.86:640	Connect
+0	2015.08.19 18:59:44	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 18:59:44	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 18:59:44	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 18:59:44	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 18:59:44	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 18:59:45	103.40.162.86:640	'2': request 33 total users
+1	2015.08.19 18:59:45	103.40.162.86:640	'2': request 0 total users by logins (OK/None)
+0	2015.08.19 18:59:45	103.40.162.86:640	'2': request 1 total users by logins
+0	2015.08.19 18:59:45	103.40.162.86:640	'2': request chart 'EURUSD' (201 bars)
+0	2015.08.19 18:59:46	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 18:59:46	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 18:59:46	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:59:46		Remove: manager 2E9798
+0	2015.08.19 18:59:46	103.40.162.86:640	'2': disconnect
+0	2015.08.19 18:59:46		Remove: manager 2B8658
+0	2015.08.19 19:01:30		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 19:01:30	103.40.162.86:640	Connect
+0	2015.08.19 19:01:30	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 19:01:30	103.40.162.86:640	Connect
+0	2015.08.19 19:01:30	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 19:01:31	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 19:01:31	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 19:01:31	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 19:01:31	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 19:01:32	103.40.162.86:640	'2': request 33 total users
+1	2015.08.19 19:01:32	103.40.162.86:640	'2': request 0 total users by logins (OK/None)
+0	2015.08.19 19:01:32	103.40.162.86:640	'2': request 1 total users by logins
+0	2015.08.19 19:01:32	103.40.162.86:640	'2': request chart 'EURUSD' (2 bars)
+0	2015.08.19 19:01:32	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 19:01:32	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 19:01:32	103.40.162.86:640	'2': disconnect
+0	2015.08.19 19:01:32		Remove: manager 309798
+0	2015.08.19 19:01:32	103.40.162.86:640	'2': disconnect
+0	2015.08.19 19:01:32		Remove: manager 2D8658
+0	2015.08.19 19:03:48		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 19:03:48	103.40.162.86:640	Connect
+0	2015.08.19 19:03:49	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 19:03:49	103.40.162.86:640	Connect
+0	2015.08.19 19:03:49	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 19:03:49	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 19:03:49	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 19:03:49	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 19:03:50	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 19:03:50	103.40.162.86:640	'2': request 33 total users
+1	2015.08.19 19:03:51	103.40.162.86:640	'2': request 0 total users by logins (OK/None)
+0	2015.08.19 19:03:51	103.40.162.86:640	'2': request 1 total users by logins
+0	2015.08.19 19:03:51	103.40.162.86:640	'2': request chart 'EURUSD' (2048 bars)
+0	2015.08.19 19:03:54	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 19:03:54	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 19:03:54	103.40.162.86:640	'2': disconnect
+0	2015.08.19 19:03:54		Remove: manager 589798
+0	2015.08.19 19:03:55	103.40.162.86:640	'2': disconnect
+0	2015.08.19 19:03:55		Remove: manager 558658
+0	2015.08.19 19:04:35		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 19:04:35	103.40.162.86:640	Connect
+0	2015.08.19 19:04:35	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 19:04:36	103.40.162.86:640	Connect
+0	2015.08.19 19:04:36	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 19:04:36	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 19:04:36	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 19:04:36	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 19:04:37	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 19:04:37	103.40.162.86:640	'2': request 33 total users
+1	2015.08.19 19:04:38	103.40.162.86:640	'2': request 0 total users by logins (OK/None)
+0	2015.08.19 19:04:38	103.40.162.86:640	'2': request 1 total users by logins
+0	2015.08.19 19:04:38	103.40.162.86:640	'2': request chart 'EURUSD' (2 bars)
+0	2015.08.19 19:04:38	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 19:04:38	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 19:04:38	103.40.162.86:640	'2': disconnect
+0	2015.08.19 19:04:38		Remove: manager 519798
+0	2015.08.19 19:04:38	103.40.162.86:640	'2': disconnect
+0	2015.08.19 19:04:38		Remove: manager 4E8658
+0	2015.08.19 21:07:35		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 21:07:53	103.40.162.86:640	Connect
+0	2015.08.19 21:07:54	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 21:07:54	103.40.162.86:640	Connect
+0	2015.08.19 21:07:54	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 21:07:54	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 21:07:54	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 21:07:59	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 21:07:59	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 21:08:03	103.40.162.86:640	'2': request chart 'EURUSD' (10572 bars)
+0	2015.08.19 21:08:51	103.40.162.86:640	'2': request chart 'EURUSD' (8060 bars)
+0	2015.08.19 21:46:41		Unload: manager 6897B0 not released
+0	2015.08.19 21:46:41	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 21:46:41	103.40.162.86:640	'2': disconnect
+0	2015.08.19 21:46:41		Remove: manager 6897B0
+0	2015.08.19 21:46:41		Unload: manager 658670 not released
+0	2015.08.19 21:46:41	103.40.162.86:640	'2': disconnect
+0	2015.08.19 21:46:41		Remove: manager 658670
+0	2015.08.19 21:47:53		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 21:47:57		Unload: manager 5997B0 not released
+0	2015.08.19 21:47:57		Remove: manager 5997B0
+0	2015.08.19 21:47:57		Unload: manager 568670 not released
+0	2015.08.19 21:47:57		Remove: manager 568670
+0	2015.08.19 21:48:49		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 21:49:03	103.40.162.86:640	Connect
+0	2015.08.19 21:49:03	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 21:49:03	103.40.162.86:640	Connect
+0	2015.08.19 21:49:03	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 21:49:03	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 21:49:04	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 21:49:04	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 21:49:04	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 22:27:50		Unload: manager 9397B0 not released
+0	2015.08.19 22:27:50	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 22:27:50	103.40.162.86:640	'2': disconnect
+0	2015.08.19 22:27:50		Remove: manager 9397B0
+0	2015.08.19 22:27:50		Unload: manager 908670 not released
+0	2015.08.19 22:27:50	103.40.162.86:640	'2': disconnect
+0	2015.08.19 22:27:50		Remove: manager 908670
+0	2015.08.19 22:28:01		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 22:28:13	103.40.162.86:640	Connect
+0	2015.08.19 22:28:13	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 22:28:13	103.40.162.86:640	Connect
+0	2015.08.19 22:28:14	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 22:28:14	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 22:28:14	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 22:28:14	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 22:28:14	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 22:28:18	103.40.162.86:640	'2': request Groups configutation
+0	2015.08.19 22:30:57	103.40.162.86:640	'2': new user record '2090012211'('java1000')
+0	2015.08.19 22:30:57	103.40.162.86:640	'2': request Groups configutation
+0	2015.08.19 22:40:21	103.40.162.86:640	'2': request chart 'EURUSD' (65785 bars)
+0	2015.08.19 22:40:52	103.40.162.86:640	'2': request chart 'EURUSD' (65786 bars)
+0	2015.08.19 22:52:16	103.40.162.86:640	'2': request chart 'EURUSD' (10573 bars)
+0	2015.08.19 22:52:59	103.40.162.86:640	'2': request chart 'EURUSD' (10573 bars)
+0	2015.08.19 22:53:20	103.40.162.86:640	'2': request chart 'EURUSD' (10573 bars)
+2	2015.08.19 22:54:35	103.40.162.86:640	'2': pumping timeout: 12 seconds (Common error)
+0	2015.08.19 22:54:35	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 22:57:36		Unload: manager 6B97B0 not released
+0	2015.08.19 22:57:36	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 22:57:36	103.40.162.86:640	'2': disconnect
+0	2015.08.19 22:57:36		Remove: manager 6B97B0
+0	2015.08.19 22:57:36		Unload: manager 688670 not released
+0	2015.08.19 22:57:36	103.40.162.86:640	'2': disconnect
+0	2015.08.19 22:57:36		Remove: manager 688670
+0	2015.08.19 22:58:21		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 22:58:21	103.40.162.86:640	Connect
+0	2015.08.19 22:58:21	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 22:58:21	103.40.162.86:640	Connect
+0	2015.08.19 22:58:22	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 22:58:22	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 22:58:22	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 22:58:22	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 22:58:22	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 22:58:23	103.40.162.86:640	'2': request 34 total users
+1	2015.08.19 22:58:23	103.40.162.86:640	'2': request 0 total users by logins (OK/None)
+0	2015.08.19 22:58:23	103.40.162.86:640	'2': request 1 total users by logins
+0	2015.08.19 22:58:23	103.40.162.86:640	'2': request chart 'EURUSD' (290 bars)
+0	2015.08.19 22:58:24	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 22:58:24	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 22:58:24	103.40.162.86:640	'2': disconnect
+0	2015.08.19 22:58:24		Remove: manager 509798
+0	2015.08.19 22:58:24	103.40.162.86:640	'2': disconnect
+0	2015.08.19 22:58:24		Remove: manager 4D8658
+0	2015.08.19 23:03:23		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 23:03:34	103.40.162.86:640	Connect
+0	2015.08.19 23:03:35	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 23:03:35	103.40.162.86:640	Connect
+0	2015.08.19 23:03:35	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 23:03:35	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 23:03:35	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 23:03:35	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 23:03:36	103.40.162.86:640	'2': pumping mode started
+3	2015.08.19 23:03:43	103.40.162.86:640	'2': request chart (Invalid parameters)
+0	2015.08.19 23:04:15	103.40.162.86:640	'2': request chart 'EURUSD' (10574 bars)
+0	2015.08.19 23:10:21	103.40.162.86:640	'2': request chart 'EURUSD' (10574 bars)
+0	2015.08.19 23:11:24		Unload: manager 5897B0 not released
+0	2015.08.19 23:11:24	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 23:11:24	103.40.162.86:640	'2': disconnect
+0	2015.08.19 23:11:24		Remove: manager 5897B0
+0	2015.08.19 23:11:24		Unload: manager 558670 not released
+0	2015.08.19 23:11:24	103.40.162.86:640	'2': disconnect
+0	2015.08.19 23:11:24		Remove: manager 558670
+0	2015.08.19 23:11:36		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 23:11:47	103.40.162.86:640	Connect
+0	2015.08.19 23:11:47	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 23:11:47	103.40.162.86:640	Connect
+0	2015.08.19 23:11:48	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 23:11:48	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 23:11:48	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 23:11:48	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 23:11:48	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 23:11:53	103.40.162.86:640	'2': request chart 'EURUSD' (10574 bars)
+0	2015.08.19 23:16:45		Unload: manager 9397B0 not released
+0	2015.08.19 23:16:45	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 23:16:45	103.40.162.86:640	'2': disconnect
+0	2015.08.19 23:16:45		Remove: manager 9397B0
+0	2015.08.19 23:16:45		Unload: manager 908670 not released
+0	2015.08.19 23:16:45	103.40.162.86:640	'2': disconnect
+0	2015.08.19 23:16:45		Remove: manager 908670
+0	2015.08.19 23:17:05		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 23:17:22	103.40.162.86:640	Connect
+0	2015.08.19 23:17:22	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 23:17:22	103.40.162.86:640	Connect
+0	2015.08.19 23:17:23	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 23:17:23	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 23:17:23	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 23:17:23	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 23:17:23	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 23:17:27	103.40.162.86:640	'2': request chart 'EURUSD' (26 bars)
+2	2015.08.19 23:19:06	103.40.162.86:640	'2': pumping timeout: 12 seconds (Common error)
+0	2015.08.19 23:19:06	103.40.162.86:640	'2': pumping mode stopped
+0	2015.08.19 23:19:41	103.40.162.86:640	'2': request chart 'EURUSD' (98 bars)
+0	2015.08.19 23:19:51	103.40.162.86:640	'2': request chart 'EURUSD' (1972 bars)
+0	2015.08.19 23:20:23	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 23:20:23	103.40.162.86:640	'2': disconnect
+0	2015.08.19 23:20:23	103.40.162.86:640	Connect
+0	2015.08.19 23:20:23	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 23:20:23	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 23:20:23	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 23:20:24	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 23:21:24	103.40.162.86:640	'2': request chart 'EURUSD' (1416 bars)
+0	2015.08.19 23:21:35	103.40.162.86:640	'2': request chart 'EURUSD' (1055 bars)
+0	2015.08.19 23:21:40	103.40.162.86:640	'2': request chart 'EURUSD' (164 bars)
+0	2015.08.19 23:22:13	103.40.162.86:640	'2': request chart 'EURUSD' (1321 bars)
+0	2015.08.19 23:22:18	103.40.162.86:640	'2': request chart 'EURUSD' (1457 bars)
+0	2015.08.19 23:22:23	103.40.162.86:640	'2': request chart 'EURUSD' (1766 bars)
+0	2015.08.19 23:22:29	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.19 23:22:34	103.40.162.86:640	'2': request chart 'EURUSD' (159 bars)
+0	2015.08.19 23:24:55	103.40.162.86:640	'2': request chart 'EURUSD' (1321 bars)
+0	2015.08.19 23:25:04	103.40.162.86:640	'2': request chart 'EURUSD' (1457 bars)
+0	2015.08.19 23:25:15	103.40.162.86:640	'2': request chart 'EURUSD' (1766 bars)
+0	2015.08.19 23:25:20	103.40.162.86:640	'2': request chart 'EURUSD' (1972 bars)
+0	2015.08.19 23:25:25	103.40.162.86:640	'2': request chart 'EURUSD' (1416 bars)
+0	2015.08.19 23:25:31	103.40.162.86:640	'2': request chart 'EURUSD' (1055 bars)
+0	2015.08.19 23:25:52	103.40.162.86:640	'2': request chart 'EURUSD' (164 bars)
+0	2015.08.19 23:26:31		Unload: manager 3097B0 not released
+0	2015.08.19 23:26:31	103.40.162.86:640	'2': disconnect pumping
+0	2015.08.19 23:26:31	103.40.162.86:640	'2': disconnect
+0	2015.08.19 23:26:31		Remove: manager 3097B0
+0	2015.08.19 23:26:31		Unload: manager 2D8670 not released
+0	2015.08.19 23:26:31	103.40.162.86:640	'2': disconnect
+0	2015.08.19 23:26:31		Remove: manager 2D8670
+0	2015.08.19 23:26:42		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.19 23:27:11	103.40.162.86:640	Connect
+0	2015.08.19 23:27:11	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 23:27:11	103.40.162.86:640	Connect
+0	2015.08.19 23:27:12	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 23:27:12	103.40.162.86:640	'2': pumping switch
+0	2015.08.19 23:27:12	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 23:27:12	103.40.162.86:640	'2': refresh symbols
+0	2015.08.19 23:27:12	103.40.162.86:640	'2': pumping mode started
+0	2015.08.19 23:27:15	103.40.162.86:640	'2': request chart 'EURUSD' (1223 bars)
+0	2015.08.19 23:42:12	103.40.162.86:640	Connect
+0	2015.08.19 23:42:12	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 23:42:12	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.19 23:57:12	103.40.162.86:640	Connect
+0	2015.08.19 23:57:12	103.40.162.86:640	'2': login (5.09)
+0	2015.08.19 23:57:12	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.20 00:15:12	103.40.162.86:640	Connect
+0	2015.08.20 00:15:12	103.40.162.86:640	'2': login (5.09)
+0	2015.08.20 00:15:13	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.20 00:33:12	103.40.162.86:640	Connect
+0	2015.08.20 00:33:12	103.40.162.86:640	'2': login (5.09)
+0	2015.08.20 00:33:13	103.40.162.86:640	'2': request Symbols configutation
+2	2015.08.20 00:42:09	103.40.162.86:640	'2': pumping timeout: 12 seconds (Common error)
+0	2015.08.20 00:42:09	103.40.162.86:640	'2': pumping mode stopped

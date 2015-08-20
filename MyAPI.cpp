@@ -2,6 +2,7 @@
 #include "MyAPI.h"
 
 
+
 API::API(){
 
 }
@@ -25,17 +26,29 @@ int API::login(string server,string login,string password)
 	}
 	 cout << "Connect to" << server.c_str() << " as "  << login.c_str() << " success " << endl;
 
-/*	 if(!_manager_pump.IsValid()) return(-1);
-
-	if((ret=_manager_pump->Connect(server.c_str()))!=RET_OK || 
+		if((ret=_manager_pump->Connect(server.c_str()))!=RET_OK || 
 		(ret=_manager_pump->Login(atoi(login.c_str()),password.c_str()))!=RET_OK)
 	{
-		printf("Pump Connect to '%s' as '%s' failed ('%s')\n",server,login,_manager_pump->ErrorDescription(ret));
+		cout << "Connect to" << server.c_str() << " as "  << login.c_str() << " failed! Reason:"<< _manager_pump->ErrorDescription(ret)<< endl ;
 		return(-1);
 	}
-	 printf("Pump Connect to '%s' as '%s' successfull\n",server,login);
-	 ret=_manager_pump->PumpingSwitch(pumpingFunc,NULL,0,0);
-*/
+	 cout << "Connect to" << server.c_str() << " as "  << login.c_str() << " success " << endl;
+
+	    if((ret=_manager_pump.switchToPump())!=RET_OK)
+     {
+      printf("Ex pumping switch failed (%s)\n",_manager_pump->ErrorDescription(ret));
+      return(-1);
+     }
+	printf("Ex pumping switch successfull\n");
+
+
+
+	int toSym = 0;
+   ConSymbol * conSym=_manager->CfgRequestSymbol(&toSym) ;
+   for(int i=0;i<toSym;i++){
+	   cout << "loading symbol \t" << conSym[i].symbol << endl;
+	   _manager._symbolsInfo.insert(pair<string,ConSymbol>(conSym[i].symbol,conSym[i]));
+   }
 
 	 return ret ;
 }
@@ -166,12 +179,17 @@ vector<TradeRecord> API::getOngoingTradesByLogin(int login){
 
 	vector<TradeRecord> ret_vec ; 
 	int total = 0;
-	TradeRecord * r =_manager->TradesRequest(&total);
+	vector<UserRecord> ru=this->getUserRecordByLogin(login) ;
+	if(ru.size() == 0)
+		return ret_vec;
+	string group=ru.at(0).group ;
+	TradeRecord * r =_manager_pump->TradesGetByLogin(login,group.c_str(),&total);
 	for(int i=0;i<total;i++){
 		if(r[i].login == login)
 			ret_vec.push_back(r[i]) ;
 	}
 	_manager->MemFree(r) ;
+
 	return ret_vec ;
 	
 
@@ -222,13 +240,29 @@ int API::changePassword(int login,string master_password,string new_password,PAS
 
 
 
-vector<RateInfo> API::getHistoryChartData(ChartInfo &ci){
+vector<RateInfo> API::getHistoryChartData(ChartInfo &ci,int &digit){
 	vector<RateInfo> ret_vec ; 
 	__time32_t t ;
 	int total = 0;
-	RateInfo * r =_manager->ChartRequest(&ci,&t,&total);
-	for(int i=0;i<total;i++){
+	
+	
+	RateInfo * r=NULL ;
+	try{
+		r=_manager->ChartRequest(&ci,&t,&total);
+	}catch(exception &e){
+		cout << e.what() << endl ;
+	}
+	int digits = this->symbolDetail(ci.symbol).digits ;
+	digit=digits;
+	
+	for(int i=total-1;i>=0;i--){
+		r[i].close = r[i].open + r[i].close ;
+		r[i].high = r[i].open + r[i].high ;
+		r[i].low = r[i].open + r[i].low ;
+		r[i].open = r[i].open  ;
+		//cout << "DEBUG: API::getHistoryChartData  time:" <<r[i].ctm << endl ;
 		ret_vec.push_back(r[i]) ;
+		
 	}
 	_manager->MemFree(r) ;
 	return ret_vec ;
@@ -236,8 +270,23 @@ vector<RateInfo> API::getHistoryChartData(ChartInfo &ci){
 
 
 ConSymbol API::symbolDetail(string symbol){
-	
-	ConSymbol ret ;
-	_manager->SymbolGet(symbol.c_str(),&ret);
+	ConSymbol ret={} ;
+	map<string,ConSymbol>::iterator  m_iter =_manager._symbolsInfo.find(symbol) ;
+	if(m_iter==_manager._symbolsInfo.end())
+		return ret ;
+	ret=m_iter->second ;
+	//_manager->SymbolGet(symbol.c_str(),&ret);
    return ret ;
+}
+
+
+vector<ConGroup> API::allGroups(){
+	int num=0;
+	vector<ConGroup> ret_vec ;
+	ConGroup * ret =_manager->CfgRequestGroup(&num) ;
+	for(int i=0;i<num;i++){
+		ret_vec.push_back(ret[i]) ;
+	}
+	_manager->MemFree(ret) ;
+	return ret_vec ;
 }

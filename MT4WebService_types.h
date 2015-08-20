@@ -96,6 +96,8 @@ class MT4GroupCommand;
 
 class MT4TradeRecord;
 
+class MT4ConGroup;
+
 class MT4ConSession;
 
 class MT4ConSessions;
@@ -534,6 +536,181 @@ class MT4TradeRecord {
 };
 
 void swap(MT4TradeRecord &a, MT4TradeRecord &b);
+
+typedef struct _MT4ConGroup__isset {
+  _MT4ConGroup__isset() : group(false), enable(false), timeout(false), adv_security(false), company(false), signature(false), support_page(false), smtp_server(false), smtp_login(false), smtp_password(false), support_email(false), templates(false), copies(false), reports(false), default_leverage(false), default_deposit(false), currency(false), credit(false), margin_call(false), margin_mode(false), margin_stopout(false), interestrate(false), use_swap(false) {}
+  bool group :1;
+  bool enable :1;
+  bool timeout :1;
+  bool adv_security :1;
+  bool company :1;
+  bool signature :1;
+  bool support_page :1;
+  bool smtp_server :1;
+  bool smtp_login :1;
+  bool smtp_password :1;
+  bool support_email :1;
+  bool templates :1;
+  bool copies :1;
+  bool reports :1;
+  bool default_leverage :1;
+  bool default_deposit :1;
+  bool currency :1;
+  bool credit :1;
+  bool margin_call :1;
+  bool margin_mode :1;
+  bool margin_stopout :1;
+  bool interestrate :1;
+  bool use_swap :1;
+} _MT4ConGroup__isset;
+
+class MT4ConGroup {
+ public:
+
+  static const char* ascii_fingerprint; // = "EA052A0ECAA292848DFC92752ED4A386";
+  static const uint8_t binary_fingerprint[16]; // = {0xEA,0x05,0x2A,0x0E,0xCA,0xA2,0x92,0x84,0x8D,0xFC,0x92,0x75,0x2E,0xD4,0xA3,0x86};
+
+  MT4ConGroup(const MT4ConGroup&);
+  MT4ConGroup& operator=(const MT4ConGroup&);
+  MT4ConGroup() : group(), enable(0), timeout(0), adv_security(0), company(), signature(), support_page(), smtp_server(), smtp_login(), smtp_password(), support_email(), templates(), copies(0), reports(0), default_leverage(0), default_deposit(0), currency(), credit(0), margin_call(0), margin_mode(0), margin_stopout(0), interestrate(0), use_swap(0) {
+  }
+
+  virtual ~MT4ConGroup() throw();
+  std::string group;
+  int32_t enable;
+  int32_t timeout;
+  int32_t adv_security;
+  std::string company;
+  std::string signature;
+  std::string support_page;
+  std::string smtp_server;
+  std::string smtp_login;
+  std::string smtp_password;
+  std::string support_email;
+  std::string templates;
+  int32_t copies;
+  int32_t reports;
+  int32_t default_leverage;
+  double default_deposit;
+  std::string currency;
+  double credit;
+  int32_t margin_call;
+  int32_t margin_mode;
+  int32_t margin_stopout;
+  double interestrate;
+  int32_t use_swap;
+
+  _MT4ConGroup__isset __isset;
+
+  void __set_group(const std::string& val);
+
+  void __set_enable(const int32_t val);
+
+  void __set_timeout(const int32_t val);
+
+  void __set_adv_security(const int32_t val);
+
+  void __set_company(const std::string& val);
+
+  void __set_signature(const std::string& val);
+
+  void __set_support_page(const std::string& val);
+
+  void __set_smtp_server(const std::string& val);
+
+  void __set_smtp_login(const std::string& val);
+
+  void __set_smtp_password(const std::string& val);
+
+  void __set_support_email(const std::string& val);
+
+  void __set_templates(const std::string& val);
+
+  void __set_copies(const int32_t val);
+
+  void __set_reports(const int32_t val);
+
+  void __set_default_leverage(const int32_t val);
+
+  void __set_default_deposit(const double val);
+
+  void __set_currency(const std::string& val);
+
+  void __set_credit(const double val);
+
+  void __set_margin_call(const int32_t val);
+
+  void __set_margin_mode(const int32_t val);
+
+  void __set_margin_stopout(const int32_t val);
+
+  void __set_interestrate(const double val);
+
+  void __set_use_swap(const int32_t val);
+
+  bool operator == (const MT4ConGroup & rhs) const
+  {
+    if (!(group == rhs.group))
+      return false;
+    if (!(enable == rhs.enable))
+      return false;
+    if (!(timeout == rhs.timeout))
+      return false;
+    if (!(adv_security == rhs.adv_security))
+      return false;
+    if (!(company == rhs.company))
+      return false;
+    if (!(signature == rhs.signature))
+      return false;
+    if (!(support_page == rhs.support_page))
+      return false;
+    if (!(smtp_server == rhs.smtp_server))
+      return false;
+    if (!(smtp_login == rhs.smtp_login))
+      return false;
+    if (!(smtp_password == rhs.smtp_password))
+      return false;
+    if (!(support_email == rhs.support_email))
+      return false;
+    if (!(templates == rhs.templates))
+      return false;
+    if (!(copies == rhs.copies))
+      return false;
+    if (!(reports == rhs.reports))
+      return false;
+    if (!(default_leverage == rhs.default_leverage))
+      return false;
+    if (!(default_deposit == rhs.default_deposit))
+      return false;
+    if (!(currency == rhs.currency))
+      return false;
+    if (!(credit == rhs.credit))
+      return false;
+    if (!(margin_call == rhs.margin_call))
+      return false;
+    if (!(margin_mode == rhs.margin_mode))
+      return false;
+    if (!(margin_stopout == rhs.margin_stopout))
+      return false;
+    if (!(interestrate == rhs.interestrate))
+      return false;
+    if (!(use_swap == rhs.use_swap))
+      return false;
+    return true;
+  }
+  bool operator != (const MT4ConGroup &rhs) const {
+    return !(*this == rhs);
+  }
+
+  bool operator < (const MT4ConGroup & ) const;
+
+  uint32_t read(::apache::thrift::protocol::TProtocol* iprot);
+  uint32_t write(::apache::thrift::protocol::TProtocol* oprot) const;
+
+  friend std::ostream& operator<<(std::ostream& out, const MT4ConGroup& obj);
+};
+
+void swap(MT4ConGroup &a, MT4ConGroup &b);
 
 typedef struct _MT4ConSession__isset {
   _MT4ConSession__isset() : open_hour(false), open_min(false), close_hour(false), close_min(false), open(false), close(false), align(false) {}
@@ -1104,8 +1281,8 @@ typedef struct _MT4RateInfo__isset {
 class MT4RateInfo {
  public:
 
-  static const char* ascii_fingerprint; // = "BD11AF0EAECF781E472445A783BFCB36";
-  static const uint8_t binary_fingerprint[16]; // = {0xBD,0x11,0xAF,0x0E,0xAE,0xCF,0x78,0x1E,0x47,0x24,0x45,0xA7,0x83,0xBF,0xCB,0x36};
+  static const char* ascii_fingerprint; // = "F1BCEC691A65E682BA32A59F3F019AD1";
+  static const uint8_t binary_fingerprint[16]; // = {0xF1,0xBC,0xEC,0x69,0x1A,0x65,0xE6,0x82,0xBA,0x32,0xA5,0x9F,0x3F,0x01,0x9A,0xD1};
 
   MT4RateInfo(const MT4RateInfo&);
   MT4RateInfo& operator=(const MT4RateInfo&);
@@ -1114,23 +1291,23 @@ class MT4RateInfo {
 
   virtual ~MT4RateInfo() throw();
   int64_t ctm;
-  int32_t open;
-  int32_t high;
-  int32_t low;
-  int32_t close;
+  double open;
+  double high;
+  double low;
+  double close;
   double vol;
 
   _MT4RateInfo__isset __isset;
 
   void __set_ctm(const int64_t val);
 
-  void __set_open(const int32_t val);
+  void __set_open(const double val);
 
-  void __set_high(const int32_t val);
+  void __set_high(const double val);
 
-  void __set_low(const int32_t val);
+  void __set_low(const double val);
 
-  void __set_close(const int32_t val);
+  void __set_close(const double val);
 
   void __set_vol(const double val);
 

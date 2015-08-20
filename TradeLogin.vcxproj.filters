@@ -18,13 +18,13 @@
     <ClCompile Include="MyAPI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MT4WebService_server.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="MT4WebService.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MT4WebService_constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MT4WebService_server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MT4WebService_types.cpp">

@@ -1342,6 +1342,536 @@ std::ostream& operator<<(std::ostream& out, const MT4TradeRecord& obj) {
 }
 
 
+MT4ConGroup::~MT4ConGroup() throw() {
+}
+
+
+void MT4ConGroup::__set_group(const std::string& val) {
+  this->group = val;
+}
+
+void MT4ConGroup::__set_enable(const int32_t val) {
+  this->enable = val;
+}
+
+void MT4ConGroup::__set_timeout(const int32_t val) {
+  this->timeout = val;
+}
+
+void MT4ConGroup::__set_adv_security(const int32_t val) {
+  this->adv_security = val;
+}
+
+void MT4ConGroup::__set_company(const std::string& val) {
+  this->company = val;
+}
+
+void MT4ConGroup::__set_signature(const std::string& val) {
+  this->signature = val;
+}
+
+void MT4ConGroup::__set_support_page(const std::string& val) {
+  this->support_page = val;
+}
+
+void MT4ConGroup::__set_smtp_server(const std::string& val) {
+  this->smtp_server = val;
+}
+
+void MT4ConGroup::__set_smtp_login(const std::string& val) {
+  this->smtp_login = val;
+}
+
+void MT4ConGroup::__set_smtp_password(const std::string& val) {
+  this->smtp_password = val;
+}
+
+void MT4ConGroup::__set_support_email(const std::string& val) {
+  this->support_email = val;
+}
+
+void MT4ConGroup::__set_templates(const std::string& val) {
+  this->templates = val;
+}
+
+void MT4ConGroup::__set_copies(const int32_t val) {
+  this->copies = val;
+}
+
+void MT4ConGroup::__set_reports(const int32_t val) {
+  this->reports = val;
+}
+
+void MT4ConGroup::__set_default_leverage(const int32_t val) {
+  this->default_leverage = val;
+}
+
+void MT4ConGroup::__set_default_deposit(const double val) {
+  this->default_deposit = val;
+}
+
+void MT4ConGroup::__set_currency(const std::string& val) {
+  this->currency = val;
+}
+
+void MT4ConGroup::__set_credit(const double val) {
+  this->credit = val;
+}
+
+void MT4ConGroup::__set_margin_call(const int32_t val) {
+  this->margin_call = val;
+}
+
+void MT4ConGroup::__set_margin_mode(const int32_t val) {
+  this->margin_mode = val;
+}
+
+void MT4ConGroup::__set_margin_stopout(const int32_t val) {
+  this->margin_stopout = val;
+}
+
+void MT4ConGroup::__set_interestrate(const double val) {
+  this->interestrate = val;
+}
+
+void MT4ConGroup::__set_use_swap(const int32_t val) {
+  this->use_swap = val;
+}
+
+const char* MT4ConGroup::ascii_fingerprint = "EA052A0ECAA292848DFC92752ED4A386";
+const uint8_t MT4ConGroup::binary_fingerprint[16] = {0xEA,0x05,0x2A,0x0E,0xCA,0xA2,0x92,0x84,0x8D,0xFC,0x92,0x75,0x2E,0xD4,0xA3,0x86};
+
+uint32_t MT4ConGroup::read(::apache::thrift::protocol::TProtocol* iprot) {
+
+  uint32_t xfer = 0;
+  std::string fname;
+  ::apache::thrift::protocol::TType ftype;
+  int16_t fid;
+
+  xfer += iprot->readStructBegin(fname);
+
+  using ::apache::thrift::protocol::TProtocolException;
+
+
+  while (true)
+  {
+    xfer += iprot->readFieldBegin(fname, ftype, fid);
+    if (ftype == ::apache::thrift::protocol::T_STOP) {
+      break;
+    }
+    switch (fid)
+    {
+      case 1:
+        if (ftype == ::apache::thrift::protocol::T_STRING) {
+          xfer += iprot->readString(this->group);
+          this->__isset.group = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 2:
+        if (ftype == ::apache::thrift::protocol::T_I32) {
+          xfer += iprot->readI32(this->enable);
+          this->__isset.enable = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 3:
+        if (ftype == ::apache::thrift::protocol::T_I32) {
+          xfer += iprot->readI32(this->timeout);
+          this->__isset.timeout = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 4:
+        if (ftype == ::apache::thrift::protocol::T_I32) {
+          xfer += iprot->readI32(this->adv_security);
+          this->__isset.adv_security = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 5:
+        if (ftype == ::apache::thrift::protocol::T_STRING) {
+          xfer += iprot->readString(this->company);
+          this->__isset.company = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 6:
+        if (ftype == ::apache::thrift::protocol::T_STRING) {
+          xfer += iprot->readString(this->signature);
+          this->__isset.signature = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 7:
+        if (ftype == ::apache::thrift::protocol::T_STRING) {
+          xfer += iprot->readString(this->support_page);
+          this->__isset.support_page = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 8:
+        if (ftype == ::apache::thrift::protocol::T_STRING) {
+          xfer += iprot->readString(this->smtp_server);
+          this->__isset.smtp_server = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 9:
+        if (ftype == ::apache::thrift::protocol::T_STRING) {
+          xfer += iprot->readString(this->smtp_login);
+          this->__isset.smtp_login = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 10:
+        if (ftype == ::apache::thrift::protocol::T_STRING) {
+          xfer += iprot->readString(this->smtp_password);
+          this->__isset.smtp_password = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 11:
+        if (ftype == ::apache::thrift::protocol::T_STRING) {
+          xfer += iprot->readString(this->support_email);
+          this->__isset.support_email = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 12:
+        if (ftype == ::apache::thrift::protocol::T_STRING) {
+          xfer += iprot->readString(this->templates);
+          this->__isset.templates = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 13:
+        if (ftype == ::apache::thrift::protocol::T_I32) {
+          xfer += iprot->readI32(this->copies);
+          this->__isset.copies = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 14:
+        if (ftype == ::apache::thrift::protocol::T_I32) {
+          xfer += iprot->readI32(this->reports);
+          this->__isset.reports = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 15:
+        if (ftype == ::apache::thrift::protocol::T_I32) {
+          xfer += iprot->readI32(this->default_leverage);
+          this->__isset.default_leverage = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 16:
+        if (ftype == ::apache::thrift::protocol::T_DOUBLE) {
+          xfer += iprot->readDouble(this->default_deposit);
+          this->__isset.default_deposit = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 17:
+        if (ftype == ::apache::thrift::protocol::T_STRING) {
+          xfer += iprot->readString(this->currency);
+          this->__isset.currency = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 18:
+        if (ftype == ::apache::thrift::protocol::T_DOUBLE) {
+          xfer += iprot->readDouble(this->credit);
+          this->__isset.credit = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 19:
+        if (ftype == ::apache::thrift::protocol::T_I32) {
+          xfer += iprot->readI32(this->margin_call);
+          this->__isset.margin_call = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 20:
+        if (ftype == ::apache::thrift::protocol::T_I32) {
+          xfer += iprot->readI32(this->margin_mode);
+          this->__isset.margin_mode = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 21:
+        if (ftype == ::apache::thrift::protocol::T_I32) {
+          xfer += iprot->readI32(this->margin_stopout);
+          this->__isset.margin_stopout = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 22:
+        if (ftype == ::apache::thrift::protocol::T_DOUBLE) {
+          xfer += iprot->readDouble(this->interestrate);
+          this->__isset.interestrate = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      case 23:
+        if (ftype == ::apache::thrift::protocol::T_I32) {
+          xfer += iprot->readI32(this->use_swap);
+          this->__isset.use_swap = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      default:
+        xfer += iprot->skip(ftype);
+        break;
+    }
+    xfer += iprot->readFieldEnd();
+  }
+
+  xfer += iprot->readStructEnd();
+
+  return xfer;
+}
+
+uint32_t MT4ConGroup::write(::apache::thrift::protocol::TProtocol* oprot) const {
+  uint32_t xfer = 0;
+  oprot->incrementRecursionDepth();
+  xfer += oprot->writeStructBegin("MT4ConGroup");
+
+  xfer += oprot->writeFieldBegin("group", ::apache::thrift::protocol::T_STRING, 1);
+  xfer += oprot->writeString(this->group);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("enable", ::apache::thrift::protocol::T_I32, 2);
+  xfer += oprot->writeI32(this->enable);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("timeout", ::apache::thrift::protocol::T_I32, 3);
+  xfer += oprot->writeI32(this->timeout);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("adv_security", ::apache::thrift::protocol::T_I32, 4);
+  xfer += oprot->writeI32(this->adv_security);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("company", ::apache::thrift::protocol::T_STRING, 5);
+  xfer += oprot->writeString(this->company);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("signature", ::apache::thrift::protocol::T_STRING, 6);
+  xfer += oprot->writeString(this->signature);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("support_page", ::apache::thrift::protocol::T_STRING, 7);
+  xfer += oprot->writeString(this->support_page);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("smtp_server", ::apache::thrift::protocol::T_STRING, 8);
+  xfer += oprot->writeString(this->smtp_server);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("smtp_login", ::apache::thrift::protocol::T_STRING, 9);
+  xfer += oprot->writeString(this->smtp_login);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("smtp_password", ::apache::thrift::protocol::T_STRING, 10);
+  xfer += oprot->writeString(this->smtp_password);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("support_email", ::apache::thrift::protocol::T_STRING, 11);
+  xfer += oprot->writeString(this->support_email);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("templates", ::apache::thrift::protocol::T_STRING, 12);
+  xfer += oprot->writeString(this->templates);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("copies", ::apache::thrift::protocol::T_I32, 13);
+  xfer += oprot->writeI32(this->copies);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("reports", ::apache::thrift::protocol::T_I32, 14);
+  xfer += oprot->writeI32(this->reports);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("default_leverage", ::apache::thrift::protocol::T_I32, 15);
+  xfer += oprot->writeI32(this->default_leverage);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("default_deposit", ::apache::thrift::protocol::T_DOUBLE, 16);
+  xfer += oprot->writeDouble(this->default_deposit);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("currency", ::apache::thrift::protocol::T_STRING, 17);
+  xfer += oprot->writeString(this->currency);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("credit", ::apache::thrift::protocol::T_DOUBLE, 18);
+  xfer += oprot->writeDouble(this->credit);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("margin_call", ::apache::thrift::protocol::T_I32, 19);
+  xfer += oprot->writeI32(this->margin_call);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("margin_mode", ::apache::thrift::protocol::T_I32, 20);
+  xfer += oprot->writeI32(this->margin_mode);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("margin_stopout", ::apache::thrift::protocol::T_I32, 21);
+  xfer += oprot->writeI32(this->margin_stopout);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("interestrate", ::apache::thrift::protocol::T_DOUBLE, 22);
+  xfer += oprot->writeDouble(this->interestrate);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldBegin("use_swap", ::apache::thrift::protocol::T_I32, 23);
+  xfer += oprot->writeI32(this->use_swap);
+  xfer += oprot->writeFieldEnd();
+
+  xfer += oprot->writeFieldStop();
+  xfer += oprot->writeStructEnd();
+  oprot->decrementRecursionDepth();
+  return xfer;
+}
+
+void swap(MT4ConGroup &a, MT4ConGroup &b) {
+  using ::std::swap;
+  swap(a.group, b.group);
+  swap(a.enable, b.enable);
+  swap(a.timeout, b.timeout);
+  swap(a.adv_security, b.adv_security);
+  swap(a.company, b.company);
+  swap(a.signature, b.signature);
+  swap(a.support_page, b.support_page);
+  swap(a.smtp_server, b.smtp_server);
+  swap(a.smtp_login, b.smtp_login);
+  swap(a.smtp_password, b.smtp_password);
+  swap(a.support_email, b.support_email);
+  swap(a.templates, b.templates);
+  swap(a.copies, b.copies);
+  swap(a.reports, b.reports);
+  swap(a.default_leverage, b.default_leverage);
+  swap(a.default_deposit, b.default_deposit);
+  swap(a.currency, b.currency);
+  swap(a.credit, b.credit);
+  swap(a.margin_call, b.margin_call);
+  swap(a.margin_mode, b.margin_mode);
+  swap(a.margin_stopout, b.margin_stopout);
+  swap(a.interestrate, b.interestrate);
+  swap(a.use_swap, b.use_swap);
+  swap(a.__isset, b.__isset);
+}
+
+MT4ConGroup::MT4ConGroup(const MT4ConGroup& other14) {
+  group = other14.group;
+  enable = other14.enable;
+  timeout = other14.timeout;
+  adv_security = other14.adv_security;
+  company = other14.company;
+  signature = other14.signature;
+  support_page = other14.support_page;
+  smtp_server = other14.smtp_server;
+  smtp_login = other14.smtp_login;
+  smtp_password = other14.smtp_password;
+  support_email = other14.support_email;
+  templates = other14.templates;
+  copies = other14.copies;
+  reports = other14.reports;
+  default_leverage = other14.default_leverage;
+  default_deposit = other14.default_deposit;
+  currency = other14.currency;
+  credit = other14.credit;
+  margin_call = other14.margin_call;
+  margin_mode = other14.margin_mode;
+  margin_stopout = other14.margin_stopout;
+  interestrate = other14.interestrate;
+  use_swap = other14.use_swap;
+  __isset = other14.__isset;
+}
+MT4ConGroup& MT4ConGroup::operator=(const MT4ConGroup& other15) {
+  group = other15.group;
+  enable = other15.enable;
+  timeout = other15.timeout;
+  adv_security = other15.adv_security;
+  company = other15.company;
+  signature = other15.signature;
+  support_page = other15.support_page;
+  smtp_server = other15.smtp_server;
+  smtp_login = other15.smtp_login;
+  smtp_password = other15.smtp_password;
+  support_email = other15.support_email;
+  templates = other15.templates;
+  copies = other15.copies;
+  reports = other15.reports;
+  default_leverage = other15.default_leverage;
+  default_deposit = other15.default_deposit;
+  currency = other15.currency;
+  credit = other15.credit;
+  margin_call = other15.margin_call;
+  margin_mode = other15.margin_mode;
+  margin_stopout = other15.margin_stopout;
+  interestrate = other15.interestrate;
+  use_swap = other15.use_swap;
+  __isset = other15.__isset;
+  return *this;
+}
+std::ostream& operator<<(std::ostream& out, const MT4ConGroup& obj) {
+  using apache::thrift::to_string;
+  out << "MT4ConGroup(";
+  out << "group=" << to_string(obj.group);
+  out << ", " << "enable=" << to_string(obj.enable);
+  out << ", " << "timeout=" << to_string(obj.timeout);
+  out << ", " << "adv_security=" << to_string(obj.adv_security);
+  out << ", " << "company=" << to_string(obj.company);
+  out << ", " << "signature=" << to_string(obj.signature);
+  out << ", " << "support_page=" << to_string(obj.support_page);
+  out << ", " << "smtp_server=" << to_string(obj.smtp_server);
+  out << ", " << "smtp_login=" << to_string(obj.smtp_login);
+  out << ", " << "smtp_password=" << to_string(obj.smtp_password);
+  out << ", " << "support_email=" << to_string(obj.support_email);
+  out << ", " << "templates=" << to_string(obj.templates);
+  out << ", " << "copies=" << to_string(obj.copies);
+  out << ", " << "reports=" << to_string(obj.reports);
+  out << ", " << "default_leverage=" << to_string(obj.default_leverage);
+  out << ", " << "default_deposit=" << to_string(obj.default_deposit);
+  out << ", " << "currency=" << to_string(obj.currency);
+  out << ", " << "credit=" << to_string(obj.credit);
+  out << ", " << "margin_call=" << to_string(obj.margin_call);
+  out << ", " << "margin_mode=" << to_string(obj.margin_mode);
+  out << ", " << "margin_stopout=" << to_string(obj.margin_stopout);
+  out << ", " << "interestrate=" << to_string(obj.interestrate);
+  out << ", " << "use_swap=" << to_string(obj.use_swap);
+  out << ")";
+  return out;
+}
+
+
 MT4ConSession::~MT4ConSession() throw() {
 }
 
@@ -1449,14 +1979,14 @@ uint32_t MT4ConSession::read(::apache::thrift::protocol::TProtocol* iprot) {
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             this->align.clear();
-            uint32_t _size14;
-            ::apache::thrift::protocol::TType _etype17;
-            xfer += iprot->readListBegin(_etype17, _size14);
-            this->align.resize(_size14);
-            uint32_t _i18;
-            for (_i18 = 0; _i18 < _size14; ++_i18)
+            uint32_t _size16;
+            ::apache::thrift::protocol::TType _etype19;
+            xfer += iprot->readListBegin(_etype19, _size16);
+            this->align.resize(_size16);
+            uint32_t _i20;
+            for (_i20 = 0; _i20 < _size16; ++_i20)
             {
-              xfer += iprot->readI16(this->align[_i18]);
+              xfer += iprot->readI16(this->align[_i20]);
             }
             xfer += iprot->readListEnd();
           }
@@ -1509,10 +2039,10 @@ uint32_t MT4ConSession::write(::apache::thrift::protocol::TProtocol* oprot) cons
   xfer += oprot->writeFieldBegin("align", ::apache::thrift::protocol::T_LIST, 7);
   {
     xfer += oprot->writeListBegin(::apache::thrift::protocol::T_I16, static_cast<uint32_t>(this->align.size()));
-    std::vector<int16_t> ::const_iterator _iter19;
-    for (_iter19 = this->align.begin(); _iter19 != this->align.end(); ++_iter19)
+    std::vector<int16_t> ::const_iterator _iter21;
+    for (_iter21 = this->align.begin(); _iter21 != this->align.end(); ++_iter21)
     {
-      xfer += oprot->writeI16((*_iter19));
+      xfer += oprot->writeI16((*_iter21));
     }
     xfer += oprot->writeListEnd();
   }
@@ -1536,25 +2066,25 @@ void swap(MT4ConSession &a, MT4ConSession &b) {
   swap(a.__isset, b.__isset);
 }
 
-MT4ConSession::MT4ConSession(const MT4ConSession& other20) {
-  open_hour = other20.open_hour;
-  open_min = other20.open_min;
-  close_hour = other20.close_hour;
-  close_min = other20.close_min;
-  open = other20.open;
-  close = other20.close;
-  align = other20.align;
-  __isset = other20.__isset;
+MT4ConSession::MT4ConSession(const MT4ConSession& other22) {
+  open_hour = other22.open_hour;
+  open_min = other22.open_min;
+  close_hour = other22.close_hour;
+  close_min = other22.close_min;
+  open = other22.open;
+  close = other22.close;
+  align = other22.align;
+  __isset = other22.__isset;
 }
-MT4ConSession& MT4ConSession::operator=(const MT4ConSession& other21) {
-  open_hour = other21.open_hour;
-  open_min = other21.open_min;
-  close_hour = other21.close_hour;
-  close_min = other21.close_min;
-  open = other21.open;
-  close = other21.close;
-  align = other21.align;
-  __isset = other21.__isset;
+MT4ConSession& MT4ConSession::operator=(const MT4ConSession& other23) {
+  open_hour = other23.open_hour;
+  open_min = other23.open_min;
+  close_hour = other23.close_hour;
+  close_min = other23.close_min;
+  open = other23.open;
+  close = other23.close;
+  align = other23.align;
+  __isset = other23.__isset;
   return *this;
 }
 std::ostream& operator<<(std::ostream& out, const MT4ConSession& obj) {
@@ -1619,14 +2149,14 @@ uint32_t MT4ConSessions::read(::apache::thrift::protocol::TProtocol* iprot) {
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             this->quote.clear();
-            uint32_t _size22;
-            ::apache::thrift::protocol::TType _etype25;
-            xfer += iprot->readListBegin(_etype25, _size22);
-            this->quote.resize(_size22);
-            uint32_t _i26;
-            for (_i26 = 0; _i26 < _size22; ++_i26)
+            uint32_t _size24;
+            ::apache::thrift::protocol::TType _etype27;
+            xfer += iprot->readListBegin(_etype27, _size24);
+            this->quote.resize(_size24);
+            uint32_t _i28;
+            for (_i28 = 0; _i28 < _size24; ++_i28)
             {
-              xfer += this->quote[_i26].read(iprot);
+              xfer += this->quote[_i28].read(iprot);
             }
             xfer += iprot->readListEnd();
           }
@@ -1639,14 +2169,14 @@ uint32_t MT4ConSessions::read(::apache::thrift::protocol::TProtocol* iprot) {
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             this->trade.clear();
-            uint32_t _size27;
-            ::apache::thrift::protocol::TType _etype30;
-            xfer += iprot->readListBegin(_etype30, _size27);
-            this->trade.resize(_size27);
-            uint32_t _i31;
-            for (_i31 = 0; _i31 < _size27; ++_i31)
+            uint32_t _size29;
+            ::apache::thrift::protocol::TType _etype32;
+            xfer += iprot->readListBegin(_etype32, _size29);
+            this->trade.resize(_size29);
+            uint32_t _i33;
+            for (_i33 = 0; _i33 < _size29; ++_i33)
             {
-              xfer += this->trade[_i31].read(iprot);
+              xfer += this->trade[_i33].read(iprot);
             }
             xfer += iprot->readListEnd();
           }
@@ -1691,10 +2221,10 @@ uint32_t MT4ConSessions::write(::apache::thrift::protocol::TProtocol* oprot) con
   xfer += oprot->writeFieldBegin("quote", ::apache::thrift::protocol::T_LIST, 1);
   {
     xfer += oprot->writeListBegin(::apache::thrift::protocol::T_STRUCT, static_cast<uint32_t>(this->quote.size()));
-    std::vector<MT4ConSession> ::const_iterator _iter32;
-    for (_iter32 = this->quote.begin(); _iter32 != this->quote.end(); ++_iter32)
+    std::vector<MT4ConSession> ::const_iterator _iter34;
+    for (_iter34 = this->quote.begin(); _iter34 != this->quote.end(); ++_iter34)
     {
-      xfer += (*_iter32).write(oprot);
+      xfer += (*_iter34).write(oprot);
     }
     xfer += oprot->writeListEnd();
   }
@@ -1703,10 +2233,10 @@ uint32_t MT4ConSessions::write(::apache::thrift::protocol::TProtocol* oprot) con
   xfer += oprot->writeFieldBegin("trade", ::apache::thrift::protocol::T_LIST, 2);
   {
     xfer += oprot->writeListBegin(::apache::thrift::protocol::T_STRUCT, static_cast<uint32_t>(this->trade.size()));
-    std::vector<MT4ConSession> ::const_iterator _iter33;
-    for (_iter33 = this->trade.begin(); _iter33 != this->trade.end(); ++_iter33)
+    std::vector<MT4ConSession> ::const_iterator _iter35;
+    for (_iter35 = this->trade.begin(); _iter35 != this->trade.end(); ++_iter35)
     {
-      xfer += (*_iter33).write(oprot);
+      xfer += (*_iter35).write(oprot);
     }
     xfer += oprot->writeListEnd();
   }
@@ -1735,19 +2265,19 @@ void swap(MT4ConSessions &a, MT4ConSessions &b) {
   swap(a.__isset, b.__isset);
 }
 
-MT4ConSessions::MT4ConSessions(const MT4ConSessions& other34) {
-  quote = other34.quote;
-  trade = other34.trade;
-  quote_overnight = other34.quote_overnight;
-  trade_overnight = other34.trade_overnight;
-  __isset = other34.__isset;
+MT4ConSessions::MT4ConSessions(const MT4ConSessions& other36) {
+  quote = other36.quote;
+  trade = other36.trade;
+  quote_overnight = other36.quote_overnight;
+  trade_overnight = other36.trade_overnight;
+  __isset = other36.__isset;
 }
-MT4ConSessions& MT4ConSessions::operator=(const MT4ConSessions& other35) {
-  quote = other35.quote;
-  trade = other35.trade;
-  quote_overnight = other35.quote_overnight;
-  trade_overnight = other35.trade_overnight;
-  __isset = other35.__isset;
+MT4ConSessions& MT4ConSessions::operator=(const MT4ConSessions& other37) {
+  quote = other37.quote;
+  trade = other37.trade;
+  quote_overnight = other37.quote_overnight;
+  trade_overnight = other37.trade_overnight;
+  __isset = other37.__isset;
   return *this;
 }
 std::ostream& operator<<(std::ostream& out, const MT4ConSessions& obj) {
@@ -2109,14 +2639,14 @@ uint32_t MT4ConSymbol::read(::apache::thrift::protocol::TProtocol* iprot) {
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             this->sessions.clear();
-            uint32_t _size36;
-            ::apache::thrift::protocol::TType _etype39;
-            xfer += iprot->readListBegin(_etype39, _size36);
-            this->sessions.resize(_size36);
-            uint32_t _i40;
-            for (_i40 = 0; _i40 < _size36; ++_i40)
+            uint32_t _size38;
+            ::apache::thrift::protocol::TType _etype41;
+            xfer += iprot->readListBegin(_etype41, _size38);
+            this->sessions.resize(_size38);
+            uint32_t _i42;
+            for (_i42 = 0; _i42 < _size38; ++_i42)
             {
-              xfer += this->sessions[_i40].read(iprot);
+              xfer += this->sessions[_i42].read(iprot);
             }
             xfer += iprot->readListEnd();
           }
@@ -2489,10 +3019,10 @@ uint32_t MT4ConSymbol::write(::apache::thrift::protocol::TProtocol* oprot) const
   xfer += oprot->writeFieldBegin("sessions", ::apache::thrift::protocol::T_LIST, 15);
   {
     xfer += oprot->writeListBegin(::apache::thrift::protocol::T_STRUCT, static_cast<uint32_t>(this->sessions.size()));
-    std::vector<MT4ConSessions> ::const_iterator _iter41;
-    for (_iter41 = this->sessions.begin(); _iter41 != this->sessions.end(); ++_iter41)
+    std::vector<MT4ConSessions> ::const_iterator _iter43;
+    for (_iter43 = this->sessions.begin(); _iter43 != this->sessions.end(); ++_iter43)
     {
-      xfer += (*_iter41).write(oprot);
+      xfer += (*_iter43).write(oprot);
     }
     xfer += oprot->writeListEnd();
   }
@@ -2704,113 +3234,113 @@ void swap(MT4ConSymbol &a, MT4ConSymbol &b) {
   swap(a.__isset, b.__isset);
 }
 
-MT4ConSymbol::MT4ConSymbol(const MT4ConSymbol& other42) {
-  bid_tickvalue = other42.bid_tickvalue;
-  ask_tickvalue = other42.ask_tickvalue;
-  symbol = other42.symbol;
-  description = other42.description;
-  source = other42.source;
-  currency = other42.currency;
-  type = other42.type;
-  digits = other42.digits;
-  trade = other42.trade;
-  count = other42.count;
-  count_original = other42.count_original;
-  realtime = other42.realtime;
-  starting = other42.starting;
-  expiration = other42.expiration;
-  sessions = other42.sessions;
-  profit_mode = other42.profit_mode;
-  profit_reserved = other42.profit_reserved;
-  filter = other42.filter;
-  filter_counter = other42.filter_counter;
-  filter_limit = other42.filter_limit;
-  filter_smoothing = other42.filter_smoothing;
-  filter_reserved = other42.filter_reserved;
-  logging = other42.logging;
-  spread = other42.spread;
-  spread_balance = other42.spread_balance;
-  exemode = other42.exemode;
-  swap_enable = other42.swap_enable;
-  swap_type = other42.swap_type;
-  swap_long = other42.swap_long;
-  swap_short = other42.swap_short;
-  swap_rollover3days = other42.swap_rollover3days;
-  contract_size = other42.contract_size;
-  tick_value = other42.tick_value;
-  tick_size = other42.tick_size;
-  stops_level = other42.stops_level;
-  gtc_pendings = other42.gtc_pendings;
-  margin_mode = other42.margin_mode;
-  margin_initial = other42.margin_initial;
-  margin_maintenance = other42.margin_maintenance;
-  margin_hedged = other42.margin_hedged;
-  margin_divider = other42.margin_divider;
-  point = other42.point;
-  multiply = other42.multiply;
-  long_only = other42.long_only;
-  instant_max_volume = other42.instant_max_volume;
-  margin_currency = other42.margin_currency;
-  freeze_level = other42.freeze_level;
-  margin_hedged_strong = other42.margin_hedged_strong;
-  value_date = other42.value_date;
-  quotes_delay = other42.quotes_delay;
-  swap_openprice = other42.swap_openprice;
-  __isset = other42.__isset;
+MT4ConSymbol::MT4ConSymbol(const MT4ConSymbol& other44) {
+  bid_tickvalue = other44.bid_tickvalue;
+  ask_tickvalue = other44.ask_tickvalue;
+  symbol = other44.symbol;
+  description = other44.description;
+  source = other44.source;
+  currency = other44.currency;
+  type = other44.type;
+  digits = other44.digits;
+  trade = other44.trade;
+  count = other44.count;
+  count_original = other44.count_original;
+  realtime = other44.realtime;
+  starting = other44.starting;
+  expiration = other44.expiration;
+  sessions = other44.sessions;
+  profit_mode = other44.profit_mode;
+  profit_reserved = other44.profit_reserved;
+  filter = other44.filter;
+  filter_counter = other44.filter_counter;
+  filter_limit = other44.filter_limit;
+  filter_smoothing = other44.filter_smoothing;
+  filter_reserved = other44.filter_reserved;
+  logging = other44.logging;
+  spread = other44.spread;
+  spread_balance = other44.spread_balance;
+  exemode = other44.exemode;
+  swap_enable = other44.swap_enable;
+  swap_type = other44.swap_type;
+  swap_long = other44.swap_long;
+  swap_short = other44.swap_short;
+  swap_rollover3days = other44.swap_rollover3days;
+  contract_size = other44.contract_size;
+  tick_value = other44.tick_value;
+  tick_size = other44.tick_size;
+  stops_level = other44.stops_level;
+  gtc_pendings = other44.gtc_pendings;
+  margin_mode = other44.margin_mode;
+  margin_initial = other44.margin_initial;
+  margin_maintenance = other44.margin_maintenance;
+  margin_hedged = other44.margin_hedged;
+  margin_divider = other44.margin_divider;
+  point = other44.point;
+  multiply = other44.multiply;
+  long_only = other44.long_only;
+  instant_max_volume = other44.instant_max_volume;
+  margin_currency = other44.margin_currency;
+  freeze_level = other44.freeze_level;
+  margin_hedged_strong = other44.margin_hedged_strong;
+  value_date = other44.value_date;
+  quotes_delay = other44.quotes_delay;
+  swap_openprice = other44.swap_openprice;
+  __isset = other44.__isset;
 }
-MT4ConSymbol& MT4ConSymbol::operator=(const MT4ConSymbol& other43) {
-  bid_tickvalue = other43.bid_tickvalue;
-  ask_tickvalue = other43.ask_tickvalue;
-  symbol = other43.symbol;
-  description = other43.description;
-  source = other43.source;
-  currency = other43.currency;
-  type = other43.type;
-  digits = other43.digits;
-  trade = other43.trade;
-  count = other43.count;
-  count_original = other43.count_original;
-  realtime = other43.realtime;
-  starting = other43.starting;
-  expiration = other43.expiration;
-  sessions = other43.sessions;
-  profit_mode = other43.profit_mode;
-  profit_reserved = other43.profit_reserved;
-  filter = other43.filter;
-  filter_counter = other43.filter_counter;
-  filter_limit = other43.filter_limit;
-  filter_smoothing = other43.filter_smoothing;
-  filter_reserved = other43.filter_reserved;
-  logging = other43.logging;
-  spread = other43.spread;
-  spread_balance = other43.spread_balance;
-  exemode = other43.exemode;
-  swap_enable = other43.swap_enable;
-  swap_type = other43.swap_type;
-  swap_long = other43.swap_long;
-  swap_short = other43.swap_short;
-  swap_rollover3days = other43.swap_rollover3days;
-  contract_size = other43.contract_size;
-  tick_value = other43.tick_value;
-  tick_size = other43.tick_size;
-  stops_level = other43.stops_level;
-  gtc_pendings = other43.gtc_pendings;
-  margin_mode = other43.margin_mode;
-  margin_initial = other43.margin_initial;
-  margin_maintenance = other43.margin_maintenance;
-  margin_hedged = other43.margin_hedged;
-  margin_divider = other43.margin_divider;
-  point = other43.point;
-  multiply = other43.multiply;
-  long_only = other43.long_only;
-  instant_max_volume = other43.instant_max_volume;
-  margin_currency = other43.margin_currency;
-  freeze_level = other43.freeze_level;
-  margin_hedged_strong = other43.margin_hedged_strong;
-  value_date = other43.value_date;
-  quotes_delay = other43.quotes_delay;
-  swap_openprice = other43.swap_openprice;
-  __isset = other43.__isset;
+MT4ConSymbol& MT4ConSymbol::operator=(const MT4ConSymbol& other45) {
+  bid_tickvalue = other45.bid_tickvalue;
+  ask_tickvalue = other45.ask_tickvalue;
+  symbol = other45.symbol;
+  description = other45.description;
+  source = other45.source;
+  currency = other45.currency;
+  type = other45.type;
+  digits = other45.digits;
+  trade = other45.trade;
+  count = other45.count;
+  count_original = other45.count_original;
+  realtime = other45.realtime;
+  starting = other45.starting;
+  expiration = other45.expiration;
+  sessions = other45.sessions;
+  profit_mode = other45.profit_mode;
+  profit_reserved = other45.profit_reserved;
+  filter = other45.filter;
+  filter_counter = other45.filter_counter;
+  filter_limit = other45.filter_limit;
+  filter_smoothing = other45.filter_smoothing;
+  filter_reserved = other45.filter_reserved;
+  logging = other45.logging;
+  spread = other45.spread;
+  spread_balance = other45.spread_balance;
+  exemode = other45.exemode;
+  swap_enable = other45.swap_enable;
+  swap_type = other45.swap_type;
+  swap_long = other45.swap_long;
+  swap_short = other45.swap_short;
+  swap_rollover3days = other45.swap_rollover3days;
+  contract_size = other45.contract_size;
+  tick_value = other45.tick_value;
+  tick_size = other45.tick_size;
+  stops_level = other45.stops_level;
+  gtc_pendings = other45.gtc_pendings;
+  margin_mode = other45.margin_mode;
+  margin_initial = other45.margin_initial;
+  margin_maintenance = other45.margin_maintenance;
+  margin_hedged = other45.margin_hedged;
+  margin_divider = other45.margin_divider;
+  point = other45.point;
+  multiply = other45.multiply;
+  long_only = other45.long_only;
+  instant_max_volume = other45.instant_max_volume;
+  margin_currency = other45.margin_currency;
+  freeze_level = other45.freeze_level;
+  margin_hedged_strong = other45.margin_hedged_strong;
+  value_date = other45.value_date;
+  quotes_delay = other45.quotes_delay;
+  swap_openprice = other45.swap_openprice;
+  __isset = other45.__isset;
   return *this;
 }
 std::ostream& operator<<(std::ostream& out, const MT4ConSymbol& obj) {
@@ -2933,9 +3463,9 @@ uint32_t MT4ChartInfo::read(::apache::thrift::protocol::TProtocol* iprot) {
         break;
       case 2:
         if (ftype == ::apache::thrift::protocol::T_I32) {
-          int32_t ecast44;
-          xfer += iprot->readI32(ecast44);
-          this->period = (MT4PERIOD_TYPE::type)ecast44;
+          int32_t ecast46;
+          xfer += iprot->readI32(ecast46);
+          this->period = (MT4PERIOD_TYPE::type)ecast46;
           this->__isset.period = true;
         } else {
           xfer += iprot->skip(ftype);
@@ -2967,9 +3497,9 @@ uint32_t MT4ChartInfo::read(::apache::thrift::protocol::TProtocol* iprot) {
         break;
       case 6:
         if (ftype == ::apache::thrift::protocol::T_I32) {
-          int32_t ecast45;
-          xfer += iprot->readI32(ecast45);
-          this->mode = (MT4CHART_TYPE::type)ecast45;
+          int32_t ecast47;
+          xfer += iprot->readI32(ecast47);
+          this->mode = (MT4CHART_TYPE::type)ecast47;
           this->__isset.mode = true;
         } else {
           xfer += iprot->skip(ftype);
@@ -3033,23 +3563,23 @@ void swap(MT4ChartInfo &a, MT4ChartInfo &b) {
   swap(a.__isset, b.__isset);
 }
 
-MT4ChartInfo::MT4ChartInfo(const MT4ChartInfo& other46) {
-  symbol = other46.symbol;
-  period = other46.period;
-  start = other46.start;
-  _end = other46._end;
-  timesign = other46.timesign;
-  mode = other46.mode;
-  __isset = other46.__isset;
+MT4ChartInfo::MT4ChartInfo(const MT4ChartInfo& other48) {
+  symbol = other48.symbol;
+  period = other48.period;
+  start = other48.start;
+  _end = other48._end;
+  timesign = other48.timesign;
+  mode = other48.mode;
+  __isset = other48.__isset;
 }
-MT4ChartInfo& MT4ChartInfo::operator=(const MT4ChartInfo& other47) {
-  symbol = other47.symbol;
-  period = other47.period;
-  start = other47.start;
-  _end = other47._end;
-  timesign = other47.timesign;
-  mode = other47.mode;
-  __isset = other47.__isset;
+MT4ChartInfo& MT4ChartInfo::operator=(const MT4ChartInfo& other49) {
+  symbol = other49.symbol;
+  period = other49.period;
+  start = other49.start;
+  _end = other49._end;
+  timesign = other49.timesign;
+  mode = other49.mode;
+  __isset = other49.__isset;
   return *this;
 }
 std::ostream& operator<<(std::ostream& out, const MT4ChartInfo& obj) {
@@ -3074,19 +3604,19 @@ void MT4RateInfo::__set_ctm(const int64_t val) {
   this->ctm = val;
 }
 
-void MT4RateInfo::__set_open(const int32_t val) {
+void MT4RateInfo::__set_open(const double val) {
   this->open = val;
 }
 
-void MT4RateInfo::__set_high(const int32_t val) {
+void MT4RateInfo::__set_high(const double val) {
   this->high = val;
 }
 
-void MT4RateInfo::__set_low(const int32_t val) {
+void MT4RateInfo::__set_low(const double val) {
   this->low = val;
 }
 
-void MT4RateInfo::__set_close(const int32_t val) {
+void MT4RateInfo::__set_close(const double val) {
   this->close = val;
 }
 
@@ -3094,8 +3624,8 @@ void MT4RateInfo::__set_vol(const double val) {
   this->vol = val;
 }
 
-const char* MT4RateInfo::ascii_fingerprint = "BD11AF0EAECF781E472445A783BFCB36";
-const uint8_t MT4RateInfo::binary_fingerprint[16] = {0xBD,0x11,0xAF,0x0E,0xAE,0xCF,0x78,0x1E,0x47,0x24,0x45,0xA7,0x83,0xBF,0xCB,0x36};
+const char* MT4RateInfo::ascii_fingerprint = "F1BCEC691A65E682BA32A59F3F019AD1";
+const uint8_t MT4RateInfo::binary_fingerprint[16] = {0xF1,0xBC,0xEC,0x69,0x1A,0x65,0xE6,0x82,0xBA,0x32,0xA5,0x9F,0x3F,0x01,0x9A,0xD1};
 
 uint32_t MT4RateInfo::read(::apache::thrift::protocol::TProtocol* iprot) {
 
@@ -3126,32 +3656,32 @@ uint32_t MT4RateInfo::read(::apache::thrift::protocol::TProtocol* iprot) {
         }
         break;
       case 2:
-        if (ftype == ::apache::thrift::protocol::T_I32) {
-          xfer += iprot->readI32(this->open);
+        if (ftype == ::apache::thrift::protocol::T_DOUBLE) {
+          xfer += iprot->readDouble(this->open);
           this->__isset.open = true;
         } else {
           xfer += iprot->skip(ftype);
         }
         break;
       case 3:
-        if (ftype == ::apache::thrift::protocol::T_I32) {
-          xfer += iprot->readI32(this->high);
+        if (ftype == ::apache::thrift::protocol::T_DOUBLE) {
+          xfer += iprot->readDouble(this->high);
           this->__isset.high = true;
         } else {
           xfer += iprot->skip(ftype);
         }
         break;
       case 4:
-        if (ftype == ::apache::thrift::protocol::T_I32) {
-          xfer += iprot->readI32(this->low);
+        if (ftype == ::apache::thrift::protocol::T_DOUBLE) {
+          xfer += iprot->readDouble(this->low);
           this->__isset.low = true;
         } else {
           xfer += iprot->skip(ftype);
         }
         break;
       case 5:
-        if (ftype == ::apache::thrift::protocol::T_I32) {
-          xfer += iprot->readI32(this->close);
+        if (ftype == ::apache::thrift::protocol::T_DOUBLE) {
+          xfer += iprot->readDouble(this->close);
           this->__isset.close = true;
         } else {
           xfer += iprot->skip(ftype);
@@ -3186,20 +3716,20 @@ uint32_t MT4RateInfo::write(::apache::thrift::protocol::TProtocol* oprot) const 
   xfer += oprot->writeI64(this->ctm);
   xfer += oprot->writeFieldEnd();
 
-  xfer += oprot->writeFieldBegin("open", ::apache::thrift::protocol::T_I32, 2);
-  xfer += oprot->writeI32(this->open);
+  xfer += oprot->writeFieldBegin("open", ::apache::thrift::protocol::T_DOUBLE, 2);
+  xfer += oprot->writeDouble(this->open);
   xfer += oprot->writeFieldEnd();
 
-  xfer += oprot->writeFieldBegin("high", ::apache::thrift::protocol::T_I32, 3);
-  xfer += oprot->writeI32(this->high);
+  xfer += oprot->writeFieldBegin("high", ::apache::thrift::protocol::T_DOUBLE, 3);
+  xfer += oprot->writeDouble(this->high);
   xfer += oprot->writeFieldEnd();
 
-  xfer += oprot->writeFieldBegin("low", ::apache::thrift::protocol::T_I32, 4);
-  xfer += oprot->writeI32(this->low);
+  xfer += oprot->writeFieldBegin("low", ::apache::thrift::protocol::T_DOUBLE, 4);
+  xfer += oprot->writeDouble(this->low);
   xfer += oprot->writeFieldEnd();
 
-  xfer += oprot->writeFieldBegin("close", ::apache::thrift::protocol::T_I32, 5);
-  xfer += oprot->writeI32(this->close);
+  xfer += oprot->writeFieldBegin("close", ::apache::thrift::protocol::T_DOUBLE, 5);
+  xfer += oprot->writeDouble(this->close);
   xfer += oprot->writeFieldEnd();
 
   xfer += oprot->writeFieldBegin("vol", ::apache::thrift::protocol::T_DOUBLE, 6);
@@ -3223,23 +3753,23 @@ void swap(MT4RateInfo &a, MT4RateInfo &b) {
   swap(a.__isset, b.__isset);
 }
 
-MT4RateInfo::MT4RateInfo(const MT4RateInfo& other48) {
-  ctm = other48.ctm;
-  open = other48.open;
-  high = other48.high;
-  low = other48.low;
-  close = other48.close;
-  vol = other48.vol;
-  __isset = other48.__isset;
+MT4RateInfo::MT4RateInfo(const MT4RateInfo& other50) {
+  ctm = other50.ctm;
+  open = other50.open;
+  high = other50.high;
+  low = other50.low;
+  close = other50.close;
+  vol = other50.vol;
+  __isset = other50.__isset;
 }
-MT4RateInfo& MT4RateInfo::operator=(const MT4RateInfo& other49) {
-  ctm = other49.ctm;
-  open = other49.open;
-  high = other49.high;
-  low = other49.low;
-  close = other49.close;
-  vol = other49.vol;
-  __isset = other49.__isset;
+MT4RateInfo& MT4RateInfo::operator=(const MT4RateInfo& other51) {
+  ctm = other51.ctm;
+  open = other51.open;
+  high = other51.high;
+  low = other51.low;
+  close = other51.close;
+  vol = other51.vol;
+  __isset = other51.__isset;
   return *this;
 }
 std::ostream& operator<<(std::ostream& out, const MT4RateInfo& obj) {

@@ -66,6 +66,7 @@ private:
 	 cout << "Web Server Start !" << endl;
 	 cout << "Waiting for web request........." << endl ;
 	 _api.continueConnection() ;
+	 _api.continuePumpConnection() ;
   }
 
   void getAllUserRecord(std::vector<MT4UserRecord> & _return) {
@@ -73,34 +74,8 @@ private:
 	  cout << "=============================" << endl;
 	vector<UserRecord> aur =  _api.getAllUserRecord() ;
 
-//	_return.resize(aur.size()) ;
 
 	for(int i=0;i<aur.size();i++){
-/*
-		_return[i].__set_address(aur.at(i).address) ;
-		_return[i].__set_name(aur.at(i).name) ;
-		_return.at(i).__set_agent_account(aur.at(i).agent_account) ;
-		_return.at(i).login = aur.at(i).login ;
-		_return.at(i).__set_email(aur.at(i).email) ;
-		_return.at(i).__set_password(aur.at(i).password) ;
-		_return.at(i).__set_password_investor(aur.at(i).password_investor) ;
-		_return.at(i).__set_password_phone(aur.at(i).password_phone) ;
-		_return.at(i).__set_city(aur.at(i).city) ;
-		_return.at(i).__set_state(aur.at(i).state) ;
-		_return.at(i).__set_country(aur.at(i).country) ;
-		_return.at(i).__set_group(aur.at(i).group) ;
-		_return.at(i).leverage = aur.at(i).leverage ;
-		_return.at(i).__set_status(aur.at(i).status) ;
-		_return.at(i).enable = aur.at(i).enable ;
-		_return.at(i).agent_account = aur.at(i).agent_account ;
-		_return.at(i).__set_zipcode(aur.at(i).zipcode) ;
-		_return.at(i).__set_phone(aur.at(i).phone) ;
-		_return.at(i).__set_id(aur.at(i).id );
-		_return.at(i).send_reports = aur.at(i).send_reports ;
-		_return.at(i).__set_comment(aur.at(i).comment) ;
-		_return.at(i).enable_read_only = aur.at(i).enable_read_only ;
-		_return.at(i).enable_change_password = aur.at(i).enable_change_password ;
-	*/	
 
 		MT4UserRecord ur  ;
 		ur.__set_address(aur.at(i).address) ;
@@ -165,7 +140,7 @@ private:
     printf("getUserRecordByLogin\n=============================\n");
   }
 
-  bool addUser(const MT4UserRecord& mur) {
+   int32_t addUser(const MT4UserRecord& mur) {
     // Your implementation goes here
 	  	  	  cout << "=============================" << endl;
 	  UserRecord ur ={0} ;
@@ -198,10 +173,11 @@ private:
 
 	int ret=_api.addNewUser(ur) ;
 	    printf("addUser\n=============================\n");
-	if(ret == RET_OK)
-		return true ;
-	else
-		return false ;
+	if(ret == RET_OK){
+		return ur.login ;
+	}else{
+		return -1 ;
+	}
   }
 
   bool groupOperation(const MT4GroupCommand& mgc) {
@@ -312,8 +288,10 @@ private:
 	int ret=_api.changePassword(login,password,new_password,t) ;
 	printf("changePassword\n=============================\n");
 	if(ret == RET_OK){
+		//return ur.login ;
 		return true ;
 	}else{
+		//return -1 ;
 		return false ;
 	}
 
@@ -400,15 +378,15 @@ private:
 
 void symbolDetail(MT4ConSymbol& _return, const std::string& symbol) {
     // Your implementation goes here
-	cout << "=============================" << endl;
+	cout << "symbolDetail=============================start" << endl;
 		
 	ConSymbol  conSym=_api.symbolDetail(symbol) ;
 	_return.ask_tickvalue=conSym.ask_tickvalue ;
 	_return.bid_tickvalue=conSym.bid_tickvalue ;
-	_return.symbol=conSym.symbol ;
-	_return.description=conSym.description ;
-	_return.source=conSym.source ;
-	_return.currency=conSym.currency ;
+	_return.__set_symbol(conSym.symbol) ;
+	_return.__set_description(conSym.description) ;
+	_return.__set_source(conSym.source) ;
+	_return.__set_currency(conSym.currency) ;
 	_return.type=conSym.type ;
 	_return.digits=conSym.digits ;
 	_return.trade=conSym.trade ;
@@ -420,11 +398,13 @@ void symbolDetail(MT4ConSymbol& _return, const std::string& symbol) {
 
 	vector<MT4ConSessions> mcons ;
 	for(int j=0;j<7;j++){
+		
 		MT4ConSessions mcon ;
 		ConSessions con= conSym.sessions[j] ;
 		mcon.trade_overnight = con.trade_overnight ;
 		mcon.quote_overnight = con.quote_overnight ;
 		for(int k=0;k<3;k++){
+			
 			ConSession qcs = con.quote[k] ;
 			ConSession tcs = con.trade[k] ;
 			MT4ConSession mqcs ;
@@ -441,10 +421,16 @@ void symbolDetail(MT4ConSymbol& _return, const std::string& symbol) {
 			tqcs.close_min = tcs.close_min ;
 			tqcs.open = tcs.open ;
 			tqcs.close = tcs.close ;
+			vector<short> mqalign ;
+			vector<short> tqalign ;
 			for(int d=0;d<7;d++){
-				mqcs.align[d] = qcs.align[d] ;
-				tqcs.align[d] = tcs.align[d] ;
+				//cout << "DEBUG: "<<d << endl;
+				mqalign.push_back(qcs.align[d]) ;
+				tqalign.push_back(tcs.align[d]) ;
+				//cout << "DEBUG: " << "ss" << endl ;
 			}
+			mqcs.align = mqalign ;
+			tqcs.align = tqalign ;
 			mcon.quote.push_back(mqcs) ;
 			mcon.trade.push_back(tqcs) ;
 		}
@@ -482,18 +468,18 @@ void symbolDetail(MT4ConSymbol& _return, const std::string& symbol) {
 	_return.multiply=conSym.multiply ;
 	_return.long_only=conSym.long_only ;
 	_return.instant_max_volume=conSym.instant_max_volume ;
-	_return.margin_currency=conSym.margin_currency ;
+	_return.__set_margin_currency(conSym.margin_currency) ;
 	_return.freeze_level=conSym.freeze_level ;
 	_return.margin_hedged_strong=conSym.margin_hedged_strong ;
 	_return.value_date=conSym.value_date ;
 	_return.quotes_delay=conSym.quotes_delay ;
 	_return.swap_openprice=conSym.swap_openprice ;
 
-    printf("symbolDetail\n====================================\n");
+    printf("symbolDetail====================================end\n");
   }
 
   void getHistoryChartData(std::vector<MT4RateInfo> & _return, const MT4ChartInfo& chartInfo) {
- cout << "=============================" << endl;
+ cout << "getHistoryChartData=============================start" << endl;
 	int total =0;
    __time32_t signTime= 0;
    ChartInfo ci ;
@@ -509,6 +495,10 @@ void symbolDetail(MT4ConSymbol& _return, const std::string& symbol) {
 		}
 	case MT4PERIOD_TYPE::P_PERIOD_M15:{
 			type = PERIOD_M15 ;
+			break;
+		}
+	case MT4PERIOD_TYPE::P_PERIOD_M30:{
+			type = PERIOD_M30 ;
 			break;
 		}
 	case MT4PERIOD_TYPE::P_PERIOD_H1:{
@@ -532,27 +522,90 @@ void symbolDetail(MT4ConSymbol& _return, const std::string& symbol) {
 			break;
 		}
 	default:
-		type = PERIOD_M1 ;
+		type = PERIOD_H4 ;
 	}
 	strcpy(ci.symbol,chartInfo.symbol.c_str());
 	ci.period = type ;
-	ci.mode=chartInfo.mode;
+	ci.timesign = chartInfo.timesign ;
+	switch(chartInfo.mode){
+	case MT4CHART_TYPE::C_CHART_RANGE_IN:{
+		ci.mode=CHART_RANGE_IN;
+		break ;
+		}
+	case MT4CHART_TYPE::C_CHART_RANGE_LAST:{
+		ci.mode=CHART_RANGE_LAST;
+		break ;
+		}
+	case MT4CHART_TYPE::C_CHART_RANGE_OUT:{
+		ci.mode=CHART_RANGE_OUT;
+		break ;
+		}
+	}
+	
 	ci.end =chartInfo._end ;
+	cout << "DEBUG: end " << ci.end << endl ;
 	ci.start =chartInfo.start;
-  
-   vector<RateInfo>  ri=_api.getHistoryChartData(ci) ;
-   _return.resize(ri.size()) ;
-   for(int i=0;i<ri.size();i++){
-	   _return.at(i).open=ri.at(i).open ;
-	   _return.at(i).close=ri.at(i).close ;
-	   _return.at(i).ctm=ri.at(i).ctm ;
-	   _return.at(i).high=ri.at(i).high ;
-	   _return.at(i).low=ri.at(i).low ;
+	cout << "DEBUG: start " << ci.start << endl ;
+	cout << "DEBUG: period " << ci.period << " mins" << endl ;
+		cout << "DEBUG: mode " << ci.mode << endl ;
+  int digit=0;
+   vector<RateInfo>  ri;
+   try{
+	  
+		ri=_api.getHistoryChartData(ci,digit) ;
+	
+   }catch(exception &e){
+	   cout << e.what() << endl ;
    }
-    printf("getHistoryChartData\n====================================\n");
+   _return.resize(ri.size()) ;
+   double base = pow(10.0,digit) ;
+   for(int i=ri.size()-1;i>=0;i--){
+	   _return.at(i).open=ri.at(i).open*1.0/base ;
+	   _return.at(i).close=ri.at(i).close*1.0/base ;
+	  // cout << "DEBUG: time" <<ri.at(i).ctm << endl ;
+	   _return.at(i).ctm=ri.at(i).ctm ;
+	   _return.at(i).high=ri.at(i).high*1.0/base ;
+	   _return.at(i).low=ri.at(i).low*1.0/base ;
+	   _return.at(i).vol=ri.at(i).vol ;
+   }
+    printf("getHistoryChartData====================================end\n");
   }
     
-   
+
+
+
+  void getAllGroups(std::vector<MT4ConGroup> & _return) {
+   cout << "=============================" << endl;
+   vector<ConGroup> vc = _api.allGroups() ;
+	  	_return.resize(vc.size()) ;
+	for(int i=0;i<vc.size();i++){
+		_return.at(i).adv_security = vc.at(i).adv_security ;
+		_return.at(i).__set_group(vc.at(i).group) ;
+		_return.at(i).__set_company(vc.at(i).company) ;
+		_return.at(i).__set_signature(vc.at(i).signature) ;
+		_return.at(i).__set_support_page(vc.at(i).support_page) ;
+		_return.at(i).__set_smtp_server(vc.at(i).smtp_server) ;
+		_return.at(i).__set_smtp_login(vc.at(i).smtp_login) ;
+		_return.at(i).__set_smtp_password(vc.at(i).smtp_password) ;
+		_return.at(i).__set_templates(vc.at(i).templates) ;
+		_return.at(i).copies = vc.at(i).copies ;
+		_return.at(i).reports = vc.at(i).reports ;
+		_return.at(i).credit = vc.at(i).credit ;
+		_return.at(i).__set_reports(vc.at(i).reports) ;
+		_return.at(i).currency = vc.at(i).currency ;
+		_return.at(i).default_deposit = vc.at(i).default_deposit ;
+		_return.at(i).default_leverage = vc.at(i).default_leverage ;
+		_return.at(i).margin_call = vc.at(i).margin_call ;
+		_return.at(i).margin_mode = vc.at(i).margin_mode ;
+		_return.at(i).margin_stopout = vc.at(i).margin_stopout ;
+		_return.at(i).interestrate = vc.at(i).interestrate ;
+		_return.at(i).use_swap = vc.at(i).use_swap ;
+		_return.at(i).enable = vc.at(i).enable ;
+		_return.at(i).timeout = vc.at(i).timeout ;
+	}
+    printf("getAllGroups\n=============================\n");
+ 
+  }
 
 
 

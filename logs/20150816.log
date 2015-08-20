@@ -1,0 +1,431 @@
+0	2015.08.16 00:22:37		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 00:22:59	103.40.162.86:640	Connect
+0	2015.08.16 00:23:02	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 00:23:22	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 00:23:25	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+35	2015.08.16 00:24:24	103.40.162.86:640	'2': request chart (Unknown error)
+2	2015.08.16 00:24:24		Compressor: invalid decompress block [15922 bytes] (Common error)
+54	2015.08.16 00:24:24	103.40.162.86:640	'2': request chart (Unknown error)
+0	2015.08.16 00:24:24	103.40.162.86:640	ReadCompressed: decode failed (15922 -> 26740 bytes)
+0	2015.08.16 00:24:24	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+124	2015.08.16 00:24:24	103.40.162.86:640	'2': request chart (Unknown error)
+6	2015.08.16 00:24:33	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 00:25:07	103.40.162.86:640	Connect (No connection)
+0	2015.08.16 00:27:02	103.40.162.86:640	Connect
+0	2015.08.16 00:27:03	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 00:27:28	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 00:27:55	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 00:30:45		Unload: manager 3497B0 not released
+0	2015.08.16 00:30:45		Remove: manager 3497B0
+0	2015.08.16 00:30:45		Unload: manager 318670 not released
+0	2015.08.16 00:30:45	103.40.162.86:640	'2': disconnect
+0	2015.08.16 00:30:45		Remove: manager 318670
+0	2015.08.16 00:30:57		MetaTrader 4 Manager API build 509 initialized
+6	2015.08.16 00:31:17	103.40.162.86:640	Connect (No connection)
+0	2015.08.16 00:31:36	103.40.162.86:640	Connect
+0	2015.08.16 00:31:37	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 00:31:44	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 00:33:33	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 00:38:29	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 00:43:27	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 00:47:00	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 00:48:18	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 00:51:49	103.40.162.86:640	'2': request 37 total trades
+0	2015.08.16 01:01:22	103.40.162.86:640	'2': request 37 total trades
+0	2015.08.16 01:11:29	103.40.162.86:640	'2': request 37 total trades
+0	2015.08.16 01:13:19	103.40.162.86:640	'2': request 37 total trades
+0	2015.08.16 01:19:08	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:19:11	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:20:22	103.40.162.86:640	'2': request 37 total trades
+0	2015.08.16 01:20:23	103.40.162.86:640	'2': request 37 total trades
+0	2015.08.16 01:21:01	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:22:47	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:23:00	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:23:40	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:23:41	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:27:31	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:28:04	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:29:09	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:29:12	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:31:07	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:31:16	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:36:38	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+126	2015.08.16 01:39:10	103.40.162.86:640	'2': request chart (Unknown error)
+2	2015.08.16 01:39:14		Compressor: invalid decompress block [38226 bytes] (Common error)
+0	2015.08.16 01:39:14	103.40.162.86:640	ReadCompressed: decode failed (38226 -> 66696 bytes)
+0	2015.08.16 01:39:14	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+6	2015.08.16 01:39:25	103.40.162.86:640	'2': request chart (No connection)
+2	2015.08.16 01:39:38	103.40.162.86:640	'2': request chart (Common error)
+6	2015.08.16 01:39:38	103.40.162.86:640	Connect (No connection)
+6	2015.08.16 01:40:26	103.40.162.86:640	'2': request chart (No connection)
+0	2015.08.16 01:40:52		Unload: manager 5F97B0 not released
+0	2015.08.16 01:40:52		Remove: manager 5F97B0
+0	2015.08.16 01:40:52		Unload: manager 5C8670 not released
+0	2015.08.16 01:40:52		Remove: manager 5C8670
+0	2015.08.16 01:41:15		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 01:41:35	103.40.162.86:640	Connect
+0	2015.08.16 01:41:35	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 01:41:47	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:45:06	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:53:13	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 01:53:19	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 02:00:32	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 02:01:20	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 02:06:03	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 02:06:06	103.40.162.86:640	'2': request chart 'EURUSD' (955 bars)
+0	2015.08.16 02:06:57	103.40.162.86:640	'2': request chart 'EURUSD' (2215 bars)
+0	2015.08.16 02:07:02	103.40.162.86:640	'2': request chart 'EURUSD' (2215 bars)
+0	2015.08.16 02:07:16	103.40.162.86:640	'2': request chart 'EURUSD' (2215 bars)
+0	2015.08.16 09:20:25	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 09:45:26	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 09:45:39	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 09:45:48	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 09:50:31	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 10:00:29	103.40.162.86:640	'2': request chart 'USDJPY' (12 bars)
+0	2015.08.16 10:00:42	103.40.162.86:640	'2': request chart 'USDJPY' (446 bars)
+0	2015.08.16 10:04:53	103.40.162.86:640	'2': request chart 'USDJPY' (446 bars)
+177	2015.08.16 10:17:34	103.40.162.86:640	'2': request chart (Unknown error)
+2	2015.08.16 10:17:34		Compressor: invalid decompress block [7900 bytes] (Common error)
+0	2015.08.16 10:17:34	103.40.162.86:640	ReadCompressed: decode failed (7900 -> 12488 bytes)
+0	2015.08.16 10:17:34	103.40.162.86:640	'2': request chart 'USDJPY' (0 bars)
+183	2015.08.16 10:17:34	103.40.162.86:640	'2': request chart (Unknown error)
+252	2015.08.16 10:17:34	103.40.162.86:640	'2': request chart (Unknown error)
+6	2015.08.16 10:17:34	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 10:17:34	103.40.162.86:640	'2': request chart (No connection)
+0	2015.08.16 10:17:35	103.40.162.86:640	Connect
+0	2015.08.16 10:17:43	103.40.162.86:640	'2': login (5.09)
+16	2015.08.16 10:18:15	103.40.162.86:640	'2': request chart (Unknown error)
+2	2015.08.16 10:18:15	103.40.162.86:640	'2': receive server info failed (Common error)
+0	2015.08.16 10:19:35	103.40.162.86:640	Connect
+0	2015.08.16 10:19:56	103.40.162.86:640	'2': login (5.09)
+255	2015.08.16 10:19:56	103.40.162.86:640	'2': receive server info failed (Network problem)
+0	2015.08.16 10:21:35	103.40.162.86:640	Connect
+0	2015.08.16 10:21:36	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 11:19:31	103.40.162.86:640	'2': request chart 'USDJPY' (39 bars)
+0	2015.08.16 11:33:51		Unload: manager 5997B0 not released
+0	2015.08.16 11:33:51		Remove: manager 5997B0
+0	2015.08.16 11:33:51		Unload: manager 568670 not released
+0	2015.08.16 11:33:51	103.40.162.86:640	'2': disconnect
+0	2015.08.16 11:33:51		Remove: manager 568670
+0	2015.08.16 11:34:07		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 11:34:35	103.40.162.86:640	Connect
+0	2015.08.16 11:34:44	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 11:35:28	103.40.162.86:640	'2': request chart 'USDJPY' (39 bars)
+0	2015.08.16 13:53:08		Unload: manager 5E97B0 not released
+0	2015.08.16 13:53:08		Remove: manager 5E97B0
+0	2015.08.16 13:53:08		Unload: manager 5B8670 not released
+0	2015.08.16 13:53:08	103.40.162.86:640	'2': disconnect
+0	2015.08.16 13:53:08		Remove: manager 5B8670
+0	2015.08.16 14:08:20		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 14:08:36	103.40.162.86:640	Connect
+0	2015.08.16 14:08:39	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 14:08:39	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 14:09:00	103.40.162.86:640	'2': request chart 'USDJPY' (39 bars)
+0	2015.08.16 14:54:42	103.40.162.86:640	Connect
+0	2015.08.16 14:54:45	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 14:54:49		Unload: manager 3497B0 not released
+0	2015.08.16 14:54:49		Remove: manager 3497B0
+0	2015.08.16 14:54:49		Unload: manager 318670 not released
+0	2015.08.16 14:54:49	103.40.162.86:640	'2': disconnect
+0	2015.08.16 14:54:49		Remove: manager 318670
+0	2015.08.16 14:55:23		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 14:55:40	103.40.162.86:640	Connect
+0	2015.08.16 14:55:41	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 14:55:58	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 14:56:09	103.40.162.86:640	'2': request chart 'USDJPY' (39 bars)
+0	2015.08.16 15:08:04		Unload: manager 5A97B0 not released
+0	2015.08.16 15:08:04		Remove: manager 5A97B0
+0	2015.08.16 15:08:04		Unload: manager 578670 not released
+0	2015.08.16 15:08:04	103.40.162.86:640	'2': disconnect
+0	2015.08.16 15:08:04		Remove: manager 578670
+0	2015.08.16 15:08:18		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 15:08:38	103.40.162.86:640	Connect
+0	2015.08.16 15:08:38	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 15:08:40	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 15:08:46	103.40.162.86:640	'2': request chart 'USDJPY' (39 bars)
+0	2015.08.16 15:08:57	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 15:15:38	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 15:18:13	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 15:18:21	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 15:18:29	103.40.162.86:640	'2': request chart 'EURUSD' (446 bars)
+14	2015.08.16 15:22:36	103.40.162.86:640	'2': request chart (Unknown error)
+2	2015.08.16 15:22:36		Compressor: invalid decompress block [8266 bytes] (Common error)
+0	2015.08.16 15:22:36	103.40.162.86:640	ReadCompressed: decode failed (8266 -> 12488 bytes)
+0	2015.08.16 15:22:36	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+171	2015.08.16 15:22:36	103.40.162.86:640	'2': request chart (Unknown error)
+6	2015.08.16 15:22:36	103.40.162.86:640	'2': request chart (No connection)
+0	2015.08.16 15:22:44	103.40.162.86:640	Connect
+0	2015.08.16 15:22:47	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 15:23:54	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 15:29:56		Unload: manager 9197B0 not released
+0	2015.08.16 15:29:56		Remove: manager 9197B0
+0	2015.08.16 15:29:56		Unload: manager 8E8670 not released
+0	2015.08.16 15:29:56	103.40.162.86:640	'2': disconnect
+0	2015.08.16 15:29:56		Remove: manager 8E8670
+0	2015.08.16 15:30:18		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 15:30:39	103.40.162.86:640	Connect
+0	2015.08.16 15:30:42	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 15:30:54	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 15:31:06	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 15:32:56	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+255	2015.08.16 15:32:56	103.40.162.86:640	'2': request chart (Network problem)
+6	2015.08.16 15:33:18	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 15:33:22	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 15:33:29	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 15:33:37	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 15:34:07	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 15:34:31	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 15:34:59	103.40.162.86:640	Connect (No connection)
+0	2015.08.16 15:36:54	103.40.162.86:640	Connect
+0	2015.08.16 15:37:03	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 15:37:08	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 15:37:27	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 15:37:52	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 15:38:20	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+89	2015.08.16 15:39:19	103.40.162.86:640	'2': request chart (Unknown error)
+194	2015.08.16 15:40:35	103.40.162.86:640	'2': request chart (Unknown error)
+2	2015.08.16 15:40:35		Compressor: invalid decompress block [35485 bytes] (Common error)
+0	2015.08.16 15:40:35	103.40.162.86:640	ReadCompressed: decode failed (35485 -> 62020 bytes)
+0	2015.08.16 15:40:35	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+0	2015.08.16 15:40:54	103.40.162.86:640	Connect
+0	2015.08.16 15:40:57	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 15:40:59	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 15:41:38	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 15:44:51		Unload: manager 6997B0 not released
+0	2015.08.16 15:44:51		Remove: manager 6997B0
+0	2015.08.16 15:44:51		Unload: manager 668670 not released
+0	2015.08.16 15:44:51	103.40.162.86:640	'2': disconnect
+0	2015.08.16 15:44:51		Remove: manager 668670
+0	2015.08.16 15:55:21		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 15:55:42	103.40.162.86:640	Connect
+0	2015.08.16 15:55:45	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 15:55:50	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 15:56:11		Unload: manager 3697B0 not released
+0	2015.08.16 15:56:11		Remove: manager 3697B0
+0	2015.08.16 15:56:11		Unload: manager 338670 not released
+0	2015.08.16 15:56:11	103.40.162.86:640	'2': disconnect
+0	2015.08.16 15:56:11		Remove: manager 338670
+0	2015.08.16 15:57:41		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 15:57:57	103.40.162.86:640	Connect
+0	2015.08.16 15:58:06	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 15:58:30	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 15:58:41		Unload: manager 5697B0 not released
+0	2015.08.16 15:58:41		Remove: manager 5697B0
+0	2015.08.16 15:58:41		Unload: manager 538670 not released
+0	2015.08.16 15:58:41	103.40.162.86:640	'2': disconnect
+0	2015.08.16 15:58:41		Remove: manager 538670
+0	2015.08.16 16:00:12		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 16:00:29	103.40.162.86:640	Connect
+0	2015.08.16 16:00:30	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 16:00:30	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 16:00:46		Unload: manager 5F97B0 not released
+0	2015.08.16 16:00:46		Remove: manager 5F97B0
+0	2015.08.16 16:00:46		Unload: manager 5C8670 not released
+0	2015.08.16 16:00:46	103.40.162.86:640	'2': disconnect
+0	2015.08.16 16:00:46		Remove: manager 5C8670
+0	2015.08.16 16:09:30		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 16:09:44	103.40.162.86:640	Connect
+0	2015.08.16 16:09:45	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 16:09:45	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 17:02:00	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 17:02:05	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 17:02:14	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 17:02:47	103.40.162.86:640	'2': request chart 'EURUSD' (2215 bars)
+0	2015.08.16 17:03:51	103.40.162.86:640	'2': request chart 'EURUSD' (2215 bars)
+0	2015.08.16 17:06:21	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 17:11:31	103.40.162.86:640	'2': request chart 'EURUSD' (12 bars)
+0	2015.08.16 17:11:42	103.40.162.86:640	'2': request chart 'EURUSD' (12 bars)
+0	2015.08.16 17:18:08	103.40.162.86:640	'2': request chart 'EURUSD' (12 bars)
+0	2015.08.16 17:49:53	103.40.162.86:640	'2': request chart 'EURUSD' (1466 bars)
+0	2015.08.16 17:50:08	103.40.162.86:640	'2': request chart 'EURUSD' (665 bars)
+0	2015.08.16 17:50:28	103.40.162.86:640	'2': request chart 'EURUSD' (1034 bars)
+0	2015.08.16 17:53:29	103.40.162.86:640	'2': request chart 'EURUSD' (1034 bars)
+0	2015.08.16 17:57:46	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+0	2015.08.16 17:59:50	103.40.162.86:640	Connect
+0	2015.08.16 17:59:50	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 17:59:52	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 18:13:28	103.40.162.86:640	'2': request chart 'EURUSD' (1034 bars)
+0	2015.08.16 18:16:03	103.40.162.86:640	'2': request chart 'EURUSD' (479 bars)
+241	2015.08.16 18:28:47	103.40.162.86:640	'2': request chart (Unknown error)
+2	2015.08.16 18:28:47		Compressor: invalid decompress block [9314 bytes] (Common error)
+0	2015.08.16 18:28:47	103.40.162.86:640	ReadCompressed: decode failed (9314 -> 13412 bytes)
+0	2015.08.16 18:28:47	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+0	2015.08.16 18:29:45	103.40.162.86:640	Connect
+0	2015.08.16 18:29:54	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 18:31:18	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 18:33:11	103.40.162.86:640	'2': request chart 'EURUSD' (39 bars)
+0	2015.08.16 18:33:35	103.40.162.86:640	'2': request chart 'EURUSD' (479 bars)
+0	2015.08.16 18:39:45	103.40.162.86:640	'2': request chart 'EURUSD' (121 bars)
+153	2015.08.16 18:42:00	103.40.162.86:640	'2': request chart (Unknown error)
+62	2015.08.16 18:43:30	103.40.162.86:640	'2': request chart (Unknown error)
+255	2015.08.16 18:45:31	103.40.162.86:640	'2': request chart (Network problem)
+0	2015.08.16 18:45:31	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+0	2015.08.16 18:45:45	103.40.162.86:640	Connect
+0	2015.08.16 18:45:48	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 18:46:02	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 18:50:21	103.40.162.86:640	'2': request chart 'EURUSD' (479 bars)
+60	2015.08.16 18:51:25	103.40.162.86:640	'2': request chart (Unknown error)
+2	2015.08.16 18:51:31		Compressor: invalid decompress block [56900 bytes] (Common error)
+0	2015.08.16 18:51:31	103.40.162.86:640	ReadCompressed: decode failed (56900 -> 98784 bytes)
+0	2015.08.16 18:51:31	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+6	2015.08.16 18:51:50	103.40.162.86:640	Connect (No connection)
+0	2015.08.16 18:53:45	103.40.162.86:640	Connect
+0	2015.08.16 18:53:48	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 18:53:48	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 18:55:33		Unload: manager 6997B0 not released
+0	2015.08.16 18:55:33		Remove: manager 6997B0
+0	2015.08.16 18:55:33		Unload: manager 668670 not released
+0	2015.08.16 18:55:33	103.40.162.86:640	'2': disconnect
+0	2015.08.16 18:55:33		Remove: manager 668670
+0	2015.08.16 18:56:01		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 18:56:22	103.40.162.86:640	Connect
+0	2015.08.16 18:56:25	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 18:56:30	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 18:56:42	103.40.162.86:640	'2': request chart 'EURUSD' (2 bars)
+0	2015.08.16 18:57:20	103.40.162.86:640	'2': request chart 'EURUSD' (1431 bars)
+0	2015.08.16 18:59:37	103.40.162.86:640	'2': request chart 'EURUSD' (479 bars)
+0	2015.08.16 19:01:26	103.40.162.86:640	'2': request chart 'EURUSD' (18 bars)
+0	2015.08.16 19:18:06	103.40.162.86:640	'2': request chart 'EURUSD' (1 bars)
+0	2015.08.16 19:18:15	103.40.162.86:640	'2': request chart 'EURUSD' (2 bars)
+0	2015.08.16 19:19:16	103.40.162.86:640	'2': request chart 'EURUSD' (7 bars)
+0	2015.08.16 19:22:53	103.40.162.86:640	'2': request chart 'EURUSD' (2 bars)
+0	2015.08.16 19:26:35	103.40.162.86:640	Connect
+0	2015.08.16 19:26:35	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 19:26:41	103.40.162.86:640	'2': request Symbols configutation
+59	2015.08.16 19:29:31	103.40.162.86:640	'2': request chart (Unknown error)
+59	2015.08.16 19:30:09	103.40.162.86:640	'2': request chart (Unknown error)
+2	2015.08.16 19:30:09		Compressor: invalid decompress block [32932 bytes] (Common error)
+0	2015.08.16 19:30:09	103.40.162.86:640	ReadCompressed: decode failed (32932 -> 57344 bytes)
+0	2015.08.16 19:30:09	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+6	2015.08.16 19:30:13	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 19:30:36	103.40.162.86:640	Connect (No connection)
+6	2015.08.16 19:31:19	103.40.162.86:640	'2': request chart (No connection)
+0	2015.08.16 19:32:31	103.40.162.86:640	Connect
+0	2015.08.16 19:32:33	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 19:32:34	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 19:34:05		Unload: manager 6497B0 not released
+0	2015.08.16 19:34:05		Remove: manager 6497B0
+0	2015.08.16 19:34:05		Unload: manager 618670 not released
+0	2015.08.16 19:34:05	103.40.162.86:640	'2': disconnect
+0	2015.08.16 19:34:05		Remove: manager 618670
+0	2015.08.16 19:41:46		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 19:42:02	103.40.162.86:640	Connect
+0	2015.08.16 19:42:05	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 19:42:43	103.40.162.86:640	'2': request Symbols configutation
+97	2015.08.16 19:44:50	103.40.162.86:640	'2': request chart (Unknown error)
+61	2015.08.16 19:46:14	103.40.162.86:640	'2': request chart (Unknown error)
+205	2015.08.16 19:46:14	103.40.162.86:640	'2': request chart (Unknown error)
+2	2015.08.16 19:46:14		Compressor: invalid decompress block [15378 bytes] (Common error)
+0	2015.08.16 19:46:14	103.40.162.86:640	ReadCompressed: decode failed (15378 -> 19376 bytes)
+0	2015.08.16 19:46:14	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+0	2015.08.16 19:46:43	103.40.162.86:640	Connect
+0	2015.08.16 19:46:52	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 19:47:03	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 19:49:42	103.40.162.86:640	'2': request chart 'EURUSD' (10508 bars)
+0	2015.08.16 19:52:16		Unload: manager 6797B0 not released
+0	2015.08.16 19:52:16		Remove: manager 6797B0
+0	2015.08.16 19:52:16		Unload: manager 648670 not released
+0	2015.08.16 19:52:16	103.40.162.86:640	'2': disconnect
+0	2015.08.16 19:52:16		Remove: manager 648670
+0	2015.08.16 19:52:27		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 19:53:01	103.40.162.86:640	Connect
+0	2015.08.16 19:53:01	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 19:53:33	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 19:55:26	103.40.162.86:640	'2': request chart 'EURUSD' (10508 bars)
+0	2015.08.16 19:55:55		Unload: manager 2E97B0 not released
+0	2015.08.16 19:55:55		Remove: manager 2E97B0
+0	2015.08.16 19:55:55		Unload: manager 2B8670 not released
+0	2015.08.16 19:55:55	103.40.162.86:640	'2': disconnect
+0	2015.08.16 19:55:55		Remove: manager 2B8670
+0	2015.08.16 19:56:01		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 19:56:17	103.40.162.86:640	Connect
+0	2015.08.16 19:56:17	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 19:56:18	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 19:57:48	103.40.162.86:640	'2': request chart 'EURUSD' (10508 bars)
+0	2015.08.16 19:58:32		Unload: manager 5797B0 not released
+0	2015.08.16 19:58:32		Remove: manager 5797B0
+0	2015.08.16 19:58:32		Unload: manager 548670 not released
+0	2015.08.16 19:58:32	103.40.162.86:640	'2': disconnect
+0	2015.08.16 19:58:32		Remove: manager 548670
+0	2015.08.16 19:58:43		MetaTrader 4 Manager API build 509 initialized
+6	2015.08.16 19:59:01	103.40.162.86:640	Connect (No connection)
+0	2015.08.16 19:59:20	103.40.162.86:640	Connect
+0	2015.08.16 19:59:20	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 19:59:21	103.40.162.86:640	'2': request Symbols configutation
+77	2015.08.16 20:01:38	103.40.162.86:640	'2': request chart (Unknown error)
+2	2015.08.16 20:01:39		Compressor: invalid decompress block [208594 bytes] (Common error)
+0	2015.08.16 20:01:39	103.40.162.86:640	ReadCompressed: decode failed (208594 -> 294224 bytes)
+0	2015.08.16 20:01:39	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+6	2015.08.16 20:03:04	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:03:08	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:03:16	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:03:19	103.40.162.86:640	'2': request chart (No connection)
+0	2015.08.16 20:03:21	103.40.162.86:640	Connect
+79	2015.08.16 20:03:24	103.40.162.86:640	'2': request chart (Unknown error)
+0	2015.08.16 20:03:24	103.40.162.86:640	'2': login (276.49)
+129	2015.08.16 20:03:24	103.40.162.86:640	'2': receive server info failed (Invalid prices)
+6	2015.08.16 20:03:39	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:04:44	103.40.162.86:640	'2': request chart (No connection)
+0	2015.08.16 20:05:26	103.40.162.86:640	Connect
+0	2015.08.16 20:05:29	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 20:05:34	103.40.162.86:640	'2': request Symbols configutation
+3	2015.08.16 20:16:27	103.40.162.86:640	'2': request chart (Invalid parameters)
+0	2015.08.16 20:17:16		Unload: manager 6497B0 not released
+0	2015.08.16 20:17:16		Remove: manager 6497B0
+0	2015.08.16 20:17:16		Unload: manager 618670 not released
+0	2015.08.16 20:17:16	103.40.162.86:640	'2': disconnect
+0	2015.08.16 20:17:16		Remove: manager 618670
+0	2015.08.16 20:19:18		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 20:19:34	103.40.162.86:640	Connect
+0	2015.08.16 20:19:34	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 20:19:41	103.40.162.86:640	'2': request Symbols configutation
+3	2015.08.16 20:20:40	103.40.162.86:640	'2': request chart (Invalid parameters)
+3	2015.08.16 20:20:48	103.40.162.86:640	'2': request chart (Invalid parameters)
+3	2015.08.16 20:21:10	103.40.162.86:640	'2': request chart (Invalid parameters)
+0	2015.08.16 20:22:01	103.40.162.86:640	'2': request chart 'EURUSD' (8043 bars)
+0	2015.08.16 20:24:07	103.40.162.86:640	'2': request chart 'EURUSD' (8043 bars)
+0	2015.08.16 20:25:20	103.40.162.86:640	'2': request chart 'EURUSD' (8043 bars)
+0	2015.08.16 20:31:41	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+6	2015.08.16 20:38:03	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:38:09	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:38:12	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:38:14	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:38:17	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:38:21	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:38:24	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:39:32	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:39:35	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:41:09	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:41:12	103.40.162.86:640	'2': request chart (No connection)
+6	2015.08.16 20:41:15	103.40.162.86:640	'2': request chart (No connection)
+0	2015.08.16 20:41:18		Unload: manager 5E97B0 not released
+0	2015.08.16 20:41:18		Remove: manager 5E97B0
+0	2015.08.16 20:41:18		Unload: manager 5B8670 not released
+0	2015.08.16 20:41:18		Remove: manager 5B8670
+0	2015.08.16 20:48:40		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.16 20:49:04	103.40.162.86:640	Connect
+0	2015.08.16 20:49:04	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 20:49:38	103.40.162.86:640	'2': request Symbols configutation
+3	2015.08.16 20:49:59	103.40.162.86:640	'2': request chart (Invalid parameters)
+0	2015.08.16 20:54:52	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+0	2015.08.16 20:55:42	103.40.162.86:640	Connect
+0	2015.08.16 20:55:51	103.40.162.86:640	'2': login (5.09)
+24	2015.08.16 20:56:50	103.40.162.86:640	'2': request chart (Unknown error)
+20	2015.08.16 20:56:50	103.40.162.86:640	'2': request Symbols configutation (Unknown error)
+130	2015.08.16 21:00:46	103.40.162.86:640	'2': request chart (Invalid S/L or T/P)
+6	2015.08.16 21:07:43	103.40.162.86:640	Connect (No connection)
+0	2015.08.16 21:07:43	103.40.162.86:640	Connect
+0	2015.08.16 21:07:46	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 21:08:01	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 21:12:03	103.40.162.86:640	'2': request chart 'EURUSD' (4226 bars)
+0	2015.08.16 21:17:32	103.40.162.86:640	'2': request chart 'EURUSD' (4226 bars)
+0	2015.08.16 21:26:09	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars)
+6	2015.08.16 21:27:43	103.40.162.86:640	Connect (No connection)
+0	2015.08.16 21:27:43	103.40.162.86:640	Connect
+0	2015.08.16 21:27:43	103.40.162.86:640	'2': login (5.09)
+0	2015.08.16 21:28:15	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.16 21:34:00		Unload: manager 5E97B0 not released
+0	2015.08.16 21:34:00		Remove: manager 5E97B0
+0	2015.08.16 21:34:00		Unload: manager 5B8670 not released
+0	2015.08.16 21:34:00	103.40.162.86:640	'2': disconnect
+0	2015.08.16 21:34:00		Remove: manager 5B8670

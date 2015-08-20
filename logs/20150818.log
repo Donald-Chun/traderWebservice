@@ -1,0 +1,104 @@
+0	2015.08.18 21:26:54		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.18 21:27:24	103.40.162.86:640	Connect
+0	2015.08.18 21:27:25	103.40.162.86:640	'2': login (5.09)
+0	2015.08.18 21:27:25	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.18 21:27:51	103.40.162.86:640	'2': request chart 'EURUSD' (8054 bars)
+0	2015.08.18 21:33:23	103.40.162.86:640	'2': request chart 'EURUSD' (65862 bars)
+1	2015.08.18 21:38:54	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars) (OK/None)
+1	2015.08.18 21:41:42	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars) (OK/None)
+1	2015.08.18 21:42:10	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars) (OK/None)
+1	2015.08.18 21:42:27	103.40.162.86:640	'2': request chart 'EURUSD' (0 bars) (OK/None)
+0	2015.08.18 21:42:52	103.40.162.86:640	'2': request chart 'EURUSD' (65869 bars)
+0	2015.08.18 21:48:34	103.40.162.86:640	'2': request chart 'EURUSD' (4229 bars)
+0	2015.08.18 21:55:08	103.40.162.86:640	'2': request chart 'EURUSD' (159 bars)
+0	2015.08.18 21:57:43	103.40.162.86:640	'2': request chart 'EURUSD' (159 bars)
+0	2015.08.18 21:59:34	103.40.162.86:640	'2': request chart 'EURUSD' (159 bars)
+0	2015.08.18 22:00:14	103.40.162.86:640	'2': request chart 'EURUSD' (159 bars)
+0	2015.08.18 22:00:22	103.40.162.86:640	'2': request chart 'EURUSD' (8054 bars)
+0	2015.08.18 22:04:57		Unload: manager 6997B0 not released
+0	2015.08.18 22:04:57		Remove: manager 6997B0
+0	2015.08.18 22:04:57		Unload: manager 668670 not released
+0	2015.08.18 22:04:57	103.40.162.86:640	'2': disconnect
+0	2015.08.18 22:04:57		Remove: manager 668670
+0	2015.08.18 22:05:13		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.18 22:05:27	103.40.162.86:640	Connect
+0	2015.08.18 22:05:27	103.40.162.86:640	'2': login (5.09)
+0	2015.08.18 22:05:27	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.18 22:05:58	103.40.162.86:640	'2': request chart 'EURUSD' (8054 bars)
+0	2015.08.18 22:07:20	103.40.162.86:640	'2': request chart 'EURUSD' (8054 bars)
+3	2015.08.18 22:08:21	103.40.162.86:640	'2': request chart (Invalid parameters)
+0	2015.08.18 22:10:04		Unload: manager 5897B0 not released
+0	2015.08.18 22:10:04		Remove: manager 5897B0
+0	2015.08.18 22:10:04		Unload: manager 558670 not released
+0	2015.08.18 22:10:04	103.40.162.86:640	'2': disconnect
+0	2015.08.18 22:10:04		Remove: manager 558670
+0	2015.08.18 22:10:16		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.18 22:10:34	103.40.162.86:640	Connect
+0	2015.08.18 22:10:34	103.40.162.86:640	'2': login (5.09)
+0	2015.08.18 22:10:34	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.18 22:10:48	103.40.162.86:640	'2': request chart 'EURUSD' (10549 bars)
+0	2015.08.18 22:12:20	103.40.162.86:640	'2': request chart 'EURUSD' (10549 bars)
+0	2015.08.18 22:22:04	103.40.162.86:640	'2': request chart 'EURUSD' (8054 bars)
+0	2015.08.18 22:22:18	103.40.162.86:640	'2': request chart 'EURUSD' (4229 bars)
+0	2015.08.18 22:22:26	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.18 22:29:38		Unload: manager 2E97B0 not released
+0	2015.08.18 22:29:38		Remove: manager 2E97B0
+0	2015.08.18 22:29:38		Unload: manager 2B8670 not released
+0	2015.08.18 22:29:38	103.40.162.86:640	'2': disconnect
+0	2015.08.18 22:29:38		Remove: manager 2B8670
+0	2015.08.18 22:29:51		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.18 22:30:05	103.40.162.86:640	Connect
+0	2015.08.18 22:30:05	103.40.162.86:640	'2': login (5.09)
+0	2015.08.18 22:30:06	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.18 22:30:28	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.18 22:31:13		Unload: manager 3297B0 not released
+0	2015.08.18 22:31:13		Remove: manager 3297B0
+0	2015.08.18 22:31:13		Unload: manager 2F8670 not released
+0	2015.08.18 22:31:14	103.40.162.86:640	'2': disconnect
+0	2015.08.18 22:31:14		Remove: manager 2F8670
+0	2015.08.18 22:31:23		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.18 22:32:34	103.40.162.86:640	Connect
+0	2015.08.18 22:32:34	103.40.162.86:640	'2': login (5.09)
+0	2015.08.18 22:32:34	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.18 22:32:38	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.18 22:34:01		Unload: manager 5B97B0 not released
+0	2015.08.18 22:34:01		Remove: manager 5B97B0
+0	2015.08.18 22:34:01		Unload: manager 588670 not released
+0	2015.08.18 22:34:01	103.40.162.86:640	'2': disconnect
+0	2015.08.18 22:34:01		Remove: manager 588670
+0	2015.08.18 22:34:06		MetaTrader 4 Manager API build 509 initialized
+0	2015.08.18 22:34:45	103.40.162.86:640	Connect
+0	2015.08.18 22:34:45	103.40.162.86:640	'2': login (5.09)
+0	2015.08.18 22:34:46	103.40.162.86:640	'2': request Symbols configutation
+0	2015.08.18 22:34:49	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.18 22:36:05	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.18 22:36:13	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+1	2015.08.18 22:39:54	103.40.162.86:640	'2': request chart '143990879810<' (0 bars) (OK/None)
+1	2015.08.18 22:42:00	103.40.162.86:640	'2': request chart '143990892407<' (0 bars) (OK/None)
+1	2015.08.18 22:42:50	103.40.162.86:640	'2': request chart '143990897395<' (0 bars) (OK/None)
+1	2015.08.18 22:43:09	103.40.162.86:640	'2': request chart '143990899326<' (0 bars) (OK/None)
+1	2015.08.18 22:43:44	103.40.162.86:640	'2': request chart '143990902844<' (0 bars) (OK/None)
+1	2015.08.18 22:44:27	103.40.162.86:640	'2': request chart '143990907076<' (0 bars) (OK/None)
+1	2015.08.18 22:44:56	103.40.162.86:640	'2': request chart '143990909977<' (0 bars) (OK/None)
+1	2015.08.18 22:45:26	103.40.162.86:640	'2': request chart '143990912956<' (0 bars) (OK/None)
+1	2015.08.18 22:47:59	103.40.162.86:640	'2': request chart '143990928169<' (0 bars) (OK/None)
+1	2015.08.18 22:55:28	103.40.162.86:640	'2': request chart '143990973098<' (0 bars) (OK/None)
+0	2015.08.18 22:56:46	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.18 22:56:46	103.40.162.86:640	'2': request chart 'EURUSD' (8054 bars)
+0	2015.08.18 22:56:49	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.18 22:56:49	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.18 22:56:50	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.18 22:56:50	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.18 22:56:50	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.18 22:56:51	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.18 22:56:51	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+0	2015.08.18 22:56:51	103.40.162.86:640	'2': request chart 'EURUSD' (693 bars)
+1	2015.08.18 23:02:44	103.40.162.86:640	'2': request chart '143991016739<' (0 bars) (OK/None)
+0	2015.08.18 23:09:47	103.40.162.86:640	'2': request chart 'EURUSD' (65824 bars)
+0	2015.08.18 23:11:00	103.40.162.86:640	'2': request chart 'EURUSD' (10550 bars)
+0	2015.08.18 23:14:08	103.40.162.86:640	'2': request chart 'EURUSD' (10550 bars)
+0	2015.08.18 23:14:53		Unload: manager 5997B0 not released
+0	2015.08.18 23:14:53		Remove: manager 5997B0
+0	2015.08.18 23:14:53		Unload: manager 568670 not released
+0	2015.08.18 23:14:53	103.40.162.86:640	'2': disconnect
+0	2015.08.18 23:14:53		Remove: manager 568670

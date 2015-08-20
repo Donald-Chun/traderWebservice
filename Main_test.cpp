@@ -20,12 +20,14 @@ using namespace std;
 //+------------------------------------------------------------------+
 int main(int argc, char* argv[])
   {
-	 
-	 string server = "123.56.101.64:443" ;
-     string logid = "3" ;
-	 string password = "123456a" ;
+	 string server="103.40.162.86:640";
+string logid="2" ;
+string password="123456a";
+
 	 API api ;
 	 api.login(server,logid,password) ;
+
+	 Sleep(1000);
 
 	 vector<UserRecord> vc= api.getAllUserRecord() ;
 	 for(int i=0;i<vc.size() ;i++){
@@ -80,5 +82,44 @@ int main(int argc, char* argv[])
 	  cout << total << endl ;
 
 	  */
+	 vector<TradeRecord> r= api.getOngoingTradesByLogin(88888888);
+	 cout << r.size() << endl ;
+	 for(int i=0;i<r.size();i++){
+		 cout << r[i].symbol  << endl ;
+	 }
+
+
+	int total =0;
+   __time32_t t=1439310315 ;
+
+   tm t1={0,0,0,24,5,115,0,0,0} ;
+   tm t2={0,0,0,25,5,115,0,0,0} ;
+
+
+   
+   ChartInfo ci ;
+   strcpy(ci.symbol,"EURUSD");
+   ci.period = PERIOD_M5 ;
+   ci.mode=CHART_RANGE_IN;
+  // ci.end =1439654400 ;
+  // ci.start = ci.end-200*5*60;
+   
+   ci.end =_mktime32(&t2) ;
+   ci.start = _mktime32(&t1);
+   int toSym = 0;
+   int digit = api.symbolDetail("EURUSD").digits ;
+   vector<RateInfo> ri=api.getHistoryChartData(ci,digit) ;
+
+   for(int i=0;i<ri.size();i++){
+	   cout << ri[i].high<< "\t" << ri[i].low << "\t" <<ri[i].open  << "\t" <<ri[i].close << "\t"  <<ri[i].ctm<< endl ;
+   }
+
+
+   cout << ci.start << endl;
+   cout << ci.end << endl ;
+   cout << (ci.end - ci.start)/(5*60) << endl ;
+   cout << ri.size() << endl ;
+
+
    return(0);
   }

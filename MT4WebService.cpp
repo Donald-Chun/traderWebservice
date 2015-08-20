@@ -96,14 +96,14 @@ uint32_t MT4WebService_getAllUserRecord_result::read(::apache::thrift::protocol:
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             this->success.clear();
-            uint32_t _size50;
-            ::apache::thrift::protocol::TType _etype53;
-            xfer += iprot->readListBegin(_etype53, _size50);
-            this->success.resize(_size50);
-            uint32_t _i54;
-            for (_i54 = 0; _i54 < _size50; ++_i54)
+            uint32_t _size52;
+            ::apache::thrift::protocol::TType _etype55;
+            xfer += iprot->readListBegin(_etype55, _size52);
+            this->success.resize(_size52);
+            uint32_t _i56;
+            for (_i56 = 0; _i56 < _size52; ++_i56)
             {
-              xfer += this->success[_i54].read(iprot);
+              xfer += this->success[_i56].read(iprot);
             }
             xfer += iprot->readListEnd();
           }
@@ -134,10 +134,10 @@ uint32_t MT4WebService_getAllUserRecord_result::write(::apache::thrift::protocol
     xfer += oprot->writeFieldBegin("success", ::apache::thrift::protocol::T_LIST, 0);
     {
       xfer += oprot->writeListBegin(::apache::thrift::protocol::T_STRUCT, static_cast<uint32_t>(this->success.size()));
-      std::vector<MT4UserRecord> ::const_iterator _iter55;
-      for (_iter55 = this->success.begin(); _iter55 != this->success.end(); ++_iter55)
+      std::vector<MT4UserRecord> ::const_iterator _iter57;
+      for (_iter57 = this->success.begin(); _iter57 != this->success.end(); ++_iter57)
       {
-        xfer += (*_iter55).write(oprot);
+        xfer += (*_iter57).write(oprot);
       }
       xfer += oprot->writeListEnd();
     }
@@ -177,14 +177,14 @@ uint32_t MT4WebService_getAllUserRecord_presult::read(::apache::thrift::protocol
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             (*(this->success)).clear();
-            uint32_t _size56;
-            ::apache::thrift::protocol::TType _etype59;
-            xfer += iprot->readListBegin(_etype59, _size56);
-            (*(this->success)).resize(_size56);
-            uint32_t _i60;
-            for (_i60 = 0; _i60 < _size56; ++_i60)
+            uint32_t _size58;
+            ::apache::thrift::protocol::TType _etype61;
+            xfer += iprot->readListBegin(_etype61, _size58);
+            (*(this->success)).resize(_size58);
+            uint32_t _i62;
+            for (_i62 = 0; _i62 < _size58; ++_i62)
             {
-              xfer += (*(this->success))[_i60].read(iprot);
+              xfer += (*(this->success))[_i62].read(iprot);
             }
             xfer += iprot->readListEnd();
           }
@@ -497,8 +497,8 @@ uint32_t MT4WebService_addUser_result::read(::apache::thrift::protocol::TProtoco
     switch (fid)
     {
       case 0:
-        if (ftype == ::apache::thrift::protocol::T_BOOL) {
-          xfer += iprot->readBool(this->success);
+        if (ftype == ::apache::thrift::protocol::T_I32) {
+          xfer += iprot->readI32(this->success);
           this->__isset.success = true;
         } else {
           xfer += iprot->skip(ftype);
@@ -523,8 +523,8 @@ uint32_t MT4WebService_addUser_result::write(::apache::thrift::protocol::TProtoc
   xfer += oprot->writeStructBegin("MT4WebService_addUser_result");
 
   if (this->__isset.success) {
-    xfer += oprot->writeFieldBegin("success", ::apache::thrift::protocol::T_BOOL, 0);
-    xfer += oprot->writeBool(this->success);
+    xfer += oprot->writeFieldBegin("success", ::apache::thrift::protocol::T_I32, 0);
+    xfer += oprot->writeI32(this->success);
     xfer += oprot->writeFieldEnd();
   }
   xfer += oprot->writeFieldStop();
@@ -558,8 +558,8 @@ uint32_t MT4WebService_addUser_presult::read(::apache::thrift::protocol::TProtoc
     switch (fid)
     {
       case 0:
-        if (ftype == ::apache::thrift::protocol::T_BOOL) {
-          xfer += iprot->readBool((*(this->success)));
+        if (ftype == ::apache::thrift::protocol::T_I32) {
+          xfer += iprot->readI32((*(this->success)));
           this->__isset.success = true;
         } else {
           xfer += iprot->skip(ftype);
@@ -806,9 +806,9 @@ uint32_t MT4WebService_balance_args::read(::apache::thrift::protocol::TProtocol*
         break;
       case 3:
         if (ftype == ::apache::thrift::protocol::T_I32) {
-          int32_t ecast61;
-          xfer += iprot->readI32(ecast61);
-          this->type = (MT4DEAL_TYPE::type)ecast61;
+          int32_t ecast63;
+          xfer += iprot->readI32(ecast63);
+          this->type = (MT4DEAL_TYPE::type)ecast63;
           this->__isset.type = true;
         } else {
           xfer += iprot->skip(ftype);
@@ -1042,9 +1042,9 @@ uint32_t MT4WebService_credit_args::read(::apache::thrift::protocol::TProtocol* 
         break;
       case 3:
         if (ftype == ::apache::thrift::protocol::T_I32) {
-          int32_t ecast62;
-          xfer += iprot->readI32(ecast62);
-          this->type = (MT4DEAL_TYPE::type)ecast62;
+          int32_t ecast64;
+          xfer += iprot->readI32(ecast64);
+          this->type = (MT4DEAL_TYPE::type)ecast64;
           this->__isset.type = true;
         } else {
           xfer += iprot->skip(ftype);
@@ -1294,9 +1294,9 @@ uint32_t MT4WebService_changePassword_args::read(::apache::thrift::protocol::TPr
         break;
       case 3:
         if (ftype == ::apache::thrift::protocol::T_I32) {
-          int32_t ecast63;
-          xfer += iprot->readI32(ecast63);
-          this->p_type = (MT4PASSWORD_TYPE::type)ecast63;
+          int32_t ecast65;
+          xfer += iprot->readI32(ecast65);
+          this->p_type = (MT4PASSWORD_TYPE::type)ecast65;
           this->__isset.p_type = true;
         } else {
           xfer += iprot->skip(ftype);
@@ -1628,14 +1628,14 @@ uint32_t MT4WebService_getTradesHistoryByLogin_result::read(::apache::thrift::pr
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             this->success.clear();
-            uint32_t _size64;
-            ::apache::thrift::protocol::TType _etype67;
-            xfer += iprot->readListBegin(_etype67, _size64);
-            this->success.resize(_size64);
-            uint32_t _i68;
-            for (_i68 = 0; _i68 < _size64; ++_i68)
+            uint32_t _size66;
+            ::apache::thrift::protocol::TType _etype69;
+            xfer += iprot->readListBegin(_etype69, _size66);
+            this->success.resize(_size66);
+            uint32_t _i70;
+            for (_i70 = 0; _i70 < _size66; ++_i70)
             {
-              xfer += this->success[_i68].read(iprot);
+              xfer += this->success[_i70].read(iprot);
             }
             xfer += iprot->readListEnd();
           }
@@ -1666,10 +1666,10 @@ uint32_t MT4WebService_getTradesHistoryByLogin_result::write(::apache::thrift::p
     xfer += oprot->writeFieldBegin("success", ::apache::thrift::protocol::T_LIST, 0);
     {
       xfer += oprot->writeListBegin(::apache::thrift::protocol::T_STRUCT, static_cast<uint32_t>(this->success.size()));
-      std::vector<MT4TradeRecord> ::const_iterator _iter69;
-      for (_iter69 = this->success.begin(); _iter69 != this->success.end(); ++_iter69)
+      std::vector<MT4TradeRecord> ::const_iterator _iter71;
+      for (_iter71 = this->success.begin(); _iter71 != this->success.end(); ++_iter71)
       {
-        xfer += (*_iter69).write(oprot);
+        xfer += (*_iter71).write(oprot);
       }
       xfer += oprot->writeListEnd();
     }
@@ -1709,14 +1709,14 @@ uint32_t MT4WebService_getTradesHistoryByLogin_presult::read(::apache::thrift::p
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             (*(this->success)).clear();
-            uint32_t _size70;
-            ::apache::thrift::protocol::TType _etype73;
-            xfer += iprot->readListBegin(_etype73, _size70);
-            (*(this->success)).resize(_size70);
-            uint32_t _i74;
-            for (_i74 = 0; _i74 < _size70; ++_i74)
+            uint32_t _size72;
+            ::apache::thrift::protocol::TType _etype75;
+            xfer += iprot->readListBegin(_etype75, _size72);
+            (*(this->success)).resize(_size72);
+            uint32_t _i76;
+            for (_i76 = 0; _i76 < _size72; ++_i76)
             {
-              xfer += (*(this->success))[_i74].read(iprot);
+              xfer += (*(this->success))[_i76].read(iprot);
             }
             xfer += iprot->readListEnd();
           }
@@ -1846,14 +1846,14 @@ uint32_t MT4WebService_getOngingTradesByLogin_result::read(::apache::thrift::pro
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             this->success.clear();
-            uint32_t _size75;
-            ::apache::thrift::protocol::TType _etype78;
-            xfer += iprot->readListBegin(_etype78, _size75);
-            this->success.resize(_size75);
-            uint32_t _i79;
-            for (_i79 = 0; _i79 < _size75; ++_i79)
+            uint32_t _size77;
+            ::apache::thrift::protocol::TType _etype80;
+            xfer += iprot->readListBegin(_etype80, _size77);
+            this->success.resize(_size77);
+            uint32_t _i81;
+            for (_i81 = 0; _i81 < _size77; ++_i81)
             {
-              xfer += this->success[_i79].read(iprot);
+              xfer += this->success[_i81].read(iprot);
             }
             xfer += iprot->readListEnd();
           }
@@ -1884,10 +1884,10 @@ uint32_t MT4WebService_getOngingTradesByLogin_result::write(::apache::thrift::pr
     xfer += oprot->writeFieldBegin("success", ::apache::thrift::protocol::T_LIST, 0);
     {
       xfer += oprot->writeListBegin(::apache::thrift::protocol::T_STRUCT, static_cast<uint32_t>(this->success.size()));
-      std::vector<MT4TradeRecord> ::const_iterator _iter80;
-      for (_iter80 = this->success.begin(); _iter80 != this->success.end(); ++_iter80)
+      std::vector<MT4TradeRecord> ::const_iterator _iter82;
+      for (_iter82 = this->success.begin(); _iter82 != this->success.end(); ++_iter82)
       {
-        xfer += (*_iter80).write(oprot);
+        xfer += (*_iter82).write(oprot);
       }
       xfer += oprot->writeListEnd();
     }
@@ -1927,14 +1927,14 @@ uint32_t MT4WebService_getOngingTradesByLogin_presult::read(::apache::thrift::pr
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             (*(this->success)).clear();
-            uint32_t _size81;
-            ::apache::thrift::protocol::TType _etype84;
-            xfer += iprot->readListBegin(_etype84, _size81);
-            (*(this->success)).resize(_size81);
-            uint32_t _i85;
-            for (_i85 = 0; _i85 < _size81; ++_i85)
+            uint32_t _size83;
+            ::apache::thrift::protocol::TType _etype86;
+            xfer += iprot->readListBegin(_etype86, _size83);
+            (*(this->success)).resize(_size83);
+            uint32_t _i87;
+            for (_i87 = 0; _i87 < _size83; ++_i87)
             {
-              xfer += (*(this->success))[_i85].read(iprot);
+              xfer += (*(this->success))[_i87].read(iprot);
             }
             xfer += iprot->readListEnd();
           }
@@ -2043,14 +2043,14 @@ uint32_t MT4WebService_getAllOngoingTrades_result::read(::apache::thrift::protoc
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             this->success.clear();
-            uint32_t _size86;
-            ::apache::thrift::protocol::TType _etype89;
-            xfer += iprot->readListBegin(_etype89, _size86);
-            this->success.resize(_size86);
-            uint32_t _i90;
-            for (_i90 = 0; _i90 < _size86; ++_i90)
+            uint32_t _size88;
+            ::apache::thrift::protocol::TType _etype91;
+            xfer += iprot->readListBegin(_etype91, _size88);
+            this->success.resize(_size88);
+            uint32_t _i92;
+            for (_i92 = 0; _i92 < _size88; ++_i92)
             {
-              xfer += this->success[_i90].read(iprot);
+              xfer += this->success[_i92].read(iprot);
             }
             xfer += iprot->readListEnd();
           }
@@ -2081,10 +2081,10 @@ uint32_t MT4WebService_getAllOngoingTrades_result::write(::apache::thrift::proto
     xfer += oprot->writeFieldBegin("success", ::apache::thrift::protocol::T_LIST, 0);
     {
       xfer += oprot->writeListBegin(::apache::thrift::protocol::T_STRUCT, static_cast<uint32_t>(this->success.size()));
-      std::vector<MT4TradeRecord> ::const_iterator _iter91;
-      for (_iter91 = this->success.begin(); _iter91 != this->success.end(); ++_iter91)
+      std::vector<MT4TradeRecord> ::const_iterator _iter93;
+      for (_iter93 = this->success.begin(); _iter93 != this->success.end(); ++_iter93)
       {
-        xfer += (*_iter91).write(oprot);
+        xfer += (*_iter93).write(oprot);
       }
       xfer += oprot->writeListEnd();
     }
@@ -2124,14 +2124,14 @@ uint32_t MT4WebService_getAllOngoingTrades_presult::read(::apache::thrift::proto
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             (*(this->success)).clear();
-            uint32_t _size92;
-            ::apache::thrift::protocol::TType _etype95;
-            xfer += iprot->readListBegin(_etype95, _size92);
-            (*(this->success)).resize(_size92);
-            uint32_t _i96;
-            for (_i96 = 0; _i96 < _size92; ++_i96)
+            uint32_t _size94;
+            ::apache::thrift::protocol::TType _etype97;
+            xfer += iprot->readListBegin(_etype97, _size94);
+            (*(this->success)).resize(_size94);
+            uint32_t _i98;
+            for (_i98 = 0; _i98 < _size94; ++_i98)
             {
-              xfer += (*(this->success))[_i96].read(iprot);
+              xfer += (*(this->success))[_i98].read(iprot);
             }
             xfer += iprot->readListEnd();
           }
@@ -2447,14 +2447,14 @@ uint32_t MT4WebService_getHistoryChartData_result::read(::apache::thrift::protoc
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             this->success.clear();
-            uint32_t _size97;
-            ::apache::thrift::protocol::TType _etype100;
-            xfer += iprot->readListBegin(_etype100, _size97);
-            this->success.resize(_size97);
-            uint32_t _i101;
-            for (_i101 = 0; _i101 < _size97; ++_i101)
+            uint32_t _size99;
+            ::apache::thrift::protocol::TType _etype102;
+            xfer += iprot->readListBegin(_etype102, _size99);
+            this->success.resize(_size99);
+            uint32_t _i103;
+            for (_i103 = 0; _i103 < _size99; ++_i103)
             {
-              xfer += this->success[_i101].read(iprot);
+              xfer += this->success[_i103].read(iprot);
             }
             xfer += iprot->readListEnd();
           }
@@ -2485,10 +2485,10 @@ uint32_t MT4WebService_getHistoryChartData_result::write(::apache::thrift::proto
     xfer += oprot->writeFieldBegin("success", ::apache::thrift::protocol::T_LIST, 0);
     {
       xfer += oprot->writeListBegin(::apache::thrift::protocol::T_STRUCT, static_cast<uint32_t>(this->success.size()));
-      std::vector<MT4RateInfo> ::const_iterator _iter102;
-      for (_iter102 = this->success.begin(); _iter102 != this->success.end(); ++_iter102)
+      std::vector<MT4RateInfo> ::const_iterator _iter104;
+      for (_iter104 = this->success.begin(); _iter104 != this->success.end(); ++_iter104)
       {
-        xfer += (*_iter102).write(oprot);
+        xfer += (*_iter104).write(oprot);
       }
       xfer += oprot->writeListEnd();
     }
@@ -2528,14 +2528,211 @@ uint32_t MT4WebService_getHistoryChartData_presult::read(::apache::thrift::proto
         if (ftype == ::apache::thrift::protocol::T_LIST) {
           {
             (*(this->success)).clear();
-            uint32_t _size103;
-            ::apache::thrift::protocol::TType _etype106;
-            xfer += iprot->readListBegin(_etype106, _size103);
-            (*(this->success)).resize(_size103);
-            uint32_t _i107;
-            for (_i107 = 0; _i107 < _size103; ++_i107)
+            uint32_t _size105;
+            ::apache::thrift::protocol::TType _etype108;
+            xfer += iprot->readListBegin(_etype108, _size105);
+            (*(this->success)).resize(_size105);
+            uint32_t _i109;
+            for (_i109 = 0; _i109 < _size105; ++_i109)
             {
-              xfer += (*(this->success))[_i107].read(iprot);
+              xfer += (*(this->success))[_i109].read(iprot);
+            }
+            xfer += iprot->readListEnd();
+          }
+          this->__isset.success = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      default:
+        xfer += iprot->skip(ftype);
+        break;
+    }
+    xfer += iprot->readFieldEnd();
+  }
+
+  xfer += iprot->readStructEnd();
+
+  return xfer;
+}
+
+
+MT4WebService_getAllGroups_args::~MT4WebService_getAllGroups_args() throw() {
+}
+
+
+uint32_t MT4WebService_getAllGroups_args::read(::apache::thrift::protocol::TProtocol* iprot) {
+
+  uint32_t xfer = 0;
+  std::string fname;
+  ::apache::thrift::protocol::TType ftype;
+  int16_t fid;
+
+  xfer += iprot->readStructBegin(fname);
+
+  using ::apache::thrift::protocol::TProtocolException;
+
+
+  while (true)
+  {
+    xfer += iprot->readFieldBegin(fname, ftype, fid);
+    if (ftype == ::apache::thrift::protocol::T_STOP) {
+      break;
+    }
+    xfer += iprot->skip(ftype);
+    xfer += iprot->readFieldEnd();
+  }
+
+  xfer += iprot->readStructEnd();
+
+  return xfer;
+}
+
+uint32_t MT4WebService_getAllGroups_args::write(::apache::thrift::protocol::TProtocol* oprot) const {
+  uint32_t xfer = 0;
+  oprot->incrementRecursionDepth();
+  xfer += oprot->writeStructBegin("MT4WebService_getAllGroups_args");
+
+  xfer += oprot->writeFieldStop();
+  xfer += oprot->writeStructEnd();
+  oprot->decrementRecursionDepth();
+  return xfer;
+}
+
+
+MT4WebService_getAllGroups_pargs::~MT4WebService_getAllGroups_pargs() throw() {
+}
+
+
+uint32_t MT4WebService_getAllGroups_pargs::write(::apache::thrift::protocol::TProtocol* oprot) const {
+  uint32_t xfer = 0;
+  oprot->incrementRecursionDepth();
+  xfer += oprot->writeStructBegin("MT4WebService_getAllGroups_pargs");
+
+  xfer += oprot->writeFieldStop();
+  xfer += oprot->writeStructEnd();
+  oprot->decrementRecursionDepth();
+  return xfer;
+}
+
+
+MT4WebService_getAllGroups_result::~MT4WebService_getAllGroups_result() throw() {
+}
+
+
+uint32_t MT4WebService_getAllGroups_result::read(::apache::thrift::protocol::TProtocol* iprot) {
+
+  uint32_t xfer = 0;
+  std::string fname;
+  ::apache::thrift::protocol::TType ftype;
+  int16_t fid;
+
+  xfer += iprot->readStructBegin(fname);
+
+  using ::apache::thrift::protocol::TProtocolException;
+
+
+  while (true)
+  {
+    xfer += iprot->readFieldBegin(fname, ftype, fid);
+    if (ftype == ::apache::thrift::protocol::T_STOP) {
+      break;
+    }
+    switch (fid)
+    {
+      case 0:
+        if (ftype == ::apache::thrift::protocol::T_LIST) {
+          {
+            this->success.clear();
+            uint32_t _size110;
+            ::apache::thrift::protocol::TType _etype113;
+            xfer += iprot->readListBegin(_etype113, _size110);
+            this->success.resize(_size110);
+            uint32_t _i114;
+            for (_i114 = 0; _i114 < _size110; ++_i114)
+            {
+              xfer += this->success[_i114].read(iprot);
+            }
+            xfer += iprot->readListEnd();
+          }
+          this->__isset.success = true;
+        } else {
+          xfer += iprot->skip(ftype);
+        }
+        break;
+      default:
+        xfer += iprot->skip(ftype);
+        break;
+    }
+    xfer += iprot->readFieldEnd();
+  }
+
+  xfer += iprot->readStructEnd();
+
+  return xfer;
+}
+
+uint32_t MT4WebService_getAllGroups_result::write(::apache::thrift::protocol::TProtocol* oprot) const {
+
+  uint32_t xfer = 0;
+
+  xfer += oprot->writeStructBegin("MT4WebService_getAllGroups_result");
+
+  if (this->__isset.success) {
+    xfer += oprot->writeFieldBegin("success", ::apache::thrift::protocol::T_LIST, 0);
+    {
+      xfer += oprot->writeListBegin(::apache::thrift::protocol::T_STRUCT, static_cast<uint32_t>(this->success.size()));
+      std::vector<MT4ConGroup> ::const_iterator _iter115;
+      for (_iter115 = this->success.begin(); _iter115 != this->success.end(); ++_iter115)
+      {
+        xfer += (*_iter115).write(oprot);
+      }
+      xfer += oprot->writeListEnd();
+    }
+    xfer += oprot->writeFieldEnd();
+  }
+  xfer += oprot->writeFieldStop();
+  xfer += oprot->writeStructEnd();
+  return xfer;
+}
+
+
+MT4WebService_getAllGroups_presult::~MT4WebService_getAllGroups_presult() throw() {
+}
+
+
+uint32_t MT4WebService_getAllGroups_presult::read(::apache::thrift::protocol::TProtocol* iprot) {
+
+  uint32_t xfer = 0;
+  std::string fname;
+  ::apache::thrift::protocol::TType ftype;
+  int16_t fid;
+
+  xfer += iprot->readStructBegin(fname);
+
+  using ::apache::thrift::protocol::TProtocolException;
+
+
+  while (true)
+  {
+    xfer += iprot->readFieldBegin(fname, ftype, fid);
+    if (ftype == ::apache::thrift::protocol::T_STOP) {
+      break;
+    }
+    switch (fid)
+    {
+      case 0:
+        if (ftype == ::apache::thrift::protocol::T_LIST) {
+          {
+            (*(this->success)).clear();
+            uint32_t _size116;
+            ::apache::thrift::protocol::TType _etype119;
+            xfer += iprot->readListBegin(_etype119, _size116);
+            (*(this->success)).resize(_size116);
+            uint32_t _i120;
+            for (_i120 = 0; _i120 < _size116; ++_i120)
+            {
+              xfer += (*(this->success))[_i120].read(iprot);
             }
             xfer += iprot->readListEnd();
           }
@@ -2805,7 +3002,7 @@ void MT4WebServiceClient::recv_getUserRecordByLogin(MT4UserRecord& _return)
   throw ::apache::thrift::TApplicationException(::apache::thrift::TApplicationException::MISSING_RESULT, "getUserRecordByLogin failed: unknown result");
 }
 
-bool MT4WebServiceClient::addUser(const MT4UserRecord& mur)
+int32_t MT4WebServiceClient::addUser(const MT4UserRecord& mur)
 {
   send_addUser(mur);
   return recv_addUser();
@@ -2825,7 +3022,7 @@ void MT4WebServiceClient::send_addUser(const MT4UserRecord& mur)
   oprot_->getTransport()->flush();
 }
 
-bool MT4WebServiceClient::recv_addUser()
+int32_t MT4WebServiceClient::recv_addUser()
 {
 
   int32_t rseqid = 0;
@@ -2850,7 +3047,7 @@ bool MT4WebServiceClient::recv_addUser()
     iprot_->readMessageEnd();
     iprot_->getTransport()->readEnd();
   }
-  bool _return;
+  int32_t _return;
   MT4WebService_addUser_presult result;
   result.success = &_return;
   result.read(iprot_);
@@ -3394,6 +3591,63 @@ void MT4WebServiceClient::recv_getHistoryChartData(std::vector<MT4RateInfo> & _r
     return;
   }
   throw ::apache::thrift::TApplicationException(::apache::thrift::TApplicationException::MISSING_RESULT, "getHistoryChartData failed: unknown result");
+}
+
+void MT4WebServiceClient::getAllGroups(std::vector<MT4ConGroup> & _return)
+{
+  send_getAllGroups();
+  recv_getAllGroups(_return);
+}
+
+void MT4WebServiceClient::send_getAllGroups()
+{
+  int32_t cseqid = 0;
+  oprot_->writeMessageBegin("getAllGroups", ::apache::thrift::protocol::T_CALL, cseqid);
+
+  MT4WebService_getAllGroups_pargs args;
+  args.write(oprot_);
+
+  oprot_->writeMessageEnd();
+  oprot_->getTransport()->writeEnd();
+  oprot_->getTransport()->flush();
+}
+
+void MT4WebServiceClient::recv_getAllGroups(std::vector<MT4ConGroup> & _return)
+{
+
+  int32_t rseqid = 0;
+  std::string fname;
+  ::apache::thrift::protocol::TMessageType mtype;
+
+  iprot_->readMessageBegin(fname, mtype, rseqid);
+  if (mtype == ::apache::thrift::protocol::T_EXCEPTION) {
+    ::apache::thrift::TApplicationException x;
+    x.read(iprot_);
+    iprot_->readMessageEnd();
+    iprot_->getTransport()->readEnd();
+    throw x;
+  }
+  if (mtype != ::apache::thrift::protocol::T_REPLY) {
+    iprot_->skip(::apache::thrift::protocol::T_STRUCT);
+    iprot_->readMessageEnd();
+    iprot_->getTransport()->readEnd();
+  }
+  if (fname.compare("getAllGroups") != 0) {
+    iprot_->skip(::apache::thrift::protocol::T_STRUCT);
+    iprot_->readMessageEnd();
+    iprot_->getTransport()->readEnd();
+  }
+  MT4WebService_getAllGroups_presult result;
+  result.success = &_return;
+  result.read(iprot_);
+  iprot_->readMessageEnd();
+  iprot_->getTransport()->readEnd();
+
+  if (result.__isset.success) {
+    // _return pointer has now been filled
+    return;
+  }
+  throw ::apache::thrift::TApplicationException(::apache::thrift::TApplicationException::MISSING_RESULT, "getAllGroups failed: unknown result");
 }
 
 void MT4WebServiceClient::testSayHi()
@@ -4112,6 +4366,60 @@ void MT4WebServiceProcessor::process_getHistoryChartData(int32_t seqid, ::apache
 
   if (this->eventHandler_.get() != NULL) {
     this->eventHandler_->postWrite(ctx, "MT4WebService.getHistoryChartData", bytes);
+  }
+}
+
+void MT4WebServiceProcessor::process_getAllGroups(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext)
+{
+  void* ctx = NULL;
+  if (this->eventHandler_.get() != NULL) {
+    ctx = this->eventHandler_->getContext("MT4WebService.getAllGroups", callContext);
+  }
+  ::apache::thrift::TProcessorContextFreer freer(this->eventHandler_.get(), ctx, "MT4WebService.getAllGroups");
+
+  if (this->eventHandler_.get() != NULL) {
+    this->eventHandler_->preRead(ctx, "MT4WebService.getAllGroups");
+  }
+
+  MT4WebService_getAllGroups_args args;
+  args.read(iprot);
+  iprot->readMessageEnd();
+  uint32_t bytes = iprot->getTransport()->readEnd();
+
+  if (this->eventHandler_.get() != NULL) {
+    this->eventHandler_->postRead(ctx, "MT4WebService.getAllGroups", bytes);
+  }
+
+  MT4WebService_getAllGroups_result result;
+  try {
+    iface_->getAllGroups(result.success);
+    result.__isset.success = true;
+  } catch (const std::exception& e) {
+    if (this->eventHandler_.get() != NULL) {
+      this->eventHandler_->handlerError(ctx, "MT4WebService.getAllGroups");
+    }
+
+    ::apache::thrift::TApplicationException x(e.what());
+    oprot->writeMessageBegin("getAllGroups", ::apache::thrift::protocol::T_EXCEPTION, seqid);
+    x.write(oprot);
+    oprot->writeMessageEnd();
+    oprot->getTransport()->writeEnd();
+    oprot->getTransport()->flush();
+    return;
+  }
+
+  if (this->eventHandler_.get() != NULL) {
+    this->eventHandler_->preWrite(ctx, "MT4WebService.getAllGroups");
+  }
+
+  oprot->writeMessageBegin("getAllGroups", ::apache::thrift::protocol::T_REPLY, seqid);
+  result.write(oprot);
+  oprot->writeMessageEnd();
+  bytes = oprot->getTransport()->writeEnd();
+  oprot->getTransport()->flush();
+
+  if (this->eventHandler_.get() != NULL) {
+    this->eventHandler_->postWrite(ctx, "MT4WebService.getAllGroups", bytes);
   }
 }
 

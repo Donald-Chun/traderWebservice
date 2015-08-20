@@ -17,7 +17,7 @@ class MT4WebServiceIf {
   virtual ~MT4WebServiceIf() {}
   virtual void getAllUserRecord(std::vector<MT4UserRecord> & _return) = 0;
   virtual void getUserRecordByLogin(MT4UserRecord& _return, const int32_t login) = 0;
-  virtual bool addUser(const MT4UserRecord& mur) = 0;
+  virtual int32_t addUser(const MT4UserRecord& mur) = 0;
   virtual bool groupOperation(const MT4GroupCommand& mgc) = 0;
   virtual bool balance(const int32_t login, const double money, const MT4DEAL_TYPE::type type, const std::string& comment) = 0;
   virtual bool credit(const int32_t login, const double money, const MT4DEAL_TYPE::type type, const std::string& comment, const int64_t ExpirationDayTimestamp) = 0;
@@ -27,6 +27,7 @@ class MT4WebServiceIf {
   virtual void getAllOngoingTrades(std::vector<MT4TradeRecord> & _return) = 0;
   virtual void symbolDetail(MT4ConSymbol& _return, const std::string& symbol) = 0;
   virtual void getHistoryChartData(std::vector<MT4RateInfo> & _return, const MT4ChartInfo& chartInfo) = 0;
+  virtual void getAllGroups(std::vector<MT4ConGroup> & _return) = 0;
   virtual void testSayHi() = 0;
 };
 
@@ -63,8 +64,8 @@ class MT4WebServiceNull : virtual public MT4WebServiceIf {
   void getUserRecordByLogin(MT4UserRecord& /* _return */, const int32_t /* login */) {
     return;
   }
-  bool addUser(const MT4UserRecord& /* mur */) {
-    bool _return = false;
+  int32_t addUser(const MT4UserRecord& /* mur */) {
+    int32_t _return = 0;
     return _return;
   }
   bool groupOperation(const MT4GroupCommand& /* mgc */) {
@@ -96,6 +97,9 @@ class MT4WebServiceNull : virtual public MT4WebServiceIf {
     return;
   }
   void getHistoryChartData(std::vector<MT4RateInfo> & /* _return */, const MT4ChartInfo& /* chartInfo */) {
+    return;
+  }
+  void getAllGroups(std::vector<MT4ConGroup> & /* _return */) {
     return;
   }
   void testSayHi() {
@@ -396,8 +400,8 @@ typedef struct _MT4WebService_addUser_result__isset {
 class MT4WebService_addUser_result {
  public:
 
-  static const char* ascii_fingerprint; // = "D9D3B4421B1F23CB4063C80B484E7909";
-  static const uint8_t binary_fingerprint[16]; // = {0xD9,0xD3,0xB4,0x42,0x1B,0x1F,0x23,0xCB,0x40,0x63,0xC8,0x0B,0x48,0x4E,0x79,0x09};
+  static const char* ascii_fingerprint; // = "32183C4A04E706C58ED2F62566DDD8DE";
+  static const uint8_t binary_fingerprint[16]; // = {0x32,0x18,0x3C,0x4A,0x04,0xE7,0x06,0xC5,0x8E,0xD2,0xF6,0x25,0x66,0xDD,0xD8,0xDE};
 
   MT4WebService_addUser_result(const MT4WebService_addUser_result&);
   MT4WebService_addUser_result& operator=(const MT4WebService_addUser_result&);
@@ -405,11 +409,11 @@ class MT4WebService_addUser_result {
   }
 
   virtual ~MT4WebService_addUser_result() throw();
-  bool success;
+  int32_t success;
 
   _MT4WebService_addUser_result__isset __isset;
 
-  void __set_success(const bool val);
+  void __set_success(const int32_t val);
 
   bool operator == (const MT4WebService_addUser_result & rhs) const
   {
@@ -437,12 +441,12 @@ typedef struct _MT4WebService_addUser_presult__isset {
 class MT4WebService_addUser_presult {
  public:
 
-  static const char* ascii_fingerprint; // = "D9D3B4421B1F23CB4063C80B484E7909";
-  static const uint8_t binary_fingerprint[16]; // = {0xD9,0xD3,0xB4,0x42,0x1B,0x1F,0x23,0xCB,0x40,0x63,0xC8,0x0B,0x48,0x4E,0x79,0x09};
+  static const char* ascii_fingerprint; // = "32183C4A04E706C58ED2F62566DDD8DE";
+  static const uint8_t binary_fingerprint[16]; // = {0x32,0x18,0x3C,0x4A,0x04,0xE7,0x06,0xC5,0x8E,0xD2,0xF6,0x25,0x66,0xDD,0xD8,0xDE};
 
 
   virtual ~MT4WebService_addUser_presult() throw();
-  bool* success;
+  int32_t* success;
 
   _MT4WebService_addUser_presult__isset __isset;
 
@@ -1548,8 +1552,8 @@ typedef struct _MT4WebService_getHistoryChartData_result__isset {
 class MT4WebService_getHistoryChartData_result {
  public:
 
-  static const char* ascii_fingerprint; // = "389A12070CB4F8EEBE936D00AC1DB2A0";
-  static const uint8_t binary_fingerprint[16]; // = {0x38,0x9A,0x12,0x07,0x0C,0xB4,0xF8,0xEE,0xBE,0x93,0x6D,0x00,0xAC,0x1D,0xB2,0xA0};
+  static const char* ascii_fingerprint; // = "11F322EA7D0A2C6BE7F49031B40020F5";
+  static const uint8_t binary_fingerprint[16]; // = {0x11,0xF3,0x22,0xEA,0x7D,0x0A,0x2C,0x6B,0xE7,0xF4,0x90,0x31,0xB4,0x00,0x20,0xF5};
 
   MT4WebService_getHistoryChartData_result(const MT4WebService_getHistoryChartData_result&);
   MT4WebService_getHistoryChartData_result& operator=(const MT4WebService_getHistoryChartData_result&);
@@ -1589,8 +1593,8 @@ typedef struct _MT4WebService_getHistoryChartData_presult__isset {
 class MT4WebService_getHistoryChartData_presult {
  public:
 
-  static const char* ascii_fingerprint; // = "389A12070CB4F8EEBE936D00AC1DB2A0";
-  static const uint8_t binary_fingerprint[16]; // = {0x38,0x9A,0x12,0x07,0x0C,0xB4,0xF8,0xEE,0xBE,0x93,0x6D,0x00,0xAC,0x1D,0xB2,0xA0};
+  static const char* ascii_fingerprint; // = "11F322EA7D0A2C6BE7F49031B40020F5";
+  static const uint8_t binary_fingerprint[16]; // = {0x11,0xF3,0x22,0xEA,0x7D,0x0A,0x2C,0x6B,0xE7,0xF4,0x90,0x31,0xB4,0x00,0x20,0xF5};
 
 
   virtual ~MT4WebService_getHistoryChartData_presult() throw();
@@ -1601,6 +1605,114 @@ class MT4WebService_getHistoryChartData_presult {
   uint32_t read(::apache::thrift::protocol::TProtocol* iprot);
 
   friend std::ostream& operator<<(std::ostream& out, const MT4WebService_getHistoryChartData_presult& obj);
+};
+
+
+class MT4WebService_getAllGroups_args {
+ public:
+
+  static const char* ascii_fingerprint; // = "99914B932BD37A50B983C5E7C90AE93B";
+  static const uint8_t binary_fingerprint[16]; // = {0x99,0x91,0x4B,0x93,0x2B,0xD3,0x7A,0x50,0xB9,0x83,0xC5,0xE7,0xC9,0x0A,0xE9,0x3B};
+
+  MT4WebService_getAllGroups_args(const MT4WebService_getAllGroups_args&);
+  MT4WebService_getAllGroups_args& operator=(const MT4WebService_getAllGroups_args&);
+  MT4WebService_getAllGroups_args() {
+  }
+
+  virtual ~MT4WebService_getAllGroups_args() throw();
+
+  bool operator == (const MT4WebService_getAllGroups_args & /* rhs */) const
+  {
+    return true;
+  }
+  bool operator != (const MT4WebService_getAllGroups_args &rhs) const {
+    return !(*this == rhs);
+  }
+
+  bool operator < (const MT4WebService_getAllGroups_args & ) const;
+
+  uint32_t read(::apache::thrift::protocol::TProtocol* iprot);
+  uint32_t write(::apache::thrift::protocol::TProtocol* oprot) const;
+
+  friend std::ostream& operator<<(std::ostream& out, const MT4WebService_getAllGroups_args& obj);
+};
+
+
+class MT4WebService_getAllGroups_pargs {
+ public:
+
+  static const char* ascii_fingerprint; // = "99914B932BD37A50B983C5E7C90AE93B";
+  static const uint8_t binary_fingerprint[16]; // = {0x99,0x91,0x4B,0x93,0x2B,0xD3,0x7A,0x50,0xB9,0x83,0xC5,0xE7,0xC9,0x0A,0xE9,0x3B};
+
+
+  virtual ~MT4WebService_getAllGroups_pargs() throw();
+
+  uint32_t write(::apache::thrift::protocol::TProtocol* oprot) const;
+
+  friend std::ostream& operator<<(std::ostream& out, const MT4WebService_getAllGroups_pargs& obj);
+};
+
+typedef struct _MT4WebService_getAllGroups_result__isset {
+  _MT4WebService_getAllGroups_result__isset() : success(false) {}
+  bool success :1;
+} _MT4WebService_getAllGroups_result__isset;
+
+class MT4WebService_getAllGroups_result {
+ public:
+
+  static const char* ascii_fingerprint; // = "4C0843A31A9C01594A28D666377B8665";
+  static const uint8_t binary_fingerprint[16]; // = {0x4C,0x08,0x43,0xA3,0x1A,0x9C,0x01,0x59,0x4A,0x28,0xD6,0x66,0x37,0x7B,0x86,0x65};
+
+  MT4WebService_getAllGroups_result(const MT4WebService_getAllGroups_result&);
+  MT4WebService_getAllGroups_result& operator=(const MT4WebService_getAllGroups_result&);
+  MT4WebService_getAllGroups_result() {
+  }
+
+  virtual ~MT4WebService_getAllGroups_result() throw();
+  std::vector<MT4ConGroup>  success;
+
+  _MT4WebService_getAllGroups_result__isset __isset;
+
+  void __set_success(const std::vector<MT4ConGroup> & val);
+
+  bool operator == (const MT4WebService_getAllGroups_result & rhs) const
+  {
+    if (!(success == rhs.success))
+      return false;
+    return true;
+  }
+  bool operator != (const MT4WebService_getAllGroups_result &rhs) const {
+    return !(*this == rhs);
+  }
+
+  bool operator < (const MT4WebService_getAllGroups_result & ) const;
+
+  uint32_t read(::apache::thrift::protocol::TProtocol* iprot);
+  uint32_t write(::apache::thrift::protocol::TProtocol* oprot) const;
+
+  friend std::ostream& operator<<(std::ostream& out, const MT4WebService_getAllGroups_result& obj);
+};
+
+typedef struct _MT4WebService_getAllGroups_presult__isset {
+  _MT4WebService_getAllGroups_presult__isset() : success(false) {}
+  bool success :1;
+} _MT4WebService_getAllGroups_presult__isset;
+
+class MT4WebService_getAllGroups_presult {
+ public:
+
+  static const char* ascii_fingerprint; // = "4C0843A31A9C01594A28D666377B8665";
+  static const uint8_t binary_fingerprint[16]; // = {0x4C,0x08,0x43,0xA3,0x1A,0x9C,0x01,0x59,0x4A,0x28,0xD6,0x66,0x37,0x7B,0x86,0x65};
+
+
+  virtual ~MT4WebService_getAllGroups_presult() throw();
+  std::vector<MT4ConGroup> * success;
+
+  _MT4WebService_getAllGroups_presult__isset __isset;
+
+  uint32_t read(::apache::thrift::protocol::TProtocol* iprot);
+
+  friend std::ostream& operator<<(std::ostream& out, const MT4WebService_getAllGroups_presult& obj);
 };
 
 
@@ -1724,9 +1836,9 @@ class MT4WebServiceClient : virtual public MT4WebServiceIf {
   void getUserRecordByLogin(MT4UserRecord& _return, const int32_t login);
   void send_getUserRecordByLogin(const int32_t login);
   void recv_getUserRecordByLogin(MT4UserRecord& _return);
-  bool addUser(const MT4UserRecord& mur);
+  int32_t addUser(const MT4UserRecord& mur);
   void send_addUser(const MT4UserRecord& mur);
-  bool recv_addUser();
+  int32_t recv_addUser();
   bool groupOperation(const MT4GroupCommand& mgc);
   void send_groupOperation(const MT4GroupCommand& mgc);
   bool recv_groupOperation();
@@ -1754,6 +1866,9 @@ class MT4WebServiceClient : virtual public MT4WebServiceIf {
   void getHistoryChartData(std::vector<MT4RateInfo> & _return, const MT4ChartInfo& chartInfo);
   void send_getHistoryChartData(const MT4ChartInfo& chartInfo);
   void recv_getHistoryChartData(std::vector<MT4RateInfo> & _return);
+  void getAllGroups(std::vector<MT4ConGroup> & _return);
+  void send_getAllGroups();
+  void recv_getAllGroups(std::vector<MT4ConGroup> & _return);
   void testSayHi();
   void send_testSayHi();
   void recv_testSayHi();
@@ -1784,6 +1899,7 @@ class MT4WebServiceProcessor : public ::apache::thrift::TDispatchProcessor {
   void process_getAllOngoingTrades(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext);
   void process_symbolDetail(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext);
   void process_getHistoryChartData(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext);
+  void process_getAllGroups(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext);
   void process_testSayHi(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext);
  public:
   MT4WebServiceProcessor(boost::shared_ptr<MT4WebServiceIf> iface) :
@@ -1800,6 +1916,7 @@ class MT4WebServiceProcessor : public ::apache::thrift::TDispatchProcessor {
     processMap_["getAllOngoingTrades"] = &MT4WebServiceProcessor::process_getAllOngoingTrades;
     processMap_["symbolDetail"] = &MT4WebServiceProcessor::process_symbolDetail;
     processMap_["getHistoryChartData"] = &MT4WebServiceProcessor::process_getHistoryChartData;
+    processMap_["getAllGroups"] = &MT4WebServiceProcessor::process_getAllGroups;
     processMap_["testSayHi"] = &MT4WebServiceProcessor::process_testSayHi;
   }
 
@@ -1849,7 +1966,7 @@ class MT4WebServiceMultiface : virtual public MT4WebServiceIf {
     return;
   }
 
-  bool addUser(const MT4UserRecord& mur) {
+  int32_t addUser(const MT4UserRecord& mur) {
     size_t sz = ifaces_.size();
     size_t i = 0;
     for (; i < (sz - 1); ++i) {
@@ -1941,6 +2058,16 @@ class MT4WebServiceMultiface : virtual public MT4WebServiceIf {
       ifaces_[i]->getHistoryChartData(_return, chartInfo);
     }
     ifaces_[i]->getHistoryChartData(_return, chartInfo);
+    return;
+  }
+
+  void getAllGroups(std::vector<MT4ConGroup> & _return) {
+    size_t sz = ifaces_.size();
+    size_t i = 0;
+    for (; i < (sz - 1); ++i) {
+      ifaces_[i]->getAllGroups(_return);
+    }
+    ifaces_[i]->getAllGroups(_return);
     return;
   }
 
