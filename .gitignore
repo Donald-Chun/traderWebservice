@@ -1,3 +1,9 @@
+Debug/
+Release/
+logs/
+_UpgradeReport_Files/
+ipch/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
